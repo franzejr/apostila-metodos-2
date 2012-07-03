@@ -1,36 +1,137 @@
 \select@language {brazil}
 \select@language {english}
 \select@language {brazil}
-\contentsline {chapter}{\numberline {1}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{4}
-\contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {paragraph}{Filosofia geral dos m\'etodos de integra\c {c}\~ao}{4}
-\contentsline {section}{\numberline {1.2}Regra do Trap\IeC {\'e}zio}{4}
-\contentsline {subsection}{\numberline {1.2.1}Erro da Regra do Trap\IeC {\'e}zio}{4}
-\contentsline {subsection}{\numberline {1.2.2}M\IeC {\'u}ltiplos Intervalos}{6}
-\contentsline {subsubsection}{Exemplo 1.1}{7}
-\contentsline {section}{\numberline {1.3}Regra ${\begingroup 1\endgroup \over 3}$ de Simpson}{7}
-\contentsline {subsection}{\numberline {1.3.1}Erros das Regras de Simpson}{8}
-\contentsline {section}{\numberline {1.4}Integra\IeC {\c c}\IeC {\~a}o de Romberg}{8}
+\contentsline {chapter}{\numberline {1}C\' alculo do Zeros de Fun\c c\~oes N\~ao-Lineares}{7}
+\contentsline {section}{\numberline {1.1}Introducao}{7}
+\contentsline {section}{\numberline {1.2}Metodo da Bissecao}{7}
+\contentsline {subsubsection}{Exemplo 1.1}{9}
 \contentsline {subsubsection}{Exemplo 1.2}{9}
-\contentsline {section}{\numberline {1.5}F\IeC {\'o}rmulas de Newton-Cotes}{9}
-\contentsline {subsubsection}{Exemplo 1.3}{10}
-\contentsline {subsubsection}{Exemplo 1.4}{11}
-\contentsline {section}{\numberline {1.6}Quadraturas de Gauss}{12}
-\contentsline {subsection}{\numberline {1.6.1}Quadraturas de Gauss-Legendre}{12}
-\contentsline {subsubsection}{Exemplo 1.5}{14}
-\contentsline {subsubsection}{Exemplo 1.7}{16}
-\contentsline {subsection}{\numberline {1.6.2}Outras Quadraturas de Gauss}{17}
-\contentsline {section}{\numberline {1.7}Roteiro da Aula}{18}
-\contentsline {section}{\numberline {1.8}Integra\IeC {\c c}\IeC {\~a}o de Fun\IeC {\c c}\IeC {\~o}es com Limites Infinitos ou Singularidades (Integrais Impr\IeC {\'o}prias)}{20}
-\contentsline {subsection}{\numberline {1.8.1}Tipo 1}{21}
-\contentsline {subsubsection}{Exemplo 1.8}{22}
-\contentsline {subsection}{\numberline {1.8.2}Tipo 2}{22}
-\contentsline {section}{\numberline {1.9}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica em um Dom\IeC {\'\i }nio Bidimensional}{24}
-\contentsline {subsubsection}{Exemplo 1.9}{25}
-\contentsline {section}{\numberline {1.10}Integra\IeC {\c c}\IeC {\~a}o}{26}
-\contentsline {chapter}{\numberline {2}Diferencia\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{27}
-\contentsline {section}{\numberline {2.1}Expans\IeC {\~a}o de Taylor}{27}
-\contentsline {section}{\numberline {2.2}Diferen\IeC {\c c}as Finitas}{30}
-\contentsline {section}{\numberline {2.3}M\IeC {\'e}todo da Diferencia\IeC {\c c}\IeC {\~a}o dos Polin\IeC {\^o}mios de Interpola\IeC {\c c}\IeC {\~a}o de Newton}{32}
-\contentsline {section}{\numberline {2.4}Aproxima\IeC {\c c}\IeC {\~a}o de Derivadas Parciais por Diferen\IeC {\c c}as Finitas}{34}
-\contentsline {subsection}{\numberline {2.4.1}Solu\IeC {\c c}\IeC {\~a}o do Problema de Dirichlet}{35}
+\contentsline {section}{\numberline {1.3}M\IeC {\'e}todos da Posi\IeC {\c c}\IeC {\~a}o Falsa e da Posi\IeC {\c c}\IeC {\~a}o Falsa Modificado}{11}
+\contentsline {subsection}{\numberline {1.3.1}M\IeC {\'e}todo da Posi\IeC {\c c}\IeC {\~a}o Falsa}{11}
+\contentsline {subsection}{\numberline {1.3.2}M\IeC {\'e}todo da Posi\IeC {\c c}\IeC {\~a}o Falsa Modificado}{12}
+\contentsline {subsubsection}{Exemplo 1.3}{12}
+\contentsline {section}{\numberline {1.4}M\IeC {\'e}todo de Newton}{12}
+\contentsline {subsection}{\numberline {1.4.1}Caracter\IeC {\'\i }sticas}{12}
+\contentsline {subsection}{\numberline {1.4.2}Descri\IeC {\c c}\IeC {\~a}o do M\IeC {\'e}todo}{13}
+\contentsline {subsubsection}{Exemplo 1.4}{14}
+\contentsline {subsubsection}{Exemplo 1.5}{15}
+\contentsline {section}{\numberline {1.5}M\IeC {\'e}todo da Secante}{16}
+\contentsline {subsection}{\numberline {1.5.1}Caracter\IeC {\'\i }sticas}{16}
+\contentsline {subsection}{\numberline {1.5.2}Descri\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {section}{\numberline {1.6}M\IeC {\'e}todo das Substitui\IeC {\c c}\IeC {\~o}es Sucessivas (Itera\IeC {\c c}\IeC {\~a}o de Ponto Fixo)}{17}
+\contentsline {subsection}{\numberline {1.6.1}Descri\IeC {\c c}\IeC {\~a}o}{17}
+\contentsline {subsection}{\numberline {1.6.2}Caracter\IeC {\'\i }sticas}{18}
+\contentsline {subsection}{\numberline {1.6.3}Notas}{18}
+\contentsline {subsubsection}{Exemplo 1.6}{19}
+\contentsline {subsection}{\numberline {1.6.4}Forma sistem\IeC {\'a}tica de encontrar $\overline {f'}(x)$}{20}
+\contentsline {subsubsection}{Exemplo 1.7}{21}
+\contentsline {section}{\numberline {1.7}M\IeC {\'e}todo de Bairstow}{21}
+\contentsline {subsection}{\numberline {1.7.1}Caracter\IeC {\'\i }sticas do m\IeC {\'e}todo}{21}
+\contentsline {subsection}{\numberline {1.7.2}Descri\IeC {\c c}\IeC {\~a}o}{22}
+\contentsline {subsection}{\numberline {1.7.3}Notas}{24}
+\contentsline {chapter}{\numberline {2}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{25}
+\contentsline {section}{\numberline {2.1}Introdu\IeC {\c c}\IeC {\~a}o}{25}
+\contentsline {paragraph}{Filosofia geral dos m\'etodos de integra\c {c}\~ao}{26}
+\contentsline {section}{\numberline {2.2}Regra do Trap\IeC {\'e}zio}{26}
+\contentsline {subsection}{\numberline {2.2.1}Erro da Regra do Trap\IeC {\'e}zio}{26}
+\contentsline {subsection}{\numberline {2.2.2}M\IeC {\'u}ltiplos Intervalos}{28}
+\contentsline {subsubsection}{Exemplo 2.8}{28}
+\contentsline {section}{\numberline {2.3}Regra ${\begingroup 1\endgroup \over 3}$ de Simpson}{29}
+\contentsline {subsection}{\numberline {2.3.1}Erros das Regras de Simpson}{30}
+\contentsline {section}{\numberline {2.4}Integra\IeC {\c c}\IeC {\~a}o de Romberg}{30}
+\contentsline {subsubsection}{Exemplo 2.9}{31}
+\contentsline {section}{\numberline {2.5}F\IeC {\'o}rmulas de Newton-Cotes}{31}
+\contentsline {subsubsection}{Exemplo 2.10}{32}
+\contentsline {subsubsection}{Exemplo 2.11}{33}
+\contentsline {section}{\numberline {2.6}Quadraturas de Gauss}{34}
+\contentsline {subsection}{\numberline {2.6.1}Quadraturas de Gauss-Legendre}{34}
+\contentsline {subsubsection}{Exemplo 2.12}{36}
+\contentsline {subsubsection}{Exemplo 2.13}{37}
+\contentsline {subsubsection}{Exemplo 2.14}{38}
+\contentsline {subsection}{\numberline {2.6.2}Outras Quadraturas de Gauss}{40}
+\contentsline {section}{\numberline {2.7}Roteiro da Aula}{41}
+\contentsline {section}{\numberline {2.8}Integra\IeC {\c c}\IeC {\~a}o de Fun\IeC {\c c}\IeC {\~o}es com Limites Infinitos ou Singularidades (Integrais Impr\IeC {\'o}prias)}{43}
+\contentsline {subsection}{\numberline {2.8.1}Tipo 1}{44}
+\contentsline {subsubsection}{Exemplo 2.15}{44}
+\contentsline {subsection}{\numberline {2.8.2}Tipo 2}{45}
+\contentsline {section}{\numberline {2.9}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica em um Dom\IeC {\'\i }nio Bidimensional}{47}
+\contentsline {subsubsection}{Exemplo 2.16}{48}
+\contentsline {section}{\numberline {2.10}Integra\IeC {\c c}\IeC {\~a}o}{49}
+\contentsline {chapter}{\numberline {3}Diferencia\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{50}
+\contentsline {section}{\numberline {3.1}Expans\IeC {\~a}o de Taylor}{50}
+\contentsline {section}{\numberline {3.2}Diferen\IeC {\c c}as Finitas}{53}
+\contentsline {section}{\numberline {3.3}M\IeC {\'e}todo da Diferencia\IeC {\c c}\IeC {\~a}o dos Polin\IeC {\^o}mios de Interpola\IeC {\c c}\IeC {\~a}o de Newton}{55}
+\contentsline {section}{\numberline {3.4}Aproxima\IeC {\c c}\IeC {\~a}o de Derivadas Parciais por Diferen\IeC {\c c}as Finitas}{57}
+\contentsline {subsection}{\numberline {3.4.1}Solu\IeC {\c c}\IeC {\~a}o do Problema de Dirichlet}{58}
+\contentsline {chapter}{\numberline {4}Solu\IeC {\c c}\IeC {\~a}o de Sistemas de Equa\IeC {\c c}\IeC {\~o}es Alg\IeC {\'e}bricas Lineares}{60}
+\contentsline {section}{\numberline {4.1}M\IeC {\'e}todos de Elimina\IeC {\c c}\IeC {\~a}o de Gauss e Gauss-Jordan}{60}
+\contentsline {section}{\numberline {4.2}M\IeC {\'e}todo de Elimina\IeC {\c c}\IeC {\~a}o de Gauss Padr\IeC {\~a}o com Pivota\IeC {\c c}\IeC {\~a}o}{60}
+\contentsline {subsubsection}{Exemplo 4.17}{61}
+\contentsline {subsubsection}{Exemplo 4.18}{62}
+\contentsline {section}{\numberline {4.3}Problemas n\IeC {\~a}o resolv\IeC {\'\i }veis}{62}
+\contentsline {section}{\numberline {4.4}Matrizes, Vetores e Invers\IeC {\~a}o de Matrizes}{63}
+\contentsline {subsection}{\numberline {4.4.1}Matriz Nula}{64}
+\contentsline {subsection}{\numberline {4.4.2}Matriz Identidade}{64}
+\contentsline {subsection}{\numberline {4.4.3}Matriz Transposta de A}{64}
+\contentsline {subsection}{\numberline {4.4.4}Matriz Inversa}{64}
+\contentsline {subsection}{\numberline {4.4.5}Matriz Ortogonal}{64}
+\contentsline {subsection}{\numberline {4.4.6}Vetor Nulo}{64}
+\contentsline {subsection}{\numberline {4.4.7}Vetor Unit\IeC {\'a}rio}{64}
+\contentsline {subsection}{\numberline {4.4.8}Vetor Transposto}{64}
+\contentsline {subsection}{\numberline {4.4.9}Invers\IeC {\~a}o de uma Matriz}{65}
+\contentsline {subsubsection}{Exemplo 4.19}{65}
+\contentsline {section}{\numberline {4.5}Decomposi\IeC {\c c}\IeC {\~a}o LU}{65}
+\contentsline {section}{\numberline {4.6}C\IeC {\'a}lculo de Determinante}{66}
+\contentsline {subsection}{\numberline {4.6.1}Propriedades dos Determinantes}{67}
+\contentsline {subsection}{\numberline {4.6.2}C\IeC {\'a}lculo Num\IeC {\'e}rico do Determinante de $[A]_{n \times n}$}{68}
+\contentsline {section}{\numberline {4.7}Problemas Mal Condicionados}{69}
+\contentsline {section}{\numberline {4.8}Solu\IeC {\c c}\IeC {\~o}es de Sistemas de Equa\IeC {\c c}\IeC {\~o}es com M equa\IeC {\c c}\IeC {\~o}es e N inc\IeC {\'o}gnitas}{70}
+\contentsline {chapter}{\numberline {5}Autovetores e Autovalores}{73}
+\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{73}
+\contentsline {subsection}{\numberline {5.1.1}Propriedades dos Auto-Valores}{74}
+\contentsline {section}{\numberline {5.2}M\IeC {\'e}todo de Interpola\IeC {\c c}\IeC {\~a}o}{75}
+\contentsline {subsubsection}{Exemplo 5.20}{77}
+\contentsline {subsubsection}{Exemplo 5.21}{79}
+\contentsline {subsubsection}{Exemplo 5.22}{80}
+\contentsline {subsubsection}{Exemplo 5.23}{81}
+\contentsline {section}{\numberline {5.3}M\IeC {\'e}todo de Householder para Matrizes Sim\IeC {\'e}tricas}{82}
+\contentsline {subsubsection}{Exemplo 5.24}{85}
+\contentsline {subsection}{\numberline {5.3.1}Autovalores de uma Matriz Tridiagonal}{86}
+\contentsline {section}{\numberline {5.4}M\IeC {\'e}todo da Pot\IeC {\^e}ncia}{88}
+\contentsline {subsection}{\numberline {5.4.1}Regular}{88}
+\contentsline {subsection}{\numberline {5.4.2}Inverso}{90}
+\contentsline {subsection}{\numberline {5.4.3}Deslocado (\textit {Shifted}) ou \textit {Wielandt}}{91}
+\contentsline {section}{\numberline {5.5}M\IeC {\'e}todo da Itera\IeC {\c c}\IeC {\~a}o QR}{91}
+\contentsline {subsection}{\numberline {5.5.1}M\IeC {\'e}todo de Jacobi}{92}
+\contentsline {subsection}{\numberline {5.5.2}M\IeC {\'e}todo QR}{94}
+\contentsline {chapter}{\numberline {6}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores Iniciais de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{96}
+\contentsline {section}{\numberline {6.1}Introdu\IeC {\c c}\IeC {\~a}o}{96}
+\contentsline {subsection}{\numberline {6.1.1}Problema da Queda Livre}{96}
+\contentsline {subsection}{\numberline {6.1.2}Problema da Queda Livre com Resist\IeC {\^e}ncia do Ar}{97}
+\contentsline {subsubsection}{Exemplo 6.25}{99}
+\contentsline {subsection}{\numberline {6.1.3}M\IeC {\'e}todos Num\IeC {\'e}ricos para Problemas de Valor-Inicial}{101}
+\contentsline {section}{\numberline {6.2}M\IeC {\'e}todos de Euler}{102}
+\contentsline {subsection}{\numberline {6.2.1}\textit {Forward} Euler}{102}
+\contentsline {subsection}{\numberline {6.2.2}\textit {Backward} Euler}{103}
+\contentsline {subsection}{\numberline {6.2.3}M\IeC {\'e}todo de Euler Modificado}{103}
+\contentsline {section}{\numberline {6.3}M\IeC {\'e}todos de Runge-Kutta}{104}
+\contentsline {subsection}{\numberline {6.3.1}Introdu\IeC {\c c}\IeC {\~a}o}{104}
+\contentsline {subsection}{\numberline {6.3.2}Runge-Kutta de Segunda Ordem}{105}
+\contentsline {subsection}{\numberline {6.3.3}Runge-Kutta de Terceira Ordem}{105}
+\contentsline {subsection}{\numberline {6.3.4}Runge-Kutta de Quarta Ordem}{106}
+\contentsline {section}{\numberline {6.4}M\IeC {\'e}todos Preditores-Corretores}{107}
+\contentsline {subsection}{\numberline {6.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{107}
+\contentsline {subsection}{\numberline {6.4.2}M\IeC {\'e}todo Preditor-Corretor de Adams de Terceira Ordem}{108}
+\contentsline {subsection}{\numberline {6.4.3}M\IeC {\'e}todo Preditor-Corretor de Adams de Quarta Ordem}{110}
+\contentsline {subsection}{\numberline {6.4.4}Vantagens e Desvantagens}{111}
+\contentsline {subsubsection}{Exemplo 6.26}{111}
+\contentsline {section}{\numberline {6.5}Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias R\IeC {\'\i }gidas}{112}
+\contentsline {subsection}{\numberline {6.5.1}M\IeC {\'e}todos Impl\IeC {\'\i }citos}{113}
+\contentsline {subsection}{\numberline {6.5.2}M\IeC {\'e}todo Exponencial}{114}
+\contentsline {subsection}{\numberline {6.5.3}M\IeC {\'e}todo de Ajuste Exponencial}{115}
+\contentsline {section}{\numberline {6.6}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{116}
+\contentsline {subsubsection}{Exemplo 6.27}{117}
+\contentsline {chapter}{\numberline {7}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores de Contorno de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{118}
+\contentsline {section}{\numberline {7.1}Problemas de Valores de Contorno para Barras e Placas}{118}
+\contentsline {section}{\numberline {7.2}Algoritmo de Solu\IeC {\c c}\IeC {\~a}o para Sistemas Tridiagonais}{119}
+\contentsline {subsubsection}{Exemplo 7.28}{120}

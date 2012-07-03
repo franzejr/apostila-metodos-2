@@ -2,31 +2,69 @@
 \select@language {english}
 \select@language {brazil}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces \'Area sob a curva representando a integral}}{4}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Volume sob a superf\IeC {\'\i }cie representando a integral}}{5}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces \IeC {\'A}rea sob a reta representando a integral}}{5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces \IeC {\'A}rea sob a reta representando a integral com intervalos}}{7}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Volume de superf\IeC {\'\i }cie curva}}{7}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces Exemplo para $N = 1$ (trap\IeC {\'e}zio)}}{10}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Outro exemplo para $N = 1$ (trap\IeC {\'e}zio)}}{10}
-\contentsline {figure}{\numberline {1.8}{\ignorespaces Parametriza\IeC {\c c}\IeC {\~a}o}}{13}
-\contentsline {figure}{\numberline {1.9}{\ignorespaces ?}}{15}
-\contentsline {figure}{\numberline {1.10}{\ignorespaces ?}}{15}
-\contentsline {figure}{\numberline {1.11}{\ignorespaces ?}}{15}
-\contentsline {figure}{\numberline {1.12}{\ignorespaces ?}}{16}
-\contentsline {figure}{\numberline {1.13}{\ignorespaces Produto escalar}}{18}
-\contentsline {figure}{\numberline {1.14}{\ignorespaces ?}}{19}
-\contentsline {figure}{\numberline {1.15}{\ignorespaces ?}}{19}
-\contentsline {figure}{\numberline {1.16}{\ignorespaces ?}}{19}
-\contentsline {figure}{\numberline {1.17}{\ignorespaces ?}}{20}
-\contentsline {figure}{\numberline {1.18}{\ignorespaces ?}}{20}
-\contentsline {figure}{\numberline {1.19}{\ignorespaces ?}}{21}
-\contentsline {figure}{\numberline {1.20}{\ignorespaces ?}}{21}
-\contentsline {figure}{\numberline {1.21}{\ignorespaces ?}}{22}
-\contentsline {figure}{\numberline {1.22}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica em um Dom\IeC {\'\i }nio Bidimensional}}{24}
-\contentsline {figure}{\numberline {1.23}{\ignorespaces ?}}{25}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o $f(x)$ com isolamento [a,c].}}{9}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o $f(x)$ com n\IeC {\'u}mero de ra\IeC {\'\i }zes \IeC {\'\i }mpar.}}{10}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o $f(x)$ com um par de ra\IeC {\'\i }zes duplas.}}{10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Fun\IeC {\c c}\IeC {\~a}o $f(x)$ onde pode haver confus\IeC {\~a}o entre ponto de singularidade com uma raiz.}}{11}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces M\IeC {\'e}todo da Posi\IeC {\c c}\IeC {\~a}o Falsa}}{11}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces A seq\IeC {\"u}\IeC {\^e}ncia de aproxima\IeC {\c c}\IeC {\~o}es converge para $b$ por um \IeC {\'u}nico lado.}}{12}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Eliminando o problema do ponto de estagna\IeC {\c c}\IeC {\~a}o.}}{12}
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o para o m\IeC {\'e}todo de Newton.}}{13}
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o para o m\IeC {\'e}todo de Newton.}}{15}
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o do m\IeC {\'e}todo da secante.}}{17}
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Descri\IeC {\c c}\IeC {\~a}o do m\IeC {\'e}todo das substitui\IeC {\c c}\IeC {\~o}es sucessivas.}}{18}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces ?}}{27}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ?}}{32}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ?}}{35}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ?}}{35}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \'Area sob a curva representando a integral}}{25}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Volume sob a superf\IeC {\'\i }cie representando a integral}}{26}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \IeC {\'A}rea sob a reta representando a integral}}{26}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \IeC {\'A}rea sob a reta representando a integral com intervalos}}{28}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Volume de superf\IeC {\'\i }cie curva}}{28}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Exemplo para $N = 1$ (trap\IeC {\'e}zio)}}{32}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Outro exemplo para $N = 1$ (trap\IeC {\'e}zio)}}{32}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Parametriza\IeC {\c c}\IeC {\~a}o}}{36}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces ?}}{37}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ?}}{37}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces ?}}{37}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces ?}}{38}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Produto escalar}}{41}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces ?}}{41}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces ?}}{42}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces ?}}{42}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces ?}}{42}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces ?}}{43}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces ?}}{44}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces ?}}{44}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces ?}}{45}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica em um Dom\IeC {\'\i }nio Bidimensional}}{47}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces ?}}{48}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ?}}{50}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ?}}{55}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ?}}{58}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ?}}{59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces ?}}{63}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ?}}{63}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ?}}{63}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ?}}{69}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces ?}}{71}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces ?}}{76}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces ?}}{77}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces ?}}{78}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces ?}}{88}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces ?}}{93}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Problema de queda livre}}{96}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Problema de queda livre com resist\IeC {\^e}ncia do ar}}{97}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Regra de 1/3 de Simpson}}{104}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Regra de 3/8 de Simpson}}{104}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces ?}}{106}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces ?}}{107}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces ?}}{113}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Parametriza\IeC {\c c}\IeC {\~a}o}}{114}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces ?}}{117}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Problemas de Valores de Contorno para Barras e Placas}}{118}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Discretiza\IeC {\c c}\IeC {\~a}o do dom\IeC {\'\i }nio}}{120}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces ?}}{121}

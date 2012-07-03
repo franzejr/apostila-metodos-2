@@ -212,104 +212,107 @@ OBS: Exemplos de equações diferenciais ordinárias:
 \]
 
 \begin{example}
- Resolveremos o problema de valor inicial dado nas equação abaixo de forma exata, usando a técnica mostrada em sala de aula para as seguintes condições iniciais: y{}_{0}=2000m e v_{0}=-2m/s . Considere g=10m/s^{2} , M = 50 kg e o coeficiente de empuxo k = 50 N * s /m .
+ Resolveremos o problema de valor inicial dado nas equação abaixo de forma exata, usando a técnica mostrada em sala de aula para as seguintes condições iniciais: $y_{0}=2000m$ e $v_{0}=-2m/s$. Considere $g=10m/s^{2}$ , $M = 50 kg$ e o coeficiente de empuxo $k = 50 N * s /m$ .
 
 Dados:
 
-\begin{cases}
+\begin{eqnarray}
+%\begin{cases}
 M*\frac{d^{2}y(t)}{dt^{2}}=-M*g-k*v(t) & (1)\\
 y(0)=y_{0} & (2)\\
-\frac{dy}{dt}(0)=v_{0} & (3)\end{cases}
+\frac{dy}{dt}(0)=v_{0} & (3)
+%\end{cases}
+\end{eqnarray}
 
 Temos que:
 
-\frac{d^{2}y(t)}{dt^{2}}=\frac{dv(t)}{dt}(4)
+$$\frac{d^{2}y(t)}{dt^{2}}=\frac{dv(t)}{dt}\hspace{2cm}(4)$$
 
 Substituindo (4) em (1):
 
-M*\frac{dv(t)}{dt}=-M*g-k*v(t)
+$$M*\frac{dv(t)}{dt}=-M*g-k*v(t)$$
 
 Desenvolvendo:
 
-\frac{dv(t)}{dt}=-g-\frac{k}{M}*v(t)
+$$\frac{dv(t)}{dt}=-g-\frac{k}{M}*v(t)$$
 
-\begin{cases}
-\frac{dv}{dt}=f(v,t)\\
-v(0)=v_{0}\end{cases}
+$$\frac{dv}{dt}=f(v,t)$$
+
+$$v(0)=v_{0}$$
 
 Usando o artifício mostrado na demonstração 6.18 da apostila, teremos:
 
-a=\frac{k}{M}
+$$a=\frac{k}{M}$$
 
-e^{at}(v'+av)=-ge^{at}
+$$e^{at}(v'+av)=-ge^{at}$$
 
-e^{at}*\frac{dv(t)}{dt}=-g*e^{at}-a*v(t)*e^{at}
+$$e^{at}*\frac{dv(t)}{dt}=-g*e^{at}-a*v(t)*e^{at}$$
 
 Integrando:
 
-\int d(e^{at}*v(t))=-g\int e^{at}dt
+$$\int d(e^{at}*v(t))=-g\int e^{at}dt$$
 
 Teremos:
 
-e^{at}v(t)=-g*\frac{e^{at}}{a}+c1
+$$e^{at}v(t)=-g*\frac{e^{at}}{a}+c1$$
 
-v(t)=(\frac{-g}{a})+\frac{c1}{e^{at}}
+$$v(t)=(\frac{-g}{a})+\frac{c1}{e^{at}}$$
 
-Com \frac{dy}{dt}(0)=v_{0}=v(0), temos para t=0:
+Com $\frac{dy}{dt}(0)=v_{0}=v(0)$, temos para $t=0$:
 
-v(0)=(\frac{-g}{a})+\frac{c1}{e^{a*0}}
+$$v(0)=(\frac{-g}{a})+\frac{c1}{e^{a*0}}$$
 
-c1=v_{0}+\frac{g}{a}
+$$c1=v_{0}+\frac{g}{a}$$
 
 Então:
 
-v(t)=(\frac{-g}{a})+\frac{v_{0}+\frac{g}{a}}{e^{at}}
+$$v(t)=(\frac{-g}{a})+\frac{v_{0}+\frac{g}{a}}{e^{at}}$$
 
 Desenvolvendo 3 em funcao de t:
 
-\frac{dy}{dt}(t)=v(t)
+$$\frac{dy}{dt}(t)=v(t)$$
 
-dy(t)=v(t)dt
+$$dy(t)=v(t)dt$$
 
 Integrando os 2 lados:
 
-\int dy(t)=\int v(t)dt
+$$\int dy(t)=\int v(t)dt$$
 
-y(t)=\int(\frac{-g}{a})dt+\int\frac{v_{0}+\frac{g}{a}}{e^{at}}dt
+$$y(t)=\int(\frac{-g}{a})dt+\int\frac{v_{0}+\frac{g}{a}}{e^{at}}dt$$
 
-y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\int e^{-at}dt
+$$y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\int e^{-at}dt$$
 
-y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\frac{e^{-at}}{-a}+c2
+$$y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\frac{e^{-at}}{-a}+c2$$
 
-Para y(0)=y{}_{0}, temos:
+Para $y(0)=y{}_{0}$, temos:
 
-y(0)=0+(v_{0}+\frac{g}{a})*\frac{1}{-a}+c2
+$$y(0)=0+(v_{0}+\frac{g}{a})*\frac{1}{-a}+c2$$
 
-c2=y_{0}+(v_{0}+\frac{g}{a})*\frac{1}{a}
+$$c2=y_{0}+(v_{0}+\frac{g}{a})*\frac{1}{a}$$
 
 Então,
 
-y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\frac{e^{-at}}{-a}+y_{0}+(v_{0}+\frac{g}{a})*\frac{1}{a}
+$$y(t)=(\frac{-g}{a})t+(v_{0}+\frac{g}{a})*\frac{e^{-at}}{-a}+y_{0}+(v_{0}+\frac{g}{a})*\frac{1}{a}$$
 
-y(t)=(\frac{-g}{a})t+y_{0}+(v_{0}+\frac{g}{a})*(\frac{1}{a})*(1-e^{-at})
+$$y(t)=(\frac{-g}{a})t+y_{0}+(v_{0}+\frac{g}{a})*(\frac{1}{a})*(1-e^{-at})$$
 
-Usando os valores dados como condições iniciais: y{}_{0}=2000m e v_{0}=-2m/s . Considere g=10m/s^{2} , M = 50 kg e o coeficiente de empuxo k = 50 N ⋅ s /m, teremos:
+Usando os valores dados como condições iniciais: $y_{0}=2000m$ e $v_{0}=-2m/s$ . Considere $g=10m/s^{2}$ , $M = 50 kg$ e o coeficiente de empuxo $k = 50 N * s /m$, teremos:
 
-a=\frac{k}{M}=1
+$$a=\frac{k}{M}=1$$
 
 Velocidade:
 
-v(t)=(\frac{-g}{a})+\frac{v_{0}+\frac{g}{a}}{e^{at}}=(\frac{-10}{1})+\frac{(-2)+\frac{10}{1}}{e^{1t}}
+$$v(t)=(\frac{-g}{a})+\frac{v_{0}+\frac{g}{a}}{e^{at}}=(\frac{-10}{1})+\frac{(-2)+\frac{10}{1}}{e^{1t}}$$
 
-v(t)=-10+\frac{8}{e^{t}}
+$$v(t)=-10+\frac{8}{e^{t}}$$
 
 Espaço:
 
-y(t)=(\frac{-g}{a})t+y_{0}+(v_{0}+\frac{g}{a})*(\frac{1}{a})*(1-e^{-at})
+$$y(t)=(\frac{-g}{a})t+y_{0}+(v_{0}+\frac{g}{a})*(\frac{1}{a})*(1-e^{-at})$$
 
-y(t)=(\frac{-10}{1})t+2000+(-2+\frac{10}{1})*(\frac{1}{1})*(1-e^{-1t})
+$$y(t)=(\frac{-10}{1})t+2000+(-2+\frac{10}{1})*(\frac{1}{1})*(1-e^{-1t})$$
 
-y(t)=-10t+2008+-8*e^{-t})
+$$y(t)=-10t+2008+-8*e^{-t})$$
 \end{example}
 
 
