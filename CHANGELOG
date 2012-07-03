@@ -1,0 +1,43 @@
+CHANGELOG
+=========
+
+Versão 8
+--------
+
+- Adição de figuras nos capítulos 2, 3, 4, 5, 6 e 7.
+
+Versão 7
+--------
+
+- Adição de fórmulas em todos os capítulos, exceto em dúvidas geradas por xerox ilegível.
+- Adição de comando \quadricular{} para gerar um quadrado destacando fórmulas quando necessário.
+- Adição de figuras no capítulo 1.
+- Adição de algumas figuras no Makefile como pré-requisito para compilação da apostila.
+
+Versão 6
+--------
+
+- Adição do capítulo 6 (com fórmulas, mas sem gráficos).
+- Utilização do comando \underbrace{}_{} para melhor entendimento das fórmulas.
+- Utilização do ambiente 'eqnarray' para melhor enumeração das equações.
+- Adição do comando \esp{} para melhorar o espaçamento de fómulas matemáticas dentro de paragráfos.
+- Adição do capítulo 7 (com fórmulas, mas sem gráficos).
+- Remoção do apêndice e referências (que serviam somente como exemplo).
+
+Versão 5
+--------
+
+- Adição do capítulo 5 (com fórmulas, mas sem gráficos) e início do capítulo 6.
+- Alteração no tipo de listagem enumeração para consertar a identação desigual.
+- Correção do email do editor (Jivago Alves) para 'jivago@great.ufc.br' .
+- Adição de novos ambientes e comandos (ver arquivos pacotes/ambientes.sty e pacotes/comandos.sty) personalizados para matrizes e vetores.
+
+
+Versão 4
+--------
+
+- Adição dos capítulos 3 e 4 (faltando gráficos e fórmulas ainda nos mesmos)
+- Alteração do sumário da apostila para conter links para capítulos e seções.
+- Adição dos arquivos CHANGELOG, README e AUTHORS para documentação.
+- Alteração do Makefile contendo alvo 'help' para ajuda na utilização dos alvos.
+- Alteração da capa para referenciar somente o autor da apostila (Prof. Creto Vidal) e com nota para o editor (Jivago Alves)

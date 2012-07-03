@@ -1,0 +1,173 @@
+\section{Matrizes, Vetores e Inversão de Matrizes}
+
+\begin{itemize}
+
+\item Matrizes quadradas e retangulares.
+
+\item Operações: adição, subtração, multiplicação e divisão
+
+\begin{itemize}
+ \item Divisão $B^{-1}A = C$ só existe se $B$ for quadrada.
+\end{itemize}
+
+\item Vetores
+
+\item Produto de matriz por vetor
+
+\end{itemize}
+
+\subsection{Matriz Nula}
+
+\[ A_{ij} = 0\]
+
+\subsection{Matriz Identidade}
+
+\[
+  I =
+  \left\{
+    \begin{array}{ll}
+      1, & \mbox{se $i = j$} \\
+      0, & \mbox{se $i \neq j$}
+    \end{array}
+  \right.  %%% o ``.'' coloca um delimitador invisivel.
+\]
+
+\subsection{Matriz Transposta de A}
+
+\[ A^{T} \Rightarrow a^{T}_{ij} = a_{ji} \]
+
+\subsection{Matriz Inversa}
+
+$A^{-1}$ de uma matriz quadrada
+
+\[ AA^{-1} = A^{-1}A = I \]
+
+Se $BA = I$ ou $AB = I$ então $B = A^{-1}$
+
+\subsection{Matriz Ortogonal}
+
+Matrizes cujas colunas são ortogonais entre si:
+
+\[ Q^{T}Q = I;\,\, QQ^{T} = I;\,\, Q^{T} = Q^{-1} \]
+
+\subsection{Vetor Nulo}
+
+\[ a_{i} = 0 \]
+
+\subsection{Vetor Unitário}
+
+\[
+  u = \left[
+    \begin{array}{c}
+      1 \\
+      0 \\
+      0 
+    \end{array}
+    \right];\,\,
+  v = \left[
+    \begin{array}{c}
+      0 \\
+      1 \\
+      0 
+    \end{array}
+    \right]
+  w = \left[
+    \begin{array}{c}
+      0 \\
+      0 \\
+      1 
+    \end{array}
+    \right]
+\]
+
+\[
+u = \frac{\vec{u}}{|\vec{u}|}
+\]
+
+\subsection{Vetor Transposto}
+
+\[
+  v = \left[
+    \begin{array}{c}
+      x_1 \\
+      x_2 \\
+      x_3 
+    \end{array}
+    \right]
+\,\,\,
+  v^T = \left[
+    \begin{array}{ccc}
+      x_1 & x_2 & x_3 
+    \end{array}
+    \right]
+\]
+
+\subsection{Inversão de uma Matriz}
+
+\[ Ax = y\]
+
+Suponha que o processo de eliminação de Gauss-Jordan seja resumido na operação matricial.
+
+\[ G \, A \, x = G \, y \]
+
+Fazendo $G \, A = I$, temos:
+
+\[ I \, x = G \, y \]
+
+Assim
+
+\begin{center}
+$ G = A^{-1} \,$ ou $\, G \, I = A^{-1} $
+\end{center}
+
+\[
+ \left[
+  \begin{array}{ccc}
+    a_{11} & a_{12} & a_{13}\\
+    a_{21} & a_{22} & a_{23}\\
+    a_{31} & a_{32} & a_{33}
+  \end{array}
+ \right]
+  \,\,
+\left[
+  \begin{array}{ccc}
+    1 & 0 & 0\\
+    0 & 1 & 0\\
+    0 & 0 & 1
+  \end{array}
+ \right]
+\]
+
+Aplicar Gauss-Jordan ou Gauss ``padrão'' (pivotação pode ser utilizada).
+
+\[ [A][X] = [I] \]
+
+\begin{example}
+
+Calcule a inversa de
+
+\[
+ A =
+  \left[
+  \begin{array}{ccc}
+    2 & 1 & -3\\
+    -1 & 3 & 2\\
+    3 & 1 & -3
+  \end{array}
+  \right]
+\]
+
+Resposta:
+
+\[
+ A^{-1} =
+  \left[
+  \begin{array}{ccc}
+    -1 & 0 & 1\\
+    0.27272 & 0.27272 & -0.09??0\\
+    -0.90909 & 0.09090 & 0.63636
+  \end{array}
+  \right]
+\]
+
+\end{example}

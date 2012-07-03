@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="formula_newton_cotes1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3218"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5870"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5867"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="272.60228"
+     inkscape:cy="863.67923"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1275"
+     inkscape:window-height="726"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 172.71938,258.321 L 413.51371,258.321"
+       id="path2391"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 195.21215,275.98126 L 195.21215,209.43311"
+       id="path5090"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 397.93588,275.74616 L 397.93588,163.68062"
+       id="path9231"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 195.21716,250.29742 L 205.58205,257.82115"
+       id="path9237"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 194.88172,232.33175 L 231.67707,258.02508"
+       id="path9239"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 195.60611,212.78311 L 257.86823,257.97834"
+       id="path9241"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 212.59899,206.20537 L 262.24393,242.24197"
+       id="path9243"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 236.65002,200.43458 L 262.62805,219.29169"
+       id="path9245"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 388.40473,166.97022 L 330.82212,208.76867"
+       id="path9251"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 306.11652,185.57739 L 262.75006,217.05652"
+       id="path9253"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 179.84834,228.34888 C 226.28195,205.4761 259.76261,193.47465 303.68104,184.16089 C 340.64226,176.32255 374.0488,173.951 406.41972,173.28885"
+       id="path2410"
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 262.83437,276.52344 L 262.83437,194.72774"
+       id="path3224"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 397.61101,179.19428 L 331.43611,227.22974"
+       id="path3753"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.18198,244.12567 L 312.31068,257.82409"
+       id="path3755"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 397.38272,216.36406 L 340.08244,257.95757"
+       id="path3757"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 396.99412,235.5823 L 366.58915,257.65286"
+       id="path3763"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.02847,277.42836 L 331.02847,179.12145"
+       id="path6309"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.54038,197.00906 L 262.70251,247.64667"
+       id="path6311"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 330.98621,182.74552 L 262.70061,232.97687"
+       id="path6313"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 330.26552,213.20593 L 269.1576,258.15733"
+       id="path6315"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 339.77196,178.32772 L 396.87775,222.23547"
+       id="path6321"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.60814,188.13026 L 397.78554,239.01305"
+       id="path6323"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.69602,205.31345 L 397.99169,256.28716"
+       id="path6325"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.30884,222.52879 L 377.66902,258.17441"
+       id="path6327"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 331.7514,239.81437 L 356.07885,258.51937"
+       id="path6329"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 330.02952,228.87871 L 289.98026,258.33922"
+       id="path6331"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 195.12035,209.95568 L 398.49089,163.88769"
+       id="path6860"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 397.55341,198.14047 L 330.70085,246.66784"
+       id="path6864"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 356.61103,174.01921 L 397.11564,205.16258"
+       id="path6866"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6872"
+       transform="translate(-8,-4)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text9255"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan9257"
+           sodipodi:role="line">x =a</tspan></text>
+      <text
+         id="text6868"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6870"
+           sodipodi:role="line">0</tspan></text>
+    </g>
+    <g
+       id="g6878"
+       transform="translate(69.74079,-4.3054875)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text6880"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan6882"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text6884"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6886"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g6888"
+       transform="translate(137.96672,-4.4900927)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text6890"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan6892"
+           sodipodi:role="line">x</tspan></text>
+      <text
+         id="text6894"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6896"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <g
+       id="g6898"
+       transform="translate(195.88365,-4.3054875)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text6900"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan6902"
+           sodipodi:role="line">x =b</tspan></text>
+      <text
+         id="text6904"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6906"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <g
+       id="g6922"
+       transform="translate(68.312216,-106.30549)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text6924"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan6926"
+           sodipodi:role="line">f</tspan></text>
+      <text
+         id="text6928"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6930"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g6932"
+       transform="translate(136.47788,-121.37849)"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/regra_trapezio2.png"
+         id="text6934"
+         y="292.92719"
+         x="188.81725"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="292.92719"
+           x="188.81725"
+           id="tspan6936"
+           sodipodi:role="line">f</tspan></text>
+      <text
+         id="text6938"
+         y="296.21933"
+         x="195.85715"
+         style="font-size:9px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="296.21933"
+           x="195.85715"
+           id="tspan6940"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="409.54459"
+       y="177.69156"
+       id="text6944"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6946"
+         x="409.54459"
+         y="177.69156"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">y=f(x)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 372.98304,170.28788 L 397.52855,189.16053"
+       id="path3236"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.44943133;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3238"
+       sodipodi:cx="239.5"
+       sodipodi:cy="117.36218"
+       sodipodi:rx="1"
+       sodipodi:ry="1"
+       d="M 240.5,117.36218 A 1,1 0 1 1 238.5,117.36218 A 1,1 0 1 1 240.5,117.36218 z"
+       transform="matrix(0.8339599,0,0,0.5707679,63.494131,127.75164)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.44943133;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3242"
+       sodipodi:cx="239.5"
+       sodipodi:cy="117.36218"
+       sodipodi:rx="1"
+       sodipodi:ry="1"
+       d="M 240.5,117.36218 A 1,1 0 1 1 238.5,117.36218 A 1,1 0 1 1 240.5,117.36218 z"
+       transform="matrix(0.8339599,0,0,0.5707679,131.29508,112.51214)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/formula_newton_cotes1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

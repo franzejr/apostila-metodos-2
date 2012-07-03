@@ -1,0 +1,191 @@
+\section{Introdução}
+
+Considere a matriz
+
+\begin{equation}
+\label{cap5:sec1:eq1}
+ A =
+ \left[
+ \begin{array}{rrr}
+  16 & -24 & 18\\
+  3  & -2  & 0\\
+  -9 & 18  & -17
+ \end{array}
+ \right]
+\end{equation}
+
+Em geral, para vetores $ \{x\} \in \varmathbb{R}^3 $
+
+\begin{equation}
+\label{cap5:sec1:eq2}
+[A] \, \{x\} = \{y\}
+\end{equation}
+
+onde $ \{y\} \neq \{x\} $ e $ \{y\} \in \varmathbb{R}^3 $.
+
+De todos os vetores $ \{x\} \in \varmathbb{R}^3 $ existem vetores $ \{x^*\} $ tal que
+
+\begin{equation}
+\label{cap5:sec1:eq3}
+[A] \, \{x^*\} = \lambda \, \{x^*\}
+\end{equation}
+
+ou seja, $ \{y\} $ é proporcional a $ \{x^*\} $.
+
+\begin{definicao}
+Os vetores $ \{x\} $ que satisfazem \ref{cap5:sec1:eq3} são chamadas \textbf{auto-vetores} de $[A]$.
+\end{definicao}
+
+\begin{definicao}
+As constantes de proporcionalidade, $ \lambda $, são chamdas de \textbf{auto-valores}.
+\end{definicao}
+
+Por exemplo,
+
+\begin{equation}
+\label{cap5:sec1:eq4}
+ \left[
+  \begin{array}{rrr}
+   16 & -24 & 18\\
+   3  & -2  & 0\\
+   -9 & -18 & -17
+  \end{array}
+ \right]
+ \,
+ \left\{
+  \begin{array}{c}
+   2\\
+   1\\
+   0
+  \end{array}
+ \right\}
+ =
+ 4 \,
+ \left\{
+  \begin{array}{c}
+   2\\
+   1\\
+   0
+  \end{array}
+ \right\}
+\end{equation}
+
+\textbf{OBS:} Para que $ \{x\} $ e $ \{y\} $ pertençam ao mesmo espaço vetorial, a matriz $ A $ tem que ser quadrada. Assim, só matrizes quadradas possuem auto-valores e auto-vetores.
+
+Como encontrar os auto-valores e auto-vetores de $ A $?
+
+\begin{equation}
+\label{cap5:sec1:eq5}
+ \begin{array}{lll}
+              & A \, x = \lambda \, x &\\
+  \Rightarrow & A \, x = \lambda \, I \, x &\\
+  \Rightarrow & [A - \lambda \, I] \, \{x\} = \{0\} & \mbox{(Sist. de Eq. Homogêneos)}
+ \end{array}
+\end{equation}
+
+onde $ [A - \lambda \, I] $ é a matriz característica.
+
+\begin{equation}
+\label{cap5:sec1:eq6}
+ \left[
+ \begin{array}{rrr}
+  16 - \lambda & -24          & 18\\
+  3            & -2 - \lambda & 0\\
+  -9           & 18           & -17-x
+ \end{array}
+ \right]
+ \,
+ \left\{
+ \begin{array}{c}
+  x_1\\
+  x_2\\
+  x_3
+ \end{array}
+ \right\}
+ =
+ \left\{
+ \begin{array}{c}
+  0\\
+  0\\
+  0
+ \end{array}
+ \right\}
+\end{equation}
+
+Se $ det \, [A - \lambda \, I] \neq 0 $ a solução do sistema é $ \{x\} = \{0\} $. Para que $ \{x\} \neq \{0\} $, então:
+
+\begin{equation}
+\label{cap5:sec1:eq7}
+ det \, [A - \lambda \, I] = 0
+\end{equation}
+
+Para a matriz $ [A - \lambda \, I] $ na equação \ref{cap5:sec1:eq6}, $ det \, [A - \lambda \, I] = 0 $ leva
+
+\[
+ \begin{array}{c}
+  \lambda^3 + 3 \, \lambda^2 - 36 \, \lambda + 32 = 0\\
+  \Updownarrow\\
+  (\lambda - 4) \, (\lambda - 1) \, (\lambda + 8) = 0
+ \end{array}
+\]
+
+Assim,
+
+\equacao{ \lambda = 4 }
+
+\equacao{ \lambda = 1 }
+
+\equacao{ \lambda = -8 }
+
+são auto-valores de $ [A] $.
+
+Forma geral para matrizes de ordem $ n $:
+
+\[
+ \begin{array}{l}
+  (A - \lambda \, I) \, q = 0\\
+  det \, (A - \lambda \, I) = 0 \Leftrightarrow \lambda ^n + c_{n-1} \, \lambda^{n-1} + \ldots + c_1 \, \lambda + c_0 = 0
+ \end{array}
+\]
+
+\subsection{Propriedades dos Auto-Valores}
+
+\begin{enumerar}
+
+\item a equação característica pode ser fatorada na forma
+
+\[
+ (\lambda - \lambda_1) \, (\lambda - \lambda_2) \ldots (\lambda - \lambda_n) = 0
+\]
+
+Assim, uma matriz de ordem $ n $ tem $ n $ auto-valores não necessariamente distintos.
+
+\item A soma dos termos da diagonal de $ A $ é chamada de traço de $ A $. Assim,
+
+\[
+ tr(A) = a_{11} + a_{22} + \ldots + a_{nn} = - c_{n-1} = \lambda_1 + \lambda_2 + ... + \lambda_n
+\]
+
+\item $ det \, (A) = (-1)^n \, c_0 = \lambda_1 \, \lambda_2 \ldots \lambda_n $
+
+Assim uma matriz singular deve ter pelo menos um auto-valor nulo.
+
+\item Sabendo- se que $ det \, A = det \, A^T $, então os auto-valores de $ A $ e de $ A^T $ são idênticos.
+
+\item A equação característica com coeficientes reais deve ter auto-valores reais ou um par de auto-valores conjugados complexos. ($ a \pm b \, i $)
+
+\item Os auto-valores de uma matriz simétrica com coeficientes reais são reais.
+
+\item Se $ A $ for triangular
+
+\[
+ det \, (A - \lambda \, I) = (a_{11} - \lambda) \, (a_{22} - \lambda) \ldots (a_{nn} - \lambda) = 0
+\]
+
+Assim, os termos da diagonal são auto-valores.
+
+\item Trocas de linhas e colunas correspondentes não afetam os auto-valores da matriz.
+
+\item Se a linha $ i $ de $ A $ é multiplicada por $ f $ e a coluna $ i $ de $ A $ é dividida por $ f $, os auto-valores não mudam.
+
+\end{enumerar}

@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="met_pred_corretores1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/roteiro_da_aula3.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path4427"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3218"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5870"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5867"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="350.63016"
+     inkscape:cy="740.2997"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1275"
+     inkscape:window-height="726"
+     inkscape:window-x="5"
+     inkscape:window-y="25"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3314"
+       transform="translate(-30.405591,-10)">
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path4603"
+         d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path4605"
+         d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g3292"
+       transform="translate(0,-10)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="path6374"
+         d="M 265.47547,338.07342 L 444.32982,338.07342"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="translate(8.8388345,15.379572)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path2486"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(32.769564,15.258262)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3284"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(56.745328,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3286"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(80.610181,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3288"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(104.65182,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3290"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g3300"
+       transform="translate(0.185639,-39.951513)">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="path3302"
+         d="M 265.47547,338.07342 L 444.32982,338.07342"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         transform="translate(8.8388345,15.379572)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3304"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(32.769564,15.258262)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3306"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(56.745328,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3308"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(80.610181,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3310"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(104.65182,15.379584)"
+         d="M 282.13559,322.62799 A 1.4142135,1.4142135 0 1 1 279.30716,322.62799 A 1.4142135,1.4142135 0 1 1 282.13559,322.62799 z"
+         sodipodi:ry="1.4142135"
+         sodipodi:rx="1.4142135"
+         sodipodi:cy="322.62799"
+         sodipodi:cx="280.72137"
+         id="path3312"
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="449.35721"
+       y="301.51773"
+       id="text3318"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3320"
+         x="449.35721"
+         y="301.51773"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">t</tspan></text>
+    <g
+       id="g3330"
+       transform="translate(90.509666,72.831997)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3322"
+         y="239.05751"
+         x="268.6875"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="239.05751"
+           x="268.6875"
+           id="tspan3324"
+           sodipodi:role="line">t</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3326"
+         y="240.72821"
+         x="273.87289"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="240.72821"
+           x="273.87289"
+           id="tspan3328"
+           sodipodi:role="line">n</tspan></text>
+    </g>
+    <g
+       id="g3336"
+       transform="translate(114.71882,72.286254)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3338"
+         y="239.05751"
+         x="268.6875"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="239.05751"
+           x="268.6875"
+           id="tspan3340"
+           sodipodi:role="line">t</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3342"
+         y="240.72821"
+         x="273.87289"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="240.72821"
+           x="273.87289"
+           id="tspan3344"
+           sodipodi:role="line">n+1</tspan></text>
+    </g>
+    <g
+       id="g3346"
+       transform="translate(66.497864,72.639807)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3348"
+         y="239.05751"
+         x="268.6875"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="239.05751"
+           x="268.6875"
+           id="tspan3350"
+           sodipodi:role="line">t</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3352"
+         y="240.72821"
+         x="273.87289"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="240.72821"
+           x="273.87289"
+           id="tspan3354"
+           sodipodi:role="line">n-1</tspan></text>
+    </g>
+    <g
+       id="g3356"
+       transform="translate(42.547918,72.286254)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3358"
+         y="239.05751"
+         x="268.6875"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="239.05751"
+           x="268.6875"
+           id="tspan3360"
+           sodipodi:role="line">t</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3362"
+         y="240.72821"
+         x="273.87289"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="240.72821"
+           x="273.87289"
+           id="tspan3364"
+           sodipodi:role="line">n-2</tspan></text>
+    </g>
+    <g
+       id="g3366"
+       transform="translate(18.457009,72.286254)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3368"
+         y="239.05751"
+         x="268.6875"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="239.05751"
+           x="268.6875"
+           id="tspan3370"
+           sodipodi:role="line">t</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3372"
+         y="240.72821"
+         x="273.87289"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="240.72821"
+           x="273.87289"
+           id="tspan3374"
+           sodipodi:role="line">n-3</tspan></text>
+    </g>
+    <g
+       id="g3430"
+       transform="translate(60.457628,35.740114)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3418"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3420"
+           sodipodi:role="line">u'</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3422"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3424"
+           sodipodi:role="line">n-3</tspan></text>
+    </g>
+    <g
+       id="g3436"
+       transform="translate(85.049122,35.526577)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3438"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3440"
+           sodipodi:role="line">u'</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3442"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3444"
+           sodipodi:role="line">n-2</tspan></text>
+    </g>
+    <g
+       id="g3446"
+       transform="translate(108.88323,35.585171)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3448"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3450"
+           sodipodi:role="line">u'</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3452"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3454"
+           sodipodi:role="line">n-1</tspan></text>
+    </g>
+    <g
+       id="g3456"
+       transform="translate(132.26703,35.938725)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3458"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3460"
+           sodipodi:role="line">u'</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3462"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3464"
+           sodipodi:role="line">n</tspan></text>
+    </g>
+    <g
+       id="g3466"
+       transform="translate(155.64756,35.938725)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3468"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3470"
+           sodipodi:role="line">u'</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3472"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3474"
+           sodipodi:role="line">n+1</tspan></text>
+    </g>
+    <g
+       id="g3476"
+       transform="translate(60.185201,54.684517)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3478"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3480"
+           sodipodi:role="line">u</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3482"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3484"
+           sodipodi:role="line">n-3</tspan></text>
+    </g>
+    <g
+       id="g3486"
+       transform="translate(84.776695,54.47098)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3488"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3490"
+           sodipodi:role="line">u</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3492"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3494"
+           sodipodi:role="line">n-2</tspan></text>
+    </g>
+    <g
+       id="g3496"
+       transform="translate(108.6108,54.529574)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3498"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3500"
+           sodipodi:role="line">u</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3502"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3504"
+           sodipodi:role="line">n-1</tspan></text>
+    </g>
+    <g
+       id="g3506"
+       transform="translate(131.9946,54.883128)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3508"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3510"
+           sodipodi:role="line">u</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3512"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3514"
+           sodipodi:role="line">n</tspan></text>
+    </g>
+    <g
+       id="g3516"
+       transform="translate(155.37513,54.883128)">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3518"
+         y="236.82468"
+         x="225.18262"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="236.82468"
+           x="225.18262"
+           id="tspan3520"
+           sodipodi:role="line">u</tspan></text>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3522"
+         y="238.49538"
+         x="234.24669"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="238.49538"
+           x="234.24669"
+           id="tspan3524"
+           sodipodi:role="line">n+1</tspan></text>
+    </g>
+    <g
+       id="g3550"
+       transform="translate(0,-10)">
+      <g
+         transform="translate(-193.8849,10.50587)"
+         id="g3526">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+           id="path3528"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+           id="path3530"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3534"
+         y="381.59927"
+         x="276.99768"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="381.59927"
+           x="276.99768"
+           id="tspan3536"
+           sodipodi:role="line">-3h</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3546"
+         y="-283.47098"
+         x="357.87833"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="-283.47098"
+           x="357.87833"
+           id="tspan3548"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+    <g
+       id="g3559"
+       transform="translate(24.244643,-10.586404)">
+      <g
+         transform="translate(-193.8849,10.50587)"
+         id="g3561">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+           id="path3563"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+           id="path3565"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3567"
+         y="381.59927"
+         x="276.99768"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="381.59927"
+           x="276.99768"
+           id="tspan3569"
+           sodipodi:role="line">-2h</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3571"
+         y="-283.47098"
+         x="357.87833"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="-283.47098"
+           x="357.87833"
+           id="tspan3573"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+    <g
+       id="g3598"
+       transform="translate(0,-10)">
+      <g
+         transform="translate(-145.95218,9.6596625)"
+         id="g3577">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+           id="path3579"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+           id="path3581"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3583"
+         y="380.75305"
+         x="328.93039"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="380.75305"
+           x="328.93039"
+           id="tspan3585"
+           sodipodi:role="line">-h</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3587"
+         y="-331.40369"
+         x="357.0321"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="-331.40369"
+           x="357.0321"
+           id="tspan3589"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+    <g
+       id="g3630"
+       transform="translate(0,-10)">
+      <g
+         transform="translate(-121.55699,9.3061163)"
+         id="g3609">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+           id="path3611"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+           id="path3613"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3615"
+         y="380.39951"
+         x="357.32559"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="380.39951"
+           x="357.32559"
+           id="tspan3617"
+           sodipodi:role="line">0</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3619"
+         y="-355.79889"
+         x="356.67856"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="-355.79889"
+           x="356.67856"
+           id="tspan3621"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+    <g
+       id="g3639"
+       transform="translate(23.838603,-10.09375)">
+      <g
+         transform="translate(-121.55699,9.3061163)"
+         id="g3641">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486.125,333.86218 C 483.59762,333.6111 479.76503,334.99959 479.77079,335.56479 C 479.46515,336.10618 486.86226,336.55128 485.74469,337.16549 C 482.01954,337.83203 478.55882,338.52056 478.63813,339.06969 C 478.33638,341.01553 486.63815,339.47211 486.11511,341.34109"
+           id="path3643"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 486,341.36218 C 486.14812,342.71036 482.81583,343.27059 481.16747,344.15225"
+           id="path3645"
+           sodipodi:nodetypes="cc" />
+      </g>
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3647"
+         y="380.39951"
+         x="357.32559"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="380.39951"
+           x="357.32559"
+           id="tspan3649"
+           sodipodi:role="line">h</tspan></text>
+      <text
+         transform="matrix(0,1,-1,0,0,0)"
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/int_func_lim_inf3.png"
+         id="text3651"
+         y="-355.79889"
+         x="356.67856"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="-355.79889"
+           x="356.67856"
+           id="tspan3653"
+           sodipodi:role="line">=</tspan></text>
+    </g>
+  </g>
+</svg>

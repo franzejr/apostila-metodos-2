@@ -1,0 +1,72 @@
+\section{Integração de Romberg}
+
+Suponha que $I_{n}$ seja o resultado da integração pela regra do trapézio estendida com \esp{k = \displaystyle \frac{(b-a)}{N}}
+
+Suponha que $I_{2n}$ seja o resultado para \esp{ \overline{h} = \displaystyle \frac{(b-a)}{(N/2)} }.
+
+Assim,
+
+\begin{equation}
+ \label{cap2:sec4:eq1}
+ E_h \approx - \frac{1}{12} \, (b-a) \, \overline{f}'' \, h^2 \approx C\,h^2
+\end{equation}
+
+\begin{equation}
+ \label{cap2:sec4:eq2}
+ E_{2\,h} \approx - \frac{1}{12} \, (b-a) \, \overline{f}'' \, (2\,h)^2 \approx 4\,C\,h^2
+\end{equation}
+
+A integral exata é
+
+\begin{equation}
+ \label{cap2:sec4:eq3}
+I = I_h + E_h = I_{2\,h} + E_{2\,h}
+\end{equation}
+
+Assim,
+
+\begin{equation}
+ \label{cap2:sec4:eq4}
+ E_h - E_{2\,h} = I_{2\,h} - I_h
+\end{equation}
+
+Eq. \ref{cap2:sec4:eq1} e \ref{cap2:sec4:eq2} $ \rightarrow $ \ref{cap2:sec4:eq4} $ \Rightarrow $
+
+\[
+ \begin{array}{ll}
+              & C\,h^2 - 4\,C\,h^2 = I_{2\,h} - I_h \\
+  \Rightarrow & C = \displaystyle \frac{1}{3} \, h^{-2} \, (I_h - I_{2\,h})
+ \end{array}
+\]
+
+\[
+ E_h \approx \frac{1}{3} \, (I_h - I_{2\,h})
+\]
+
+\[
+ \quadricular{ I = I_h + E_h \approx I_h + \frac{1}{3} \, (I_h - I_{2\,h}) }
+\]
+
+\begin{example}
+
+\[
+ \begin{array}{ll}
+  I_{0.5} = 11.9895 \qquad \qquad & I_{0.25} = 11.7940 \\
+  \uparrow & \uparrow \\
+  N = 2 & N = 4 \\
+  \\
+  h = 0.25
+ \end{array}
+\]
+
+\[
+ \begin{array}{lc}
+  I = 11.7940 + \displaystyle \frac{1}{3} \, (11.7940 - 11.9895) & \approx 11.7288 \\
+  & \uparrow \\
+  & \approx I_{0.0156} \\
+  & \uparrow \\
+  & N = 128
+ \end{array}
+\]
+
+\end{example}

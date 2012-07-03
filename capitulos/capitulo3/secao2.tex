@@ -1,0 +1,125 @@
+\section{Diferenças Finitas}
+
+\begin{enumerar}
+
+\item Operadores de primeira ordem
+
+\begin{enumerar}
+
+\item \textit{Forward Difference}: \esp{\Delta f_i = f_{i+1} - f_i}
+
+\item \textit{Backward Difference}: \esp{\nabla f_i = f_i - f_{i-1}}
+
+\item Centrada:
+
+\[
+ \begin{array}{l}
+  \delta f_i = f_{i+\frac{1}{2}} - f_{i-\frac{1}{2}} \\
+  \delta f_{i+\frac{1}{2}} = f_{i+1} - f_i
+ \end{array}
+\]
+
+onde
+
+\[
+ f_{i+\frac{1}{2}} = f\,\left(x_i + \frac{h}{2}\right)
+\]
+
+\end{enumerar}
+
+\item Operadores de segunda ordem
+
+\begin{enumerar}
+
+\item 
+\[
+ \begin{array}{c}
+  \begin{array}{ll}
+   \Delta^2 f_i & = \Delta\,(\Delta\,f_i) = \Delta\,(f_{i+1} - f_i) = \Delta\,f_{i+1} - \Delta f_i \\
+                & = f_{i+2} - f_{i+1} - (f_{i+1} - f_i) = f_{i+2} - 2\,f_{i+1} + f_i 
+  \end{array} \\ \\
+  \quadricular{\Delta^2 f_i = f_{i+2} - 2\,f_{i+1} + f_i}
+ \end{array}
+\]
+
+\item
+\[
+ \begin{array}{c}
+  \begin{array}{ll}
+   \nabla^2 f_i & = \nabla\,(\nabla\,f_i) = \nabla\,(f_i - f_{i-1}) = \nabla\,f_i - \nabla f_{i-1} \\
+                & = f_i - f_{i-1} - (f_{i-1} - f_{i-2}) = f_i - 2\,f_{i-1} + f_{i-2} 
+  \end{array} \\ \\
+  \quadricular{\nabla^2 f_i = f_i - 2\,f_{i-1} + f_{i-2}}
+ \end{array}
+\]
+
+\item
+\[
+ \begin{array}{c}
+  \begin{array}{ll}
+   \delta^2 f_i & = \delta\,(\delta\,f_i) = \delta\,(f_{i+\frac{1}{2}} - f_{i-\frac{1}{2}}) = \delta\,f_{i+\frac{1}{2}} - \delta f_{i-\frac{1}{2}} \\
+                & = f_{i+1} - f_i - (f_i - f_{i-1}) = f_{i+1} - 2\,f_i + f_{i-1} 
+  \end{array} \\ \\
+  \quadricular{\delta^2 f_i = f_{i+1} - 2\,f_i + f_{i-1}}
+ \end{array}
+\]
+
+\item
+\[
+ \begin{array}{c}
+  \begin{array}{ll}
+   \Delta \nabla f_i & = \Delta\,(\nabla\,f_i) = \Delta\,(f_i - f_{i-1}) = \Delta\,f_i - \Delta f_{i-1} \\
+                & = f_{i+1} - f_i - f_i + f_{i-1} = f_{i+1} - 2\,f_i + f_{i-1} 
+  \end{array} \\ \\
+  \quadricular{\Delta \nabla f_i = \delta^2\,f_i = f_{i+1} - 2\,f_i + f_{i-1}}
+ \end{array}
+\]
+
+\item
+\[
+ \begin{array}{c}
+  \begin{array}{ll}
+   \nabla \Delta f_i & = \nabla\,(\Delta\,f_i) = \nabla\,(f_{i+1} - f_i) = \nabla\,f_{i+1} - \nabla f_i \\
+                & = f_{i+1} - f_i - f_i + f_{i+1} = f_{i+1} - 2\,f_i + f_{i-1} 
+  \end{array} \\ \\
+  \quadricular{\nabla \Delta f_i = \delta^2\,f_i = f_{i+1} - 2\,f_i + f_{i-1}}
+ \end{array}
+\]
+
+\end{enumerar}
+
+\end{enumerar}
+
+\textbf{OBS:}
+
+\begin{enumerate}
+
+\item \esp{\delta^2 = \Delta \nabla = \nabla \Delta}
+
+\item Operadores de ordem mais elevada pode ser obtidos aplicando  os operadores de primeira ordem repetidamente.
+
+\item Se $n$ for par e $\displaystyle m = \frac{n}{2}$, então:
+
+\[
+ \nabla^m \Delta^m = \delta^n
+\]
+
+\item Operadores diferenciais podem ser aproximados por operadores de diferenças finitas.
+
+\[
+ \begin{array}{l}
+  \displaystyle \frac{d}{dx} \approx \frac{\Delta}{\Delta x} \vspace*{0.2cm} \\
+  \displaystyle \frac{d}{dx} \approx \frac{\nabla}{\nabla x} \vspace*{0.2cm} \\
+  \displaystyle \frac{d}{dx} \approx \frac{\delta}{\delta x}
+ \end{array} \quad
+ \left| \quad
+ \begin{array}{l}
+  \displaystyle \frac{d^2}{dx^2} \approx \frac{\Delta^2}{\Delta x^2} \vspace*{0.2cm} \\
+  \displaystyle \frac{d^2}{dx^2} \approx \frac{\nabla^2}{\nabla x^2} \vspace*{0.2cm} \\
+  \displaystyle \frac{d^2}{dx^2} \approx \frac{\nabla}{\nabla x} \, \left( \frac{\Delta}{\Delta x} \right) = \frac{\Delta}{\Delta x} \, \left( \frac{\nabla}{\nabla x} \right) \vspace*{0.2cm} \\
+  \displaystyle \frac{d^2}{dx^2} \approx \frac{\delta^2}{\delta x^2}
+ \end{array}
+ \right.
+\]
+
+\end{enumerate}

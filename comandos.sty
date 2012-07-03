@@ -1,0 +1,33 @@
+%%% Meus comandos Latex personalizados
+
+\newcommand\equacao[1]{ 
+  \hspace*{2 cm} $#1$
+}
+
+\newcommand\sublinhar[3]{ % pode ser utilizado tanto dentro como fora de ambiente matemático
+ \begin{tabular}{#3} % nao mudar o alinhamento, deixar centralizado
+  \mbox{$#1$}\\[-2.6mm]
+  \mbox{$#2$}\\[-2.0mm]
+ \end{tabular}
+}
+
+\newcommand\vetor[1]{
+ \sublinhar{#1}{\sim}{c}
+}
+
+\newcommand\matriz[1]{
+ %\sublinhar{\sublinhar{#1}{\sim}{c}}{\sim}{c}
+ \sublinhar{#1}{\approx}{l}
+}
+
+\newcommand\vetorl[1]{
+ \sublinhar{#1}{\sim}{l}
+}
+
+\newcommand\esp[1]{
+ \mbox{$ \, #1 \, $}
+}
+
+\newcommand\quadricular[1]{
+ \mbox{ \framebox{ $ #1 $ } }
+}

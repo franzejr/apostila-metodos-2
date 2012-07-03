@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="met_house_mat_sim1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo2/figuras/roteiro_da_aula3.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;">
+      <path
+         id="path4427"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path3218"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5870"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5867"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8284272"
+     inkscape:cx="252.89195"
+     inkscape:cy="638.18429"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1275"
+     inkscape:window-height="726"
+     inkscape:window-x="5"
+     inkscape:window-y="25"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 211.67852,370.50103 L 350.56892,370.50103"
+       id="path8920"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 281.21821,362.95946 L 281.21821,423.3166"
+       id="path6576"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g9465"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_inter3.png"
+         id="text6530"
+         y="374.15881"
+         x="166.97435"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           id="tspan6534"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="374.15881"
+           x="166.97435"
+           sodipodi:role="line">p (  )</tspan></text>
+      <g
+         transform="matrix(0.8569372,0,0,0.8569372,25.366783,52.742654)"
+         id="g9457"
+         style="stroke-width:1.16694666;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 187.78056,363.95343 C 191.56071,362.42409 191.2907,379.71491 194.46333,376.83521"
+           id="path8914"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 190.96697,370.35289 L 186.09403,377.49424"
+           id="path8916" />
+      </g>
+      <text
+         id="text9461"
+         y="380.96429"
+         x="173.5947"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           y="380.96429"
+           x="173.5947"
+           id="tspan9463"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <g
+       id="g9474"
+       transform="translate(0.4787261,33.706182)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_inter3.png"
+         id="text9476"
+         y="374.15881"
+         x="166.97435"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           id="tspan9478"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="374.15881"
+           x="166.97435"
+           sodipodi:role="line">p (  )</tspan></text>
+      <g
+         transform="matrix(0.8569372,0,0,0.8569372,25.366783,52.742654)"
+         id="g9480"
+         style="stroke-width:1.16694666;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 187.78056,363.95343 C 191.56071,362.42409 191.2907,379.71491 194.46333,376.83521"
+           id="path9482"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 190.96697,370.35289 L 186.09403,377.49424"
+           id="path9484" />
+      </g>
+      <text
+         id="text9486"
+         y="380.96429"
+         x="173.5947"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           y="380.96429"
+           x="173.5947"
+           id="tspan9488"
+           sodipodi:role="line">2</tspan></text>
+    </g>
+    <g
+       id="g9490"
+       transform="translate(0.8322795,70.829286)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_inter3.png"
+         id="text9492"
+         y="374.15881"
+         x="166.97435"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           id="tspan9494"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="374.15881"
+           x="166.97435"
+           sodipodi:role="line">p (  )</tspan></text>
+      <g
+         transform="matrix(0.8569372,0,0,0.8569372,25.366783,52.742654)"
+         id="g9496"
+         style="stroke-width:1.16694666;stroke-miterlimit:4;stroke-dasharray:none">
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 187.78056,363.95343 C 191.56071,362.42409 191.2907,379.71491 194.46333,376.83521"
+           id="path9498"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16694666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 190.96697,370.35289 L 186.09403,377.49424"
+           id="path9500" />
+      </g>
+      <text
+         id="text9502"
+         y="380.96429"
+         x="173.5947"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           y="380.96429"
+           x="173.5947"
+           id="tspan9504"
+           sodipodi:role="line">3</tspan></text>
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 211.67403,405.61716 L 350.56443,405.61716"
+       id="path10039"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 211.55479,443.6122 L 350.44519,443.6122"
+       id="path10043"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 241.49999,396.47653 L 241.49999,456.83367"
+       id="path10045"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 320.99999,395.43363 L 320.99999,455.79077"
+       id="path10047"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g2440"
+       transform="translate(10.960154,60.811181)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
+      <text
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_inter3.png"
+         id="text2419"
+         y="319.12311"
+         x="271.39777"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         xml:space="preserve"><tspan
+           id="tspan2421"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+           y="319.12311"
+           x="271.39777"
+           sodipodi:role="line">a</tspan></text>
+      <text
+         id="text2429"
+         y="322.3931"
+         x="278.01813"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman;stroke-miterlimit:4;stroke-dasharray:none"
+         xml:space="preserve"><tspan
+           y="322.3931"
+           x="278.01813"
+           id="tspan2431"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2446"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="translate(146.19433,14.142135)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2448"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="translate(225.65544,14.142135)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2450"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="translate(146.19432,52.149126)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2452"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="translate(225.74383,52.149125)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 213.19269,438.94707 L 213.19269,448.13945"
+       id="path2454"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 348.95719,438.94707 L 348.95719,448.13945"
+       id="path2456"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 213.8998,400.7633 L 213.8998,409.95568"
+       id="path2458"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 348.95719,400.76331 L 348.95719,409.95569"
+       id="path2460"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2462"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="matrix(1.1260558,0,0,1.1260558,118.73244,2.8741389)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3258"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="matrix(1.1260558,0,0,1.1260558,173.95642,2.880563)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path3260"
+       sodipodi:cx="95.282639"
+       sodipodi:cy="391.39413"
+       sodipodi:rx="1.2374369"
+       sodipodi:ry="1.2374369"
+       d="M 96.520075,391.39413 A 1.2374369,1.2374369 0 1 1 94.045202,391.39413 A 1.2374369,1.2374369 0 1 1 96.520075,391.39413 z"
+       transform="matrix(1.1260558,0,0,1.1260558,229.20642,2.8805634)"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v8/capitulos/capitulo5/figuras/met_house_mat_sim1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

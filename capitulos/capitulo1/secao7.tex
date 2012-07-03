@@ -1,0 +1,225 @@
+\section{Método de Bairstow}
+%\index{Método de Bairstow}
+
+\subsection{Características do método}
+
+\begin{itemize}
+ \item É um método especializado para determinação das raízes de um polinômio.
+ \item O método apresenta problemas de precisão e não funciona sempre.
+ \item É um método iterativo para o cálculo de um fator quadrático \esp{P\,(x) = (x^2 + p\,x + q) \, ?\,(x) + \underbrace{R\,(x) + ?}_{0}}, \esp{p} e \esp{q} devem ser escolhidos para que o resto seja \esp{0}.
+ \item Aplicando-se o método repetidamente o polinômio original é ?deplacionado?.
+\end{itemize}
+
+\subsection{Descrição}
+
+Qualquer polinômio
+
+\begin{equation}
+ \label{cap1:sec7:eq1}
+ P\,(x) = a_0 + a_1 \, x_0 + a_2 \, x^2 + \ldots + a_n \, x^n
+\end{equation}
+ 
+Pode ser escrito na forma:
+
+\begin{equation}
+ \label{cap1:sec7:eq2}
+ P\,(x) = (x^2 + p\,x + q) \, G\,(x) + R\,(x)
+\end{equation}
+
+onde:
+
+\begin{itemize}
+ \item \esp{p} e \esp{q} são arbitrários
+ \item \esp{G\,(x)} é de ordem \esp{n-2}
+ \item \esp{R\,(x)} é o resto (polinômio de ordem 1)
+\end{itemize}
+
+Se \esp{p} e \esp{q} são encontrados da forma que \esp{R\,(x) = 0}, então (\esp{x^2 + p\,x + q}) é um fator quadrático cujas raízes são \esp{x_{1}}, \esp{x_{2}} da solução de
+\esp{
+ \left.
+ \begin{array}{l}
+  x_1 \\
+  x_2
+ \end{array}
+ \right\}
+ =
+ \frac{-p \sqrt{p^2 \pm 4\,q}}{2}
+}.
+
+\begin{equation}
+ \label{cap1:sec7:eq3}
+ G\,(x) = b_2 + b_3\,x + b_4\,x^2 + \ldots + b_{n-1}\,x^{n-3} + b_n\,x^{n-2}
+\end{equation}
+
+\begin{equation}
+ \label{cap1:sec7:eq4}
+ R\,(x) = b_0 + b_1\,x
+\end{equation}
+
+Como \esp{b_{0}} e \esp{b{1}} dependem de \esp{p} e \esp{q}, podemos escrever:
+
+\begin{equation}
+ \label{cap1:sec7:eq5}
+ \begin{array}{l}
+  b_{0} = b_{0}(p,q) \\
+  b_{1} = b_{1}(p,q)
+ \end{array}
+\end{equation}
+
+Problema: encontrar \esp{p = \overline{p}} e \esp{q = \overline{q}} tal que \esp{R(x) = 0}. \esp{R\,(x)} só pode ser nulo se:
+
+\[
+ \left.
+ \begin{array}{l}
+  b_{0}(p,q) = 0 \\
+  b_{1}(p,q) = 0
+ \end{array}
+ \right\}
+ \mbox{ Sistema de Equações}
+\]
+
+Resolução do sistema:
+
+\[
+ \left\{
+ \begin{array}{l}
+  b_{0} \, (p,\,q) = 0 \\
+  b_{1} \, (p,\,q) = 0
+ \end{array}
+ \right.
+\]
+
+Pelo o método de Newton.
+\\\\
+\textbf{Solução:}
+\\\\
+Suponha que ($p$, $q$) seja uma aproximação da solução ($\overline{p}$, $\overline{q}$). A expansão de primeita ordem em série de Taylor
+
+\[
+ \left\{
+ \begin{array}{l}
+  b_0\,(\overline{p},\,\overline{q}) \approx b_0 \, (p,\,q) + \displaystyle \frac{\partial b_0}{\partial p} \, \Delta p + \frac{\partial b_0}{\partial q} \, \Delta q = 0 \\
+  \\
+  b_1\,(\overline{p},\,\overline{q}) \approx b_1 \, (p,\,q) + \displaystyle \frac{\partial b_1}{\partial p} \, \Delta p + \frac{\partial b_1}{\partial q} \, \Delta q = 0
+ \end{array}
+ \right.
+\]
+
+\esp{\Delta p = \overline{p} - p} e \esp{\Delta q = \overline{q} - q}
+
+Assim,
+
+\begin{equation}
+ \label{cap1:sec7:eq8}
+ \left\{
+ \begin{array}{l}
+  \displaystyle \frac{\partial b_0}{\partial p} \, \Delta p + \frac{\partial b_0}{\partial q} \, \Delta q = - b_0\,(p,\,q) \\
+  \\
+  \displaystyle \frac{\partial b_1}{\partial p} \, \Delta p + \frac{\partial b_1}{\partial q} \, \Delta q = - b_1\,(p,\,q)
+ \end{array}
+ \right.
+\end{equation}
+
+Derivação de uma forma explícita para o sistema
+
+Eq. \ref{cap1:sec7:eq3} e \ref{cap1:sec7:eq4} \esp{\Rightarrow} \ref{cap1:sec7:eq2}
+
+\begin{equation}
+ \label{cap1:sec7:eq6}
+ \begin{array}{l}
+ \begin{array}{rrrrrrrrrrrrl}
+         &   &           &   & b_2\,x^2 & + & b_3 \, x^3 & + & \ldots & + & b_{n-1}\,x^{n-1} & + & b_n\,x^n \\
+         &   & p\,b_2\,x & + & p\,b_3\,x^2 & + & p\,b_4\,x^3 & + & \ldots & + & p\,b_n\,x^{n-1} & & \\
+  q\,b_2 & + & q\,b_3\,x & + & q\,b_4\,x^2 & + & q\,b_5\,x^3 & + & \ldots & & & + & q\,b_n\,x^{n-2} \\
+  b_0    & + & b_1\,x & & & & & & & & & & \\
+ \end{array}
+ +
+ \\
+ \overline{ (b_0 + q\,b_2) + (q\,b_3 + p\,b_2 + b_1)\,x + (b_2 + p\,b_3 + q\,b_4)\,x^2 + \ldots + (b_{n-2} + p\,b_{n-1} + q\,b_n)\,x^{n-2} + }\\
+ (b_{n-1} + p\,b_n)\,x^{n-1} + b_n\,x^n = P\,(x)
+ \end{array}
+\end{equation}
+
+Comparando-se \ref{cap1:sec7:eq6} com \ref{cap1:sec7:eq1}:
+
+\begin{equation}
+ \label{cap1:sec7:eq7}
+ \left\{
+ \begin{array}{cl}
+  b_n     & = a_n \\
+  b_{n-1} & = a_{n-1} - p\,b_n \\
+  b_{n-2} & = a_{n-2} - p\,b_{n-1} - q\,b_n \\
+  b_{n-3} & = a_{n-3} - p\,b_{n-2} - q\,b_{n-1} \\
+  \vdots  & \\
+  b_2     & = a_2 - p\,b_3 - q\,b_4 \\
+  b_1     & = a_1 - p\,b_2 - q\,b_3
+ \end{array}
+ \right.
+\end{equation}
+
+Derivando \ref{cap1:sec7:eq7} com relação a \esp{p} temos
+
+\begin{equation}
+ \label{cap1:sec7:eq9}
+ \left\{
+ \begin{array}{cllll}
+  (b_n)_p & = & 0 & & \\
+  (b_{n-1})_p & = & -b_n & - p\,(b_n)_p & \\
+  (b_{n-2})_p & = & -b_{n-1} & - p\,(b_{n-1})_p & - q\,(b_n)_p \\
+  (b_{n-3})_p & = & -b_{n-2} & - p\,(b_{n-2})_p & - q\,(b_{n-1})_p \\
+  \vdots  & \\
+  (b_2)_p & = & -b_3 & - p\,(b_3)_p & - q\,(b_4)_p \\
+  (b_1)_p & = & -b_2 & - p\,(b_2)_p & - q\,(b_3)_p \\
+  (b_0)_p & = &      &              & - q\,(b_2)_p \\
+ \end{array}
+ \right.
+\end{equation}
+
+Derivando \ref{cap1:sec7:eq7} com relação a \esp{q} temos:
+
+\begin{equation}
+ \label{cap1:sec7:eq10}
+ \left\{
+ \begin{array}{cllll}
+  (b_n)_q & = & 0 & & \\
+  (b_{n-1})_q & = & 0 & & \\
+  (b_{n-2})_q & = & -b_n & & \\
+  (b_{n-3})_q & = & - p\,(b_{n-2})_q & - b_{n-1} & - q\,(b_{n-1})_q \\
+  \vdots  & \\
+  (b_2)_q & = & - p\,(b_3)_q & - b_4 & - q\,(b_4)_q \\
+  (b_1)_q & = & - p\,(b_2)_q & - b_3 & - q\,(b_3)_q \\
+  (b_0)_q & = &              & - b_2 & - q\,(b_2)_q \\
+ \end{array}
+ \right.
+\end{equation}
+
+\textbf{Implementação:}
+
+\begin{enumerate}
+\item Com estimativas iniciais de $p$ e $q$, calcule $b_{0}$ e $b_{1}$ utilizando equação \ref{cap1:sec7:eq7}
+\label{implem:item:1}
+
+\item Calcule $(b_{0})_{p}$, $(b_{1})_{p}$, $(b_{0})_{q}$ e $(b_{1})_{q}$ pelas equações \ref{cap1:sec7:eq9} e \ref{cap1:sec7:eq10}.
+\label{implem:item:2}
+OBS: Todas as equações em \ref{implem:item:1} e \ref{implem:item:2} são calculadas recursivamente.
+
+\item Resolve o sistema \ref{cap1:sec7:eq8} para $\Delta p - \Delta q$.
+
+\item Obtenha $\overline{p}$ e $\overline{q}$
+\label{implem:item:4}
+
+$\overline{p} = p + \Delta p$
+
+$\overline{q} = q + \Delta q$
+
+\end{enumerate}
+
+O procedimento de \ref{implem:item:1} a \ref{implem:item:4}  é iterativo com novas estimativas de $\overline{p}$ e $\overline{q}$ a cada iteração.
+
+\subsection{Notas}
+
+\begin{itemize}
+\item Com a aplicação repetida do método, o erro no cálculo dos polinômios ?defacionados? e dos fatores quadráticos.
+\item A precisão das raízes pode ser pobre, assim a precisão deve ser melhorada por outro método.
+\item A iteração pode não convergir em ?
+\end{itemize}

@@ -1,0 +1,157 @@
+\documentclass[12pt,a4paper,titlepage]{report}
+
+%%% define a macro \ifpdf para compilacao condicional -- PDF ou
+%%% DVI/PS.
+%\newif\ifpdf
+%  \ifx\pdfoutput\undefined
+%  \pdffalse
+%\else
+%  \pdfoutput=1
+%  \pdftrue
+%\fi
+
+%%% utilize a acentuacao apropriada para seu sistema: ISO-8859-1 ou UTF-8
+
+%%% caracteres acentuados em ISO-8859-1
+%\usepackage[latin1]{inputenc}
+
+%%% caracteres acentuados em UTF-8
+\usepackage[utf8]{inputenc}
+
+%%% Suporte para gerar o documento em Portugues e Ingles
+\usepackage[english,brazil]{babel}
+
+%%% indenta primeiro paragrafo, estilo brasileiro.
+\usepackage{indentfirst}
+
+%%% Indice Remissivo
+\usepackage{makeidx}
+
+%\ifpdf
+%%% somente na versao PDF
+
+%%% Uso de Font Encoding T1 (simulado pelo package AE) -- importante
+%%% para a correta hifenizacao de palavras acentudas em Portugues.
+%\usepackage{ae}
+
+%%% Para inclusao de graficos
+%\usepackage[pdftex]{graphicx}
+
+%%% dimensoes do documento
+%\usepackage[pdftex]{geometry}
+%\geometry{a4paper,left=1in,right=1in,top=1cm,bottom=2cm}
+
+%\else
+%%% somente na versao DVI/PS
+
+%%% Uso de Font Encoding T1
+\usepackage[T1]{fontenc}
+
+%%% Para inclusao de graficos
+\usepackage[dvips]{graphicx}
+
+%%% dimensoes do documento
+\usepackage[dvips]{geometry}
+\geometry{a4paper,left=1in,right=1in,top=1in,bottom=1in}
+
+%\fi
+
+
+%%% pacotes para gerar ambiente de codigo
+\usepackage{pacotes/algorithm}
+\usepackage{pacotes/algorithmic}
+
+%%% pacote para gerar meus ambientes personalizados
+\usepackage{pacotes/ambientes}
+
+%%% pacote para gerar meus comandos personalizados
+\usepackage{pacotes/comandos}
+
+%%% pacote para tabelas
+\usepackage{tabularx}
+
+%%% pacote para fontes matematicas
+\usepackage{txfonts}
+
+%%% pacote para mais tipos de sublinhados
+%\RequirePackage[normalem]{ulem}
+
+\title{Apostila de Métodos Numéricos}
+
+\author{Creto A. Vidal\thanks{{http://www.dc.ufc.br}{Departamento de Computação - UFC}}\\
+  \texttt{\small {mailto:cvidal@lia.ufc.br}{cvidal@lia.ufc.br}}
+}
+
+\date{\today\\
+  \small Versão 9.0}
+
+%%% Para a criacao de indice
+\makeindex
+
+%%%% preamble ends here
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+{%
+  \selectlanguage{english}
+  \begin{abstract}
+    These class notes were organized as a supporting material for the courses of Numerical Methods I and II of Federal University of Cear\' a. They are based on the book, Numerical Methods in C by Shoichiro Nakamura.
+  \end{abstract}
+}
+
+\begin{abstract}
+  Estas notas de aula foram elaboradas para servir de apoio aos cursos de M\' etodos Num\' ericos I e II da Universidade Federal do Cear\' a. Elas s\~ao baseadas no livro, Applied Numerical Mehtods in C by Shoichiro Nakamura.
+\end{abstract}
+
+%%% Sumario, lista de figuras e tabelas.
+\tableofcontents
+\listoffigures
+\listoftables
+%\listalgorithmname
+
+\clearpage
+
+%%% Capitulo 1
+%\input{capitulos/capitulo1/capitulo1.tex}
+
+%%% Capitulo 2
+\input{capitulos/capitulo2/capitulo2.tex}
+
+%%% Capitulo 3
+\input{capitulos/capitulo3/capitulo3.tex}
+
+%%% Capitulo 4
+%\input{capitulos/capitulo4/capitulo4.tex}
+
+%%% Capitulo 5
+%\input{capitulos/capitulo5/capitulo5.tex}
+
+%%% Capitulo 6
+%\input{capitulos/capitulo6/capitulo6.tex}
+
+%%% Capitulo 7
+%\input{capitulos/capitulo7/capitulo7.tex}
+
+%%% Adicione aqui mais capitulos...
+
+%\appendix
+%\chapter{Primeiro Apêndice}
+
+%Coloque seu apêndice aqui, conforme descrito em~\cite{IB-D883079}.
+
+%%% Indice Remissivo
+%%% quebra de pagina opcional
+\clearpage
+\printindex
+
+%%% Referencias
+%%% quebra de pagina opcional
+%\clearpage
+%\bibliography{bibliografia/bibliografia}
+%\bibliographystyle{plain}
+
+
+\end{document}
+

@@ -1,0 +1,260 @@
+\section{Método da Potência}
+
+Três versões:
+
+\begin{enumerar}
+
+\item Regular $ \rightarrow $ calcula o maior autovalor.
+
+\item Inverso $ \rightarrow $ calcula o menor autovalor.
+
+\item Deslocado (\textit{shifted}) $ \rightarrow $ calcula qualquer autovalor.
+
+\end{enumerar}
+
+\subsection{Regular}
+
+Suponha que $ \matriz{A} \, \, \in \, \, \varmathbb{C}^{N \times N} $ é diagonalizável, isto é,
+
+\begin{equation}
+ \label{cap5:sec4:eq1}
+ \matriz{X^{-1}} \matriz{A} \matriz{X} = diag \, (\lambda_1, \ldots, \lambda_n) =
+ \left[
+ \begin{array}{cccc}
+  \lambda_1 & 0         & \ldots & 0\\
+  0         & \lambda_1 & \ldots & 0\\
+  \vdots    & \vdots    & \ddots & \vdots\\
+  0         & 0         & \ldots & \lambda_n\\
+ \end{array}
+ \right]
+\end{equation}
+
+onde
+
+\begin{equation}
+ \label{cap5:sec4:eq2}
+ \matriz{X} = [\vetor{x_1}, \vetor{x_2}, \, \ldots \, , \vetor{x_n}]
+\end{equation}
+
+$ \vetor{x_i} $ é o i-ésimo autovetor.
+
+\begin{equation}
+ \label{cap5:sec4:eq3}
+ |\lambda_1| > |\lambda_2| \geq |\lambda_3| \geq \ldots \geq |\lambda_n|
+\end{equation}
+
+Dada a norma Euclideana e um vetor $ \vetorl{q^{(0)}} \in \varmathbb{C}^N $, o método da potência produz uma sequência de vetores $ \vetorl{q^{(k)}} $ como se segue (assume-se $ \lambda_1 \in \varmathbb{R} $):\\
+
+\hspace*{3cm}
+$
+ for \, \, k = 1, 2, \ldots
+$
+
+\begin{equation}
+ \label{cap5:sec4:eq4}
+ \vetorl{Z^{(k)}} = \matriz{A} \vetorl{q^{(k-1)}}
+\end{equation}
+
+\begin{equation}
+ \label{cap5:sec4:eq5}
+ \vetorl{q^{(k)}} = \vetorl{Z^{(k)}} / \, \, ||\vetorl{Z^{(k)}}||_2
+\end{equation}
+
+\begin{equation}
+ \label{cap5:sec4:eq6}
+ \lambda^{(k)} = [\vetorl{q^{(k)}}]^H \matriz{A} \vetorl{q^{(k)}}
+\end{equation}
+
+\hspace*{3cm}
+$
+ end
+$
+
+onde
+
+\begin{equation}
+ \label{cap5:sec4:eq7}
+ || \vetorl{Z^{(k)}} ||_2 = [ (Z_1^{(k)})^2 + (Z_2^{(k)})^2 + \ldots + (Z_n^{(k)})^2 ]^{1/2}
+\end{equation}
+
+\begin{equation}
+ \label{cap5:sec4:eq8}
+ [\vetorl{q^{(k)}}]^H \, \, \mbox{Transposta Hermitiana de} \vetorl{q^{(k)}}
+\end{equation}\\
+
+\textbf{Convergência do Método}
+
+Se
+
+\begin{equation}
+ \label{cap5:sec4:eq9}
+ \vetorl{q^{(0)}} = a_1 \vetorl{x_1} + a_2 \vetorl{x_2} + \ldots + a_n \vetorl{x_n}
+\end{equation}
+
+e $ a_1 \neq 0 $, então
+
+\begin{equation}
+ \label{cap5:sec4:eq10}
+ \begin{array}{ll}
+ \matriz{A} \vetorl{q^{(0)}} & = a_1  \,\, A \vetorl{x_1} + a_2 \, \, A \vetorl{x_2} + \ldots + a_n \, \, A \vetorl{x_n} =\\
+                             & = a_1 \, \, \lambda_1 \vetorl{x_1} + a_2 \, \, \lambda_2 \vetorl{x_2} + \ldots + a_n \, \, \lambda_n \vetorl{x_n}
+ \end{array}
+\end{equation}
+
+\begin{equation}
+ \label{cap5:sec4:eq11}
+ \matriz{A^2} \vetorl{q^{(0)}} = a_1 \, \, \lambda_1^2 \vetorl{x_1} + a_2 \, \, \lambda_2^2 \vetorl{x_2} + \ldots + a_n \, \, \lambda_n^2 \vetorl{x_n}
+\end{equation}
+
+\begin{equation}
+ \label{cap5:sec4:eq12}
+ \begin{array}{ll}
+ \matriz{A^k} \vetorl{q^{(0)}} & = a_1  \,\, \lambda_1^k \vetorl{x_1} + a_2 \, \, \lambda_2^k \vetorl{x_2} + \ldots + a_n \, \, \lambda_n^k \vetorl{x_n} =\\
+                               & = a_1 \, \, \lambda_1^k \, \left[\vetorl{x_1} + \displaystyle \sum^n_{j=2} \, \frac{a_j}{a_1} \, \left(\frac{\lambda_j}{\lambda_1}\right)^k \, \vetorl{x_j}\right]
+ \end{array}
+\end{equation}
+
+Mas
+
+\begin{equation}
+ \vetorl{q^{(k)}} = \frac{1}{\displaystyle \prod_{i=0}^{k-1} || \matriz{A} \vetorl{q^{(i)}} ||} \matriz{A^k} \vetorl{q^{(0)}}
+ \begin{array}{c}
+  (6)\\
+  =\\
+  (12)
+ \end{array}
+ \, \frac{a_1 \, \, \lambda_1^k}{\displaystyle \prod_{i=0}^{k-1} \, | \lambda^{(?)} |} \, \,
+ \left[\vetorl{x_1} + \sum_{j=2}^n \, \frac{a_j}{a_1} \left(\frac{\lambda_j}{\lambda_1}\right) ??? \right]
+\end{equation}
+
+Assim, à medida que $ k \rightarrow \infty $, $ \vetorl{(k)} $ se aproxima de $ \vetorl{x_1} $ e a cada iteração a diferença entre $ \vetorl{q^{(k)}} $ e $ \vetorl{x_1} $ é da ordem de $ \left| \displaystyle \frac{\lambda_2}{\lambda_1} \right|^k $.
+
+Quando a ordem \ref{cap5:sec4:eq3} ocorre, dizemos que $ \lambda_1 $ é o autovalor dominante.
+
+OBS: O método da potência converge se $ \lambda_1 $ é dominante e se $ \vetorl{q^{(0)}} $ tiver uma componente na direção de $ \vetorl{x_1} $ (autovetor dominante).
+
+\subsection{Inverso}
+
+Considere o problema de auto-valores
+
+\begin{equation}
+ \label{cap5:sec4:eq14}
+ \matriz{A} \vetorl{x} = \lambda \vetorl{x}
+\end{equation}
+
+Assim, pre-multiplicando \ref{cap5:sec4:eq14} por $ \matriz{A^{-1}} $ e dividindo por $ \lambda $
+
+\begin{equation}
+ \label{cap5:sec4:eq15}
+ \frac{1}{\lambda} \matriz{A^{-1}} \matriz{A} \vetorl{x} = \matriz{A^{-1}} \vetorl{x}
+ \Rightarrow
+ \matriz{A^{-1}} \vetorl{x} = \frac{1}{\lambda} \vetorl{x}
+\end{equation}
+
+Equação \ref{cap5:sec4:eq15} é o problema de autovalores
+
+\begin{equation}
+ \label{cap5:sec4:eq16}
+ \matriz{A^{-1}} \vetorl{x} = \bar{\lambda}
+\end{equation}
+
+onde
+
+\begin{equation}
+ \bar{\lambda} = \frac{1}{\lambda}
+\end{equation}
+
+Observa-se que os autovalores do problema \ref{cap5:sec4:eq16} são recíprocos dos autovalores do problema \ref{cap5:sec4:eq14}. Se aplicarmos o método regular ao problema \ref{cap5:sec4:eq16} encontraremos o autovalor dominante de $ A^{-1} $ que corresponde a $ 1/\lambda_n $.
+
+Dada a norma Euclideana e um vetor $ \vetorl{q^{(0)}} \in \varmathbb{C}^N $, o método da potência produz uma sequência de vetores $ \vetorl{q^{(k)}} $ como se segue:\\
+
+\hspace*{1cm}
+$
+for \, \, k = 1, 2, \ldots
+$
+
+\begin{equation}
+ \hspace*{2cm}
+ \vetorl{Z^{(k)}} = \matriz{A^{-1}} \vetorl{q^{(k-1)}}
+ \, \, \mbox{ou resolva o sitema}
+ \, \, \matriz{A} \vetorl{Z^{(k)}}
+ = \vetorl{q^{(k-1)}}
+\end{equation}
+
+\begin{equation}
+ \hspace*{-5.7cm}
+ \vetorl{q^{(k)}} = \vetorl{Z^{(k)}} / || \vetorl{Z^{(k)}} ||_2
+\end{equation}
+
+
+\[
+ \hspace*{0.7cm}
+ \bar{\lambda^{(k)}} = [\vetorl{q^{(k)}}]^H \, \matriz{A^{-1}} \, \vetorl{q^{(k)}}
+ \, \, \mbox{ou}
+ \, \, \frac{1}{\bar{\lambda^{(k)}}} = [\vetorl{q^{(k)}}]^H \matriz{A} \vetorl{q^{(k)}} \Rightarrow
+\]
+
+\begin{equation}
+ \hspace*{-5.4cm}
+ \lambda_N^{(k)} = [\vetorl{q^{(k)}}]^H \matriz{A} \vetorl{q^{(k)}}
+\end{equation}
+
+\hspace*{1cm}
+$
+end
+$
+
+\subsection{Deslocado (\textit{Shifted}) ou \textit{Wielandt}}
+
+Encontra qualquer autovalor desde que seja real e separado.
+
+Considere
+
+\begin{equation}
+ \label{cap5:sec4:eq21}
+ \matriz{A} \vetorl{q_i} = \lambda_i \vetorl{q_i}
+\end{equation}
+
+subtraindo-se $ \mu \matriz{I} \vetorl{q_i} $ dos dois lados de \ref{cap5:sec4:eq21}, temos
+
+\begin{equation}
+ \label{cap5:sec4:eq22}
+ (\matriz{A} - \mu \matriz{I}) \vetorl{q_i} = (\lambda_i - \mu) \vetorl{q_i}
+\end{equation}
+
+chamando-se $ \bar{A} = A - \mu \, I $, a equação \ref{cap5:sec4:eq22} fica
+
+\begin{equation}
+ \label{cap5:sec4:eq23}
+ \bar{A} \vetorl{q_i} = \bar{\lambda_i} \vetorl{q_i}
+\end{equation}
+
+onde
+
+\begin{equation}
+ \label{cap5:sec4:eq24}
+ \bar{\lambda_i} = \lambda_i - \mu
+\end{equation}
+
+Considere agora o método inverso aplicado sobre o problema \ref{cap5:sec4:eq23}
+
+\begin{equation}
+ \label{cap5:sec4:eq25}
+ \matriz{\bar{A}^{-1}} \vetorl{q_i} = \frac{\lambda_i^*}{\vetorl{q_i}}
+\end{equation}
+
+onde
+
+\begin{equation}
+ \label{cap5:sec4:eq26}
+ \lambda_i^* = \frac{1}{\bar{\lambda_i}} = \frac{1}{\lambda_i - \mu}
+\end{equation}
+
+O problema \ref{cap5:sec4:eq25} encontrará o autovalor dominante de $ \matriz{\bar{A}^{-1}} $ (ou o $ \bar{\lambda_n} $ de $ \bar{A} $, em \ref{cap5:sec4:eq23}).
+
+Se escolhermos $ \bar{\mu} $ próximo a $ \lambda_i $ e tal que $ \lambda_i - \bar{\mu} > 0 $, então $ \lambda_i^* = \displaystyle \frac{1}{\lambda_i - \mu} $ será o autovalor dominante de $ \matriz{\bar{A^{-1}}} $ e $ \, \bar{\lambda_i} = \lambda_i - \bar{\mu} \, $ será o menor autovalor de $ \bar{A} $. Assim
+
+\begin{equation}
+ \label{cap5:sec4:eq27}
+ \lambda_i = \bar{\lambda_i} + \bar{\mu}
+\end{equation}

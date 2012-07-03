@@ -1,0 +1,398 @@
+%% template.bib -- template file for \BibTeX
+%% $Id: template.bib,v 1.2 1998/11/29 03:35:41 jessen Exp $
+%%
+%% NOTE: \LaTeX's comment character `%' is not a comment character in
+%% the database files.  \BibTeX allows in the database files any
+%% comment that's not within an entry.
+
+%% CONSTRUCTION OF CITATION KEYS:
+%%
+%% article
+%%       Author:<abbrev-journal>-<volume or yyear>-<start page or month#>
+%%
+%% inproceedings
+%%       Author:<abbrev-booktitle><yyear>-<start page> [no -, e.g, RIDT91]
+%%
+%% incollection
+%%       Author:<abbrev-booktitle>-<yyear>-<start page>
+%%
+%% proceedings
+%% book
+%% ...thesis
+%%       Author:<abbrev-title>-<yyear>
+%%
+%% unpublished
+%%       Author:<abbrev-title>-<yyear>-<month# or whatever>
+%%
+%% techreport
+%%       Author:<abbrev-title>-<yyear> or
+%%         Author:<abbrev-inst>-<yyear>-<number>
+%%
+%%
+%% CONVENTIONS (for naming BibTeX citation keys)
+%%
+%% Books are tagged by the first author's last name, a colon, up to 3
+%% upper-case letters taken from the first three upper-case words in the
+%% title (ignoring words like A, And, The), followed by the last two digits
+%% of the publication year.  If there is a volume entry, it is appended to
+%% the tag, prefixed by a hyphen.
+
+@Book{IB-D883079,
+  author =       "Leslie Lamport",
+  title =        "{\LaTeX}: {A} Document Preparation System",
+  edition =      "Second",
+  publisher =    "Addison-Wesley",
+  address =      "Reading, MA, USA",
+  year =         "1996",
+  ISBN =         "0-201-52983-1",
+}
+
+%% An article from a journal or magazine.
+@Article{,
+  author =       {},
+  title =        {},
+  journal =      {},
+  year =         {},
+  OPTkey =       {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A book with an explicit publisher.
+@book{,
+  author =       {},
+  title =        {},
+  publisher =    {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A work that is printed and bound,
+%% but without a named publisher or sponsoring institution.
+@booklet{,
+  title =        {},
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPThowpublished = {},
+  OPTaddress =   {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% An article in a conference proceedings.
+@InProceedings{,
+  author =       {},
+  title =        {},
+  booktitle =    {},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTyear =      {},
+  OPTorganization = {},
+  OPTpublisher = {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A part of a book, which may be a chapter (or section or whatever)
+%% and/or a range of pages.
+@InBook{,
+  author =       {},
+  title =        {},
+  chapter =      {},
+  publisher =    {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTtype =      {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A part of a book having its own title.
+@InCollection{,
+  author =       {},
+  title =        {},
+  booktitle =    {},
+  OPTcrossref =  {},
+  OPTkey =       {},
+  OPTpublisher = {},
+  OPTyear =      {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTchapter =   {},
+  OPTtype =      {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTmonth =     {},
+  OPTpages =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% Technical documentation.
+@Manual{,
+  title =        {},
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPTorganization = {},
+  OPTaddress =   {},
+  OPTedition =   {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A Master's thesis.
+@MastersThesis{,
+  author =       {},
+  title =        {},
+  school =       {},
+  year =         {},
+  OPTkey =       {},
+  OPTaddress =   {},
+  OPTtype =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% Use this type when nothing else fits.
+@Misc{,
+  OPTkey =       {},
+  OPTauthor =    {},
+  OPTtitle =     {},
+  OPThowpublished = {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A PhD thesis.
+@PhdThesis{,
+  author =       {},
+  title =        {},
+  school =       {},
+  year =         {},
+  OPTkey =       {},
+  OPTaddress =   {},
+  OPTtype =      {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% The proceedings of a conference.
+@Proceedings{,
+  title =        {},
+  year =         {},
+  OPTkey =       {},
+  OPTeditor =    {},
+  OPTvolume =    {},
+  OPTnumber =    {},
+  OPTseries =    {},
+  OPTpublisher = {},
+  OPTorganization = {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A report published by a school or other institution, usually
+%% numbered within a series.
+@TechReport{,
+  author =       {},
+  title =        {},
+  institution =  {},
+  year =         {},
+  OPTkey =       {},
+  OPTtype =      {},
+  OPTnumber =    {},
+  OPTaddress =   {},
+  OPTmonth =     {},
+  OPTnote =      {},
+  OPTannote =    {}
+}
+
+%% A document having an author and title, but not formally published.
+@Unpublished{,
+  author =       {},
+  title =        {},
+  note =         {},
+  OPTkey =       {},
+  OPTyear =      {},
+  OPTmonth =     {},
+  OPTannote =    {}
+}
+
+%% Below is a description of all fields recognized by the standard
+%% bibliography styles.  An entry can also contain other fields, which
+%% are ignored by those styles.
+
+%% address
+%%
+%% Usually the address of the publisher or other type of institution.
+%% For major publishing houses, van Leunen recommends omitting the
+%% information entirely. For small publishers, on the other hand, you
+%% can help the reader by giving the complete address.
+
+%% annote
+%%
+%% An annotation.  It is not used by the standard bibliography styles,
+%% but may be used by others that produce an annotated bibliography.
+
+%% author
+%%
+%% The name(s) of the author(s),
+%% in the format described in the \LaTeX\ book.
+
+%% booktitle
+%%
+%% Title of a book, part of which is being cited.  See the \LaTeX\
+%% book for how to type titles.  For book entries, use the title field
+%% instead.
+
+%% chapter
+%%
+%% A chapter (or section or whatever) number.
+
+%% crossref
+%%
+%% The database key of the entry being cross referenced.
+
+%% edition
+%%
+%% The edition of a book---for example, ``Second''.  This should be an
+%% ordinal, and should have the first letter capitalized, as shown
+%% here; the standard styles convert to lower case when necessary.
+
+%% editor
+%%
+%% Name(s) of editor(s), typed as indicated in the \LaTeX\ book.  If
+%% there is also an author field, then the editor field gives the
+%% editor of the book or collection in which the reference appears.
+
+%% howpublished
+%%
+%% How something strange has been published.  The first word should be
+%% capitalized.
+
+%% institution
+%%
+%% The sponsoring institution of a technical report.
+
+%% journal
+%%
+%% A journal name.  Abbreviations are provided for many journals; see
+%% the Local Guide.
+
+%% key
+%%
+%% Used for alphabetizing, cross referencing, and creating a label
+%% when the ``author'' information (described in Section
+%% odds-and-ends) is missing.  This field should not be confused with
+%% the key that appears in the \cite command and at the beginning of
+%% the database entry.
+
+%% month
+%%
+%% The month in which the work was published or, for an unpublished
+%% work, in which it was written.  You should use the standard
+%% three-letter abbreviation, as described in Appendix B.1.3 of the
+%% \LaTeX\ book.
+
+%% note
+%%
+%% Any additional information that can help the reader.  The first
+%% word should be capitalized.
+
+%% number
+%%
+%% The number of a journal, magazine, technical report, or of a work
+%% in a series.  An issue of a journal or magazine is usually
+%% identified by its volume and number; the organization that issues a
+%% technical report usually gives it a number; and sometimes books are
+%% given numbers in a named series.
+
+%% organization
+%%
+%% The organization that sponsors a conference or that publishes a
+%% manual.
+
+%% pages
+%%
+%% One or more page numbers or range of numbers, such as 42--111 or
+%% 7,41,73--97 or 43+ (the `+' in this last example indicates pages
+%% following that don't form a simple range).  To make it easier to
+%% maintain Scribe-compatible databases, the standard styles convert a
+%% single dash (as in 7-33) to the double dash used in \TeX\ to denote
+%% number ranges (as in 7--33}).
+
+%% publisher
+%%
+%% The publisher's name.
+
+%% school
+%%
+%% The name of the school where a thesis was written.
+
+%% series
+%%
+%% The name of a series or set of books.  When citing an entire book,
+%% the the title field gives its title and an optional series field
+%% gives the name of a series or multi-volume set in which the book is
+%% published.
+
+%% title
+%%
+%% The work's title, typed as explained in the \LaTeX\ book.
+
+%% type
+%%
+%% The type of a technical report---for example, ``Research Note''.
+
+%% volume
+%%
+%% The volume of a journal or multivolume book.
+
+%% year
+%%
+%% The year of publication or, for an unpublished work, the year it
+%% was written.  Generally it should consist of four numerals, such as
+%% 1984, although the standard styles can handle any year whose last
+%% four nonpunctuation characters are numerals, such as about 1984.
+
+%% template.bib ends here.

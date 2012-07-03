@@ -1,0 +1,129 @@
+\section{Cálculo de Determinante}
+
+A toda matriz quadrada $A = [a_{ij}]$ de ordem $n$ cujos elementos são números complexos, associa-se um único número denominado determinante de $A$.
+
+\begin{center}
+$ det \, A \,$ ou $\, |A| $
+\end{center}
+
+Se $E$ for o conjunto de matrizes quadradas de ordem $n$ e $C$ for o conjunto dos números complexos, podemos construir $f: E \rightarrow C$ de modo que
+
+\begin{enumerate}
+
+\item Se $n = 1$, $A = [a_{11}]$ e $det \, A = a_{11}$
+
+\item Se $ n \geq 2$, $det \, A = \displaystyle \sum_{i=1}^{n}(-1)^{i+1} \, a_{i1} \, D_{i1}$
+
+onde $D_{i1}$ é o menor complementar do elemento $a_{i1}$ de $A$ (determinante da matriz obtida eliminando-se a linha $i$ e a coluna 1 de $A$)
+
+\end{enumerate}
+
+Chamando-se $ A_{ij} = (-1)^{i+j} \, D_{ij} $ de cofator do elemento $a_{ij}$, podemos escrever
+
+\[ det \, A = \displaystyle \sum_{i=1}^{n} a_{i1} \, A_{i1} \]
+
+O teorema de Laplace generaliza esta definição para
+
+\begin{center}
+
+$ det \, A = \displaystyle \sum_{i=1}^{n} a_{ij} \, A{ij} $ fixando-se $j, 1 \leq j \leq n$
+
+\end{center}
+
+ou
+
+\begin{center}
+
+$ det \, A = \displaystyle \sum_{j=1}^{n} a_{ij} \, A{ij} $ fixando-se $i, 1 \leq i \leq n$
+
+\end{center}
+
+\subsection{Propriedades dos Determinantes}
+
+\textbf{P1:} $ det \, M^T = det \, M $.\\
+
+\textbf{P2:} Se os elementos de uma linha (coluna) de uma matriz quadrada $ M = [a_{ij}] $, de ordem $n$, forem todos iguais a zero, então $ det \, M = 0 $.\\
+
+\textbf{P3:} Multiplicando-se uma linha (ou coluna) de uma matriz quadrada $ M = [a_{ij}] $ por um número $k$, o determinante da nova matriz $ N = [b_{ij}] $ que se obtém será:
+
+\[
+det \, N = k \, det \, M
+\]
+
+\textbf{P4:} Se a coluna $q$ de uma matriz quadrada $ M = [a_{ij}] $ de ordem $n$ puder ser escrita como:
+
+\[ a_{iq} = b_{iq} + c_{iq} \]
+
+então $ det \, M = det \, M' + det \, M''$ onde $M'$ é igual a $M$ trocando-se a coluna $q$ por $b_{iq}$ e $M''$ é a matriz obtida procurando-se a coluna $q$ de $M$ por $c_{iq}$.\\
+
+\textbf{P5:} Se $[N]_{n \times m}$ é obtida de $[M]_{n \times m}$ trocando-se duas linhas (ou colunas) então:
+
+\[
+ det \,N = -det \, M
+\]
+
+\textbf{P6:} Se duas linhas ou colunas de $M$ forem iguais, então:
+
+\[
+ det \, N = 0
+\]
+
+\textbf{P7:} (Teorema de \textit{Cauchy}) O produto escalar de uma linha (ou coluna) pelo vetor de cofatores de uma outra linha (ou coluna) é zero.\\
+
+\textbf{P8:} Se duas linhas (ou colunas) de $[M]_{n \times n}$ forem proporcionais, então:
+
+\[
+ det \, M = 0
+\]
+
+\textbf{P9:} Se a matriz quadrada $[M]_{n \times n}$ tem uma linha (ou coluna) que é combinação linear das outras linhas (ou colunas), então:
+
+\[
+ det \, M = 0
+\]
+
+\textbf{P10:} Se adicionarmos a uma linha (ou coluna) de $[M]_{n \times n}$ uma combinação linear das outras formando uma matriz $[N]_{n \times n}$, então:
+
+\[
+ det \, N = det \, M
+\]
+
+\textbf{P11:} Se $[M]_{n \times n}$ for triangular, $det \, M$ é o produto dos elementos da diagonal:
+
+\[
+ det M \, = a_{11} \, a_{22} \, a_{33} \, \ldots \, a_{nn}
+\]
+
+\textbf{P12:} Se $[M]_{n \times n}$ for triangular com relação à diagonal secundária, então:
+
+\begin{center}
+ $det \, M = (-1)^{ \displaystyle \frac{n \, (n - 1)}{2}} \times $ (Produto dos termos da diagonal secundária)
+\end{center}
+
+\textbf{P13:} Se $[N]_{n \times n} = k \, [M]_{n \times n}$ então:
+
+\[
+ det \, [N] = k^n \, (det \, [M])
+\]
+
+\textbf{P14:} (Teorema de \textit{Binet}) Se $[C]_{n \times n} = [A]_{n \times n} \, [B]_{n \times n}$, então
+
+\[
+ det \, [C] = (det \, [A]) \, (det \, [B])
+\]
+
+\subsection{Cálculo Numérico do Determinante de $[A]_{n \times n}$}
+
+\[
+ [A] = [A] \, [U]
+\]
+
+\begin{center}
+ Por \textbf{P14} $\Rightarrow det \, [A] = det [L] \, det \, [U]$
+\end{center}
+
+\begin{center}
+ Por \textbf{P11} $\Rightarrow det \, [L] = 1$ e $det \, [U] = \displaystyle \prod_{i=1}^n \, u_{ii}$
+\end{center}
+
+\textbf{OBS:} Como $[U]$ pode ser obtida por eliminação de Gauss padrão podemos utilizar ``\textit{forward} ? ?''

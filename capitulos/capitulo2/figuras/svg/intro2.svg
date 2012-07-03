@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="intro2.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;">
+      <path
+         id="path5876"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path5873"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5870"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path5867"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="308.62401"
+     inkscape:cy="808.51564"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1270"
+     inkscape:window-height="726"
+     inkscape:window-x="0"
+     inkscape:window-y="25" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 161.35461,258.321 L 406.16549,258.321"
+       id="path2391"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 161.5635,257.6289 L 161.5635,156.10011"
+       id="path2393"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="414.42279"
+       y="261.08203"
+       id="text2395"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2397"
+         x="414.42279"
+         y="261.08203"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="81.352173"
+       y="382.4729"
+       id="text2407"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan2409"
+         x="81.352173"
+         y="382.4729"
+         style="font-size:16px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">x</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 152.02959,353.26958 L 152.02959,280.73803"
+       id="path5090"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow1Mstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 344.23735,322.1704 C 295.24838,354.37725 318.10496,281.25474 285.50483,285.82292"
+       id="path9263"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="348.10294"
+       y="326.07004"
+       id="text9269"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9271"
+         x="348.10294"
+         y="326.07004"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">I = Volume sob</tspan><tspan
+         sodipodi:role="line"
+         x="348.10294"
+         y="346.07004"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+         id="tspan9888">      a superfície</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow1Lend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 161.73878,257.4232 L 94.689779,378.86884"
+       id="path9313"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Times New Roman;-inkscape-font-specification:Times New Roman"
+       x="96.428574"
+       y="186.81949"
+       id="text9315"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9317"
+         x="96.428574"
+         y="186.81949"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-family:Times New Roman;-inkscape-font-specification:Times New Roman">z = f(x,y)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 152.51692,276.36218 L 396.0545,276.36218"
+       id="path9319"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-opacity:1;stroke-dashoffset:0"
+       d="M 109.51692,353.07647 L 353.0545,353.07647"
+       id="path9844"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 274.77203,352.62227 L 274.77203,280.09072"
+       id="path9846"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 194.65442,275.31669 L 194.65442,202.78514"
+       id="path9848"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 316.39898,275.05776 L 316.39898,202.52622"
+       id="path9850"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 152.15139,281.06793 C 186.32425,262.07048 162.24746,234.21582 194.27718,203.22785"
+       id="path9854"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 274.22282,281.56794 C 308.39568,262.57049 284.31889,234.71583 316.34861,203.72786"
+       id="path9856"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 274.65139,352.71079 C 308.82425,333.71334 284.74746,305.85868 316.77718,274.87071"
+       id="path9858"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:8,8;stroke-dashoffset:0"
+       d="M 152.07996,353.99651 C 186.25282,334.99906 162.17603,307.1444 194.20575,276.15643"
+       id="path9860"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 152.14286,280.9336 C 184.91669,297.94885 228.29448,292.24135 274.28571,280.9336"
+       id="path9862"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 194.50001,202.85588 C 227.27384,219.87113 270.65163,214.16363 316.64286,202.85588"
+       id="path9864"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96028465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 169.28571,354.23311 L 169.28571,287.34841"
+       id="path9866"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.9399091;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 184.28571,353.97186 L 184.28571,289.89537"
+       id="path9868"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.91902649;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 200,353.56404 L 200,292.30319"
+       id="path9870"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92425424;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 217.14286,354.12779 L 217.14286,292.16801"
+       id="path9872"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.95018941;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 235.71429,354.10509 L 235.71429,288.61926"
+       id="path9874"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96035826;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 252.85714,353.66683 L 252.85714,286.77185"
+       id="path9876"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 165.07143,269.14161 C 197.84526,286.15686 241.22305,280.44936 287.21428,269.14161"
+       id="path9878"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 172.5,256.71304 C 205.27383,273.72829 248.65162,268.02079 294.64285,256.71304"
+       id="path9880"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 176.21429,237.28447 C 208.98812,254.29972 252.36591,248.59222 298.35714,237.28447"
+       id="path9882"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 181.64286,223.14161 C 214.41669,240.15686 257.79448,234.44936 303.78571,223.14161"
+       id="path9884"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 189.21429,208.57018 C 221.98812,225.58543 265.36591,219.87793 311.35714,208.57018"
+       id="path9886"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="65.296867"
+       y="355.30859"
+       id="text9890"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9892"
+         x="65.296867"
+         y="355.30859"
+         style="font-size:14px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">x = a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="105.77679"
+       y="279.58652"
+       id="text9894"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9896"
+         x="105.77679"
+         y="279.58652"
+         style="font-size:14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">x = b</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="126.91964"
+       y="383.30081"
+       id="text9898"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9900"
+         x="126.91964"
+         y="383.30081"
+         style="font-size:14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">y = u(x)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="266.28796"
+       y="381.91129"
+       id="text9902"
+       inkscape:export-filename="/home/jivago/Desktop/apostila_metodos_numericos/v7/capitulos/capitulo2/figuras/intro2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9904"
+         x="266.28796"
+         y="381.91129"
+         style="font-size:14;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">y = v(x)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow1Mend)"
+       d="M 291.43791,335.22867 C 302.00388,360.92282 295.39231,364.18885 291.43791,370.92427"
+       id="path9918"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
+       d="M 146.42857,370.93361 C 139.44395,342.3681 148.50333,336.53159 164.28571,340.21933"
+       id="path9924"
+       sodipodi:nodetypes="cc" />
+  </g>
+</svg>

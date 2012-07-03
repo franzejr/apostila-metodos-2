@@ -1,0 +1,48 @@
+\section{Métodos de Eliminação de Gauss e Gauss-Jordan}
+
+\begin{enumerar}
+
+\item Gauss
+
+\[
+\begin{array}{rrrrrrr}
+ 2\,x_1 & + & 1\,x_2 & - & 3\,x_3 & = & -1 \\
+-1\,x_1 & + & 3\,x_2 & + & 2\,x_3 & = & 12 \\
+ 3\,x_1 & + & 1\,x_2 & - & 3\,x_3 & = & 0
+\end{array}
+\]
+
+Passo 1: Tornar os termos da primeira coluna abaixo da diagonal zero, utilizando combinação linear das linhas correspondentes com a primeira linha:
+
+\[
+ a'_{ij} = a_{ij} - a_{ij}/a_{11} \times a_{1j}
+ \qquad
+ \left\{
+  \begin{array}{ll}
+   i & = 2\,,\, N \\
+   j & = 1\,,\, N
+  \end{array}
+ \right.
+\]
+
+$
+ \qquad \quad \, 2\,x_1 \,\,\,\, + \,\,\,\, 1\,x_2 \,\,\,\, - \,\,\,\, 3\,x_3 \,\,\,\, = \,\,\,\,  -1 \\
+ -\frac{1}{2}
+ \left\{
+ \begin{array}{rrrrrrl}
+ -1\,x_1 & + & 3\,x_2 & + & 2\,x_3 & = & 12 \\
+  3\,x_1 & + & 1\,x_2 & - & 3\,x_3 & = & 0 \\
+  0\,x_1 & + & \displaystyle \frac{7}{2}\,x_2 & + & \displaystyle \frac{1}{2}\,x_3 & = & \displaystyle \frac{23}{2} \qquad L'_2 = L_2 - \left(-\displaystyle\frac{1}{2}\right) \, L_1
+ \end{array}
+ \right.
+$
+
+\[
+ \begin{array}{rrrrrrl}
+  3\,x_1 & + & 1\,x_2 & - & 3\,x_3 & = & 0 \\
+  \displaystyle \frac{3}{2}\,2\,x_1 & + & \displaystyle \frac{3}{2}\,1\,x_2 & + & \displaystyle \frac{3}{2}\,(-3)\,x_3 & = & \displaystyle \frac{3}{2}\,(-1) \\
+  0\,x_1 & - & \displaystyle \frac{1}{2}\,x_2 & ? & \displaystyle \frac{3}{2}\,x_3 & = & \displaystyle \frac{3}{2} \qquad \qquad L'_3 = L_3 - \left(-\displaystyle\frac{3}{2}\right) \, L_1
+ \end{array}
+\]
+
+\end{enumerar}

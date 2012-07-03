@@ -1,0 +1,37 @@
+%%% Meus ambientes Latex personalizados
+
+\newcounter{example}
+\setcounter{example}{0}
+\newenvironment{example}
+{
+ \stepcounter{example}
+ \subsubsection{Exemplo \thechapter.\arabic{example}}
+ \sf
+ \begin{it}
+}
+{
+ \end{it}
+}
+
+\newcounter{definicao}
+\setcounter{definicao}{0}
+\newenvironment{definicao}
+{
+ \stepcounter{definicao}
+ \vspace*{3 mm}
+ { \textbf{Definição \thechapter.\arabic{definicao}:} }
+ \begin{it}
+}
+{
+ \end{it}
+ \vspace*{3 mm}
+}
+
+\newenvironment{enumerar}
+{
+ \renewcommand{\theenumi}{{\roman{enumi}})}
+ \begin{enumerate}
+}
+{
+ \end{enumerate}
+}

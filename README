@@ -1,0 +1,58 @@
+README
+======
+
+Resumo
+------
+
+Esta apostila tem como objetivo facilitar a aprendizagem e servir como apoio ao cursos de Métodos Numéricos I e II.
+
+Requisitos
+----------
+
+Primeiramente, é necessário ter instalado o latex em seu sistema.
+
+Em ambientes Ubuntu, por exemplo, isto pode ser feito através da instalação do pacote 'abntex':
+
+# apt-get install abntex
+
+Por favor, verifique demais pacotes necessários em seu sistema.
+
+Como compilar
+-------------
+
+Para compilar o latex basta utilizar a ferramenta make. Por exemplo, abaixo está a versão da ferramenta em meu sistema:
+
+$ make -v
+GNU Make 3.81
+Copyright (C) 2006  Free Software Foundation, Inc.
+Este é um programa livre; veja o fonte para as condições de cópia.
+Não há garantias; nem mesmo de COMERCIALIZAÇÃO OU ATENDIMENTO A UMA
+FUNÇÃO EM PARTICULAR.
+
+Este programa foi compilado para i486-pc-linux-gnu
+
+Após entrar no diretório raiz da apostila, onde está o arquivo 'Makefile', você pode compilar com o comando:
+
+$ make apostila.pdf
+
+Ou apenas:
+
+$ make
+
+Assim, ele deve gerar o pdf da apostila.
+
+Para maiores informações sobre os alvos do 'Makefile' execute:
+
+$ make help
+
+Arquivos
+--------
+
+README: Este arquivo de ajuda.
+AUTHORS: Contém uma descrição suscinta do autor e editor, assim como contato.
+CHANGELOG: Contém um resumo das tarefas realizadas por versão.
+
+Como colaborar
+--------------
+
+Caso queira sugerir, melhorar ou colaborar com este trabalho, por favor envie email para jivago@great.ufc.br

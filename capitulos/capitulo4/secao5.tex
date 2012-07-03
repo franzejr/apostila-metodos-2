@@ -1,0 +1,97 @@
+\section{Decomposição LU}
+
+\[ A = L \, U \]
+
+$L =$ matriz triangular inferior com diagonal 1
+
+$U =$ matriz triangular superior com diagonal $\neq$ 1
+
+\begin{center}
+$ A \, x = y \Rightarrow L \, U \, x = y \,$
+ ou
+$
+  \,
+  \begin{array}{l}
+    L \, z = y\\
+    U \, x = z
+  \end{array}
+$
+\end{center}
+
+\[
+ \left[
+  \begin{array}{cccccc}
+   a_{11} & a_{12} & \cdots & a_{1j} & \cdots & a_{1n} \\
+   a_{21} & a_{22} & \cdots & a_{2j} & \cdots & a_{2n} \\
+   \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+   a_{i1} & a_{i2} & \cdots & a_{ij} & \cdots & a_{in} \\
+   \vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
+   a_{n1} & a_{n2} & \cdots & a_{nj} & \cdots & a_{nn}
+  \end{array}
+ \right]
+ =
+ \left[
+  \begin{array}{cccc}
+   1 & 0 & \cdots & 0 \\
+   l_{21} & 1 & \cdots & 0 \\
+   \vdots & \vdots & \ddots & \vdots \\
+   l_{n1} & l_{n2} & \cdots & 1
+  \end{array}
+ \right]
+ \left[
+  \begin{array}{cccc}
+   u_{11} & u_{12} & \cdots & u_{1n} \\
+   0 & u_{22} & \cdots & u_{2n} \\
+   \vdots & \vdots & \ddots & \vdots \\
+   0 & 0 & \cdots & u_{nn}
+  \end{array}
+ \right]
+\]
+
+\[
+a_{ij} = \sum_{k = 1}^{N}l_{ik} \, u_{kj}
+=
+ \left\{
+  \begin{array}{ll}
+   \displaystyle \sum_{k = 1}^{i}l_{ik} \, u_{kj}, & \mbox{se $i \leq j$}\\
+   \displaystyle \sum_{k = 1}^{j}l_{ik} \, u_{kj}, & \mbox{se $i > j$}
+  \end{array}
+ \right.
+\]
+
+\begin{center}
+$
+\displaystyle a_{ij} = \sum_{k = 1}^{i-1}l_{ik} \, u_{kj} + l_{ii} \, u_{ij} \Rightarrow
+$
+\framebox{
+$
+\displaystyle  u_{ij} = a_{ij} - \sum_{k = 1}^{i-1} l_{ik} \, u_{kj}
+$
+}
+\end{center}
+
+\begin{center}
+$
+\displaystyle a_{ij} = \sum_{k = 1}^{j-1}l_{ik} \, u_{kj} + l_{ij} \, u_{jj} \Rightarrow
+$
+\framebox{
+$
+\displaystyle  l_{ij} = \frac{ a_{ij} - \displaystyle \sum_{k = 1}^{j-1} l_{ik} \, u_{kj} }{u_{jj}}
+$
+}
+\end{center}
+
+\noindent
+\textbf{Resumo:}
+
+\begin{enumerar}
+
+\item Qualquer matriz não singular pode ser decomposta na forma $A = L \, U$.
+
+\item Se um sistema de equações lineares tiver de ser resolvido repetidamente para múltiplos lados ?direitos?, a decomposição $L \, U$ é recomendada.
+
+\item A matriz $U$ é idêntica a obtida no processo de eliminação de Gauss.
+
+\item $L \, U$ é útil no cálculo do determinante.
+
+\end{enumerar}

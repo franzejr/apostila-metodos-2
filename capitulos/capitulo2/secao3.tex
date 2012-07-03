@@ -1,0 +1,73 @@
+\section{Regra $\frac{1}{3}$ de Simpson}
+
+\begin{enumerate}
+ \item Polinômio interpolante, ?:
+
+\[
+ \begin{array}{ll}
+  g\,(x_0 + s\,h) & = \displaystyle \left(s \atop 0\right) \, \Delta^0 \, f_0 + \left(s \atop 1\right) \, \Delta^1 \, f_1 + \left(s \atop 2\right) \, \Delta^2 \, f_2 \\
+  g\,(x_0 + s\,h) & = 1 \, f_0 + s\,(f_1 - f_0) + \displaystyle \frac{1}{2} \, s \, (s - 1) \, (f_2 - 2\,f_1 + f_0)
+ \end{array}
+\]
+
+\[
+ \quadricular{ g\,(x_0 + s\,h) = f_0 + (f_1 - f_0)\,s + \displaystyle \frac{1}{2} \, (f_2 - 2\,f_1 + f_0) \, (s^2 - s) }
+\]
+
+\item Integrando o polinômio quadrático, temos:
+
+\[
+ I = \int_{x_0}^{x_2} g\,(x) \, dx
+ \qquad
+ \begin{array}{rcl}
+  x & = & x_0 + h\,s \qquad 
+  \left\{
+  \begin{array}{l}
+   x = x_0 \rightarrow s = 0 \\
+   x = x_2 \rightarrow s = 2
+  \end{array}
+  \right.
+  \\
+  dx & = & h\,ds
+ \end{array}
+\]
+
+\[
+ \begin{array}{ll}
+  I & = \displaystyle \int_0^2 g\,(x_0 + s\,h) \, \, h \, \, ds \\
+    & = \left. h \, \left[ f_0\,s + (f_1 - f_0) \, \displaystyle \frac{s^2}{2} + \frac{1}{2} \, (f_2 - 2\,f_1 + f_0)\,\left(\frac{s^3}{3} - \frac{s^2}{2}\right) \right] \, \right|_0^2 \\
+    & = h \, \left[ 2\,f_0 + (f_1 - f_0) \, \displaystyle \frac{4}{2} + \frac{1}{2} \, (f_2 - 2\,f_1 + f_0) \, \left( \underbrace{\frac{8}{3} - \frac{8}{4}}_{\frac{16 - 12}{6} = \frac{4}{6} = \frac{2}{3}} \right) \right] \\
+    & = h \, \left[ 2\,f_0 + 2\,f_1 - 2\,f_0 + \displaystyle \frac{1}{3}\,f_2 - \frac{2}{3}\,f_1 + \frac{1}{3}\,f_0 \right] \\
+    & = \displaystyle \frac{h}{3} \, \left[ f_0 + 4\,f_1 + f_2 \right]
+ \end{array}
+\]
+
+
+\end{enumerate}
+
+\subsection{Erros das Regras de Simpson}
+
+\begin{itemize}
+
+\item $ \displaystyle \frac{1}{3}$ Simpson: \esp{E \approx - \displaystyle \frac{h^5}{90} \, f^{(IV)}(\overline{x})}
+
+\textbf{OBS:} Se $f(x)$ for polinômio de grau $\leq 3$ então \esp{f^{(IV)}(\overline{x}) = 0} e consequentemente o erro é zero.
+
+\item Regra $ \displaystyle \frac{1}{3}$ de Simpson estendida:
+
+\[
+ E \approx - (b - a) \, \frac{h^4}{180} \, \overline{f}^{(IV)}
+\]
+
+onde: 
+
+\[
+ \overline{f}^{\,(IV)} = \sum_{i=1}^{N/2} \frac{f^{(IV)}(\overline{x}_i)}{(N/2)}
+\]
+
+\item $ \displaystyle \frac{3}{8}$ Simpson: \esp{ - \displaystyle \frac{3}{80} \, h^5 \, f^{(IV)}(\overline{x}) }
+
+\item Regra $ \displaystyle \frac{3}{8}$ de Simpson estendida: \esp{ E \approx - \displaystyle \frac{3}{240} \, (b-a) \, h^4 \, \overline{f}^{\,(IV)} }
+
+\end{itemize}
+

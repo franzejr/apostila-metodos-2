@@ -1,0 +1,36 @@
+\select@language {brazil}
+\select@language {english}
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{4}
+\contentsline {section}{\numberline {1.1}Introdu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {paragraph}{Filosofia geral dos m\'etodos de integra\c {c}\~ao}{4}
+\contentsline {section}{\numberline {1.2}Regra do Trap\IeC {\'e}zio}{4}
+\contentsline {subsection}{\numberline {1.2.1}Erro da Regra do Trap\IeC {\'e}zio}{4}
+\contentsline {subsection}{\numberline {1.2.2}M\IeC {\'u}ltiplos Intervalos}{6}
+\contentsline {subsubsection}{Exemplo 1.1}{7}
+\contentsline {section}{\numberline {1.3}Regra ${\begingroup 1\endgroup \over 3}$ de Simpson}{7}
+\contentsline {subsection}{\numberline {1.3.1}Erros das Regras de Simpson}{8}
+\contentsline {section}{\numberline {1.4}Integra\IeC {\c c}\IeC {\~a}o de Romberg}{8}
+\contentsline {subsubsection}{Exemplo 1.2}{9}
+\contentsline {section}{\numberline {1.5}F\IeC {\'o}rmulas de Newton-Cotes}{9}
+\contentsline {subsubsection}{Exemplo 1.3}{10}
+\contentsline {subsubsection}{Exemplo 1.4}{11}
+\contentsline {section}{\numberline {1.6}Quadraturas de Gauss}{12}
+\contentsline {subsection}{\numberline {1.6.1}Quadraturas de Gauss-Legendre}{12}
+\contentsline {subsubsection}{Exemplo 1.5}{14}
+\contentsline {subsubsection}{Exemplo 1.7}{16}
+\contentsline {subsection}{\numberline {1.6.2}Outras Quadraturas de Gauss}{17}
+\contentsline {section}{\numberline {1.7}Roteiro da Aula}{18}
+\contentsline {section}{\numberline {1.8}Integra\IeC {\c c}\IeC {\~a}o de Fun\IeC {\c c}\IeC {\~o}es com Limites Infinitos ou Singularidades (Integrais Impr\IeC {\'o}prias)}{20}
+\contentsline {subsection}{\numberline {1.8.1}Tipo 1}{21}
+\contentsline {subsubsection}{Exemplo 1.8}{22}
+\contentsline {subsection}{\numberline {1.8.2}Tipo 2}{22}
+\contentsline {section}{\numberline {1.9}Integra\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica em um Dom\IeC {\'\i }nio Bidimensional}{24}
+\contentsline {subsubsection}{Exemplo 1.9}{25}
+\contentsline {section}{\numberline {1.10}Integra\IeC {\c c}\IeC {\~a}o}{26}
+\contentsline {chapter}{\numberline {2}Diferencia\IeC {\c c}\IeC {\~a}o Num\IeC {\'e}rica}{27}
+\contentsline {section}{\numberline {2.1}Expans\IeC {\~a}o de Taylor}{27}
+\contentsline {section}{\numberline {2.2}Diferen\IeC {\c c}as Finitas}{30}
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}todo da Diferencia\IeC {\c c}\IeC {\~a}o dos Polin\IeC {\^o}mios de Interpola\IeC {\c c}\IeC {\~a}o de Newton}{32}
+\contentsline {section}{\numberline {2.4}Aproxima\IeC {\c c}\IeC {\~a}o de Derivadas Parciais por Diferen\IeC {\c c}as Finitas}{34}
+\contentsline {subsection}{\numberline {2.4.1}Solu\IeC {\c c}\IeC {\~a}o do Problema de Dirichlet}{35}

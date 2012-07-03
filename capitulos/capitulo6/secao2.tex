@@ -1,0 +1,109 @@
+\section{Métodos de Euler}
+
+\subsection{\textit{Forward} Euler}
+
+Dado o problema
+
+\begin{equation}
+ \label{cap6:sec2:eq1}
+ \left\{
+  \begin{array}{l}
+   u' = f \, (u, t) \\
+   u(?) = u_0
+  \end{array}
+ \right.
+\end{equation}
+
+Substituindo-se a derivada $ \, u' \, $ pelo operador diferencial $ \, \Delta \, $
+
+\begin{equation}
+ \label{cap6:sec2:eq2}
+ \frac{du}{dt} \approx \frac{u_{n+1} - u_n}{\Delta t}
+\end{equation}
+
+Assim
+
+\begin{eqnarray}
+ \label{cap6:sec2:eq3}
+              & \displaystyle \frac{u_{n+1} - u_n}{\Delta t} = f \, (u_n, t_n) \nonumber
+  \vspace*{0.2cm} \\
+  \Rightarrow & \mbox{ \framebox{ $ u_{n+1} = u_n + \Delta t \, f \, (u_n, t_n) $ } }
+\end{eqnarray}
+
+Começando da condição inicial temos
+
+\begin{equation}
+ \label{cap6:sec2:eq4}
+ \begin{array}{cll}
+  u_1     & = & u_0 + \Delta t \, f \, (u_0, t_0) \\
+  u_2     & = & u_1 + \Delta t \, f \, (u_1, t_1) \\
+  \vdots  &   & \hspace*{1cm} \vdots \\
+  u_{n+1} & = & u_n + \Delta t \, f \, (u_n, t_n)
+ \end{array}
+\end{equation}
+
+OBS:
+
+\begin{enumerate}
+
+\item Precisão aumenta para $ \, \Delta t \, $ pequeno mas não pode usar $ \, \Delta t \, $ muito pequeno por causa do erro de arredondamento. Erros de truncamento também ocorrem.
+
+\item O método é simples e explícito, isto é, calcula $ \, u_{n+1} \, $ diretamente a partir dos valores em $ \, t_n \, $.
+
+\item Instabilidade pode ocorrer.
+
+\end{enumerate}
+
+\subsection{\textit{Backward} Euler}
+
+Substituimos $ \, u' \, $ em \ref{cap6:sec2:eq1} por $ \, \displaystyle \frac{\bigtriangledown u}{\bigtriangledown t} \, $
+
+\begin{equation}
+  \label{cap6:sec2:eq5}
+  u'_{n+1} \approx \frac{u_{n+1} - u_n}{t_{n+1} - t_n} = \frac{u_{n+1} - u_n}{\Delta t}
+\end{equation}
+
+Assim
+
+\begin{eqnarray}
+ & \displaystyle \frac{u_{n+1} - u_n}{\Delta t} = f \, (u_{n+1}, t_{n+1}) \nonumber \\
+ \label{cap6:sec2:eq6}
+ & \mbox{ \framebox{ $ u_{n+1} = u_n + \Delta t \, f \, (u_{n+1}, t_{n+1}) $ } }
+\end{eqnarray}
+
+OBS:
+
+\begin{enumerate}
+
+\item Precisão é a mesma do \textit{Forward} Euler.
+
+\item Método implícito, isto é, $ \, u_{n+1} \, $ não é calculado diretamente a partir dos valores no tempo $ \, t_n \, $.
+
+\item Mais estável.
+
+\end{enumerate}
+
+\subsection{Método de Euler Modificado}
+
+Dados
+
+\[
+ \begin{array}{l}
+  u' = f \, (u, t) \\
+  u_n, \, f \, (u_n, t_n), \, \Delta t
+ \end{array}
+\]
+
+escrevemos
+
+\begin{equation}
+ \label{cap6:sec2:eq7}
+ u_{n+1} = u_n + \int^{t_{n+1}}_{t_n} u' \, dt = u_n + \int^{t_{n+1}}_{t_n} f \, (u, t) \, dt
+\end{equation}
+
+Aplicando regra do trapézio para integração, temos
+
+\begin{equation}
+ \label{cap6:sec2:eq8}
+ u_{n+1} = u_n + \frac{\Delta t}{2} \, [f \, (u_{n+1}, t_{n+1}) + f \, (u_n, t_n)]
+\end{equation}
