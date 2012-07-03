@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.19)  3 JUL 2012 16:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.19)  3 JUL 2012 17:18
 entering extended mode
  %&-line parsing enabled.
 **apostila.tex
@@ -648,19 +648,6 @@ File: t1txtt.fd 2000/12/15 v3.1
 \openout4 = `apostila.toc'.
 
  [3]
-(./apostila.lof [4
-
-])
-\tf@lof=\write5
-\openout5 = `apostila.lof'.
-
- [5] (./apostila.lot)
-\tf@lot=\write6
-\openout6 = `apostila.lot'.
-
- [6
-
-]
 (./capitulos/capitulo1/capitulo1.tex
 Cap\'{\i }tulo 1.
 (./capitulos/capitulo1/secao1.tex
@@ -673,13 +660,13 @@ LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 6.
 )
 (./capitulos/capitulo1/secao2.tex
-<capitulos/capitulo1/figuras/bissecao1.pdf, id=37, 302.76463pt x 168.64877pt>
+<capitulos/capitulo1/figuras/bissecao1.pdf, id=26, 302.76463pt x 168.64877pt>
 File: capitulos/capitulo1/figuras/bissecao1.pdf Graphic file (type pdf)
 
-<use capitulos/capitulo1/figuras/bissecao1.pdf> [7
+<use capitulos/capitulo1/figuras/bissecao1.pdf> [4
 
 
-] [8]
+] [5]
 LaTeX Font Info:    Try loading font information for T1+txss on input line 104.
 
 
@@ -691,102 +678,97 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 107.
 
-<capitulos/capitulo1/figuras/bissecao2-eps-converted-to.pdf, id=46, 320.19624pt
+<capitulos/capitulo1/figuras/bissecao2-eps-converted-to.pdf, id=37, 320.19624pt
  x 157.58875pt>
 File: capitulos/capitulo1/figuras/bissecao2-eps-converted-to.pdf Graphic file (
 type pdf)
 
 <use capitulos/capitulo1/figuras/bissecao2-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/bissecao3-eps-converted-to.pdf, id=47, 320.19624pt
+<capitulos/capitulo1/figuras/bissecao3-eps-converted-to.pdf, id=38, 320.19624pt
  x 152.57pt>
 File: capitulos/capitulo1/figuras/bissecao3-eps-converted-to.pdf Graphic file (
 type pdf)
  <use capitulos/capitulo1/figuras/bissecao3-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf, id=48, 320.19624pt
+<capitulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf, id=39, 320.19624pt
  x 184.69pt>
 File: capitulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf Graphic file (
 type pdf)
  <use capitulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf>
-[9 <./capitulos/capitulo1/figuras/bissecao1.pdf>] [10 <./capitulos/capitulo1/fi
-guras/bissecao2-eps-converted-to.pdf> <./capitulos/capitulo1/figuras/bissecao3-
-eps-converted-to.pdf>]) (./capitulos/capitulo1/secao3.tex
-<capitulos/capitulo1/figuras/posicaofalsa1-eps-converted-to.pdf, id=72, 325.215
+[6 <./capitulos/capitulo1/figuras/bissecao1.pdf>] [7 <./capitulos/capitulo1/fig
+uras/bissecao2-eps-converted-to.pdf> <./capitulos/capitulo1/figuras/bissecao3-e
+ps-converted-to.pdf>]) (./capitulos/capitulo1/secao3.tex
+<capitulos/capitulo1/figuras/posicaofalsa1-eps-converted-to.pdf, id=62, 325.215
 pt x 201.75375pt>
 File: capitulos/capitulo1/figuras/posicaofalsa1-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
 <use capitulos/capitulo1/figuras/posicaofalsa1-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/posicaofalsa2-eps-converted-to.pdf, id=73, 323.207
+<capitulos/capitulo1/figuras/posicaofalsa2-eps-converted-to.pdf, id=63, 323.207
 5pt x 163.61125pt>
 File: capitulos/capitulo1/figuras/posicaofalsa2-eps-converted-to.pdf Graphic fi
 le (type pdf)
 
-<use capitulos/capitulo1/figuras/posicaofalsa2-eps-converted-to.pdf> [11 <./cap
-itulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf> <./capitulos/capitulo1
-/figuras/posicaofalsa1-eps-converted-to.pdf>]
-<capitulos/capitulo1/figuras/posicaofalsamodificado1-eps-converted-to.pdf, id=8
+<use capitulos/capitulo1/figuras/posicaofalsa2-eps-converted-to.pdf> [8 <./capi
+tulos/capitulo1/figuras/bissecao4-eps-converted-to.pdf> <./capitulos/capitulo1/
+figuras/posicaofalsa1-eps-converted-to.pdf>]
+<capitulos/capitulo1/figuras/posicaofalsamodificado1-eps-converted-to.pdf, id=7
 3, 320.19624pt x 171.64125pt>
 File: capitulos/capitulo1/figuras/posicaofalsamodificado1-eps-converted-to.pdf 
 Graphic file (type pdf)
 
 <use capitulos/capitulo1/figuras/posicaofalsamodificado1-eps-converted-to.pdf>)
-(./capitulos/capitulo1/secao4.tex [12 <./capitulos/capitulo1/figuras/posicaofal
-sa2-eps-converted-to.pdf> <./capitulos/capitulo1/figuras/posicaofalsamodificado
-1-eps-converted-to.pdf>]
-<capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf, id=93, 480.79625pt x
+(./capitulos/capitulo1/secao4.tex [9 <./capitulos/capitulo1/figuras/posicaofals
+a2-eps-converted-to.pdf> <./capitulos/capitulo1/figuras/posicaofalsamodificado1
+-eps-converted-to.pdf>]
+<capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf, id=83, 480.79625pt x
  157.58875pt>
 File: capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf>
-[13 <./capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf>] [14]
-<capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf, id=103, 317.185pt x 
-223.83624pt>
+[10 <./capitulos/capitulo1/figuras/newton1-eps-converted-to.pdf>] [11]
+<capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf, id=94, 317.185pt x 2
+23.83624pt>
 File: capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf Graphic file (ty
 pe pdf)
  <use capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf>
-[15 <./capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf>])
-(./capitulos/capitulo1/secao5.tex
-<capitulos/capitulo1/figuras/secante1-eps-converted-to.pdf, id=110, 320.19624pt
+[12 <./capitulos/capitulo1/figuras/newton2-eps-converted-to.pdf>])
+(./capitulos/capitulo1/secao5.tex [13]
+<capitulos/capitulo1/figuras/secante1-eps-converted-to.pdf, id=104, 320.19624pt
  x 176.66pt>
 File: capitulos/capitulo1/figuras/secante1-eps-converted-to.pdf Graphic file (t
 ype pdf)
- <use capitulos/capitulo1/figuras/secante1-eps-converted-to.pdf>
-[16]) (./capitulos/capitulo1/secao6.tex [17 <./capitulos/capitulo1/figuras/seca
-nte1-eps-converted-to.pdf>]
-<capitulos/capitulo1/figuras/substituicoes1-eps-converted-to.pdf, id=121, 202.7
+ <use capitulos/capitulo1/figuras/secante1-eps-converted-to.pdf>)
+(./capitulos/capitulo1/secao6.tex [14 <./capitulos/capitulo1/figuras/secante1-e
+ps-converted-to.pdf>]
+<capitulos/capitulo1/figuras/substituicoes1-eps-converted-to.pdf, id=111, 202.7
 575pt x 178.6675pt>
 File: capitulos/capitulo1/figuras/substituicoes1-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use capitulos/capitulo1/figuras/substituicoes1-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/substituicoes2-eps-converted-to.pdf, id=122, 153.5
+<capitulos/capitulo1/figuras/substituicoes2-eps-converted-to.pdf, id=112, 153.5
 7375pt x 178.6675pt>
 File: capitulos/capitulo1/figuras/substituicoes2-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use capitulos/capitulo1/figuras/substituicoes2-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/substituicoes3-eps-converted-to.pdf, id=123, 153.5
+<capitulos/capitulo1/figuras/substituicoes3-eps-converted-to.pdf, id=113, 153.5
 7375pt x 181.67876pt>
 File: capitulos/capitulo1/figuras/substituicoes3-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
 <use capitulos/capitulo1/figuras/substituicoes3-eps-converted-to.pdf>
-<capitulos/capitulo1/figuras/substituicoes4-eps-converted-to.pdf, id=124, 153.5
+<capitulos/capitulo1/figuras/substituicoes4-eps-converted-to.pdf, id=114, 153.5
 7375pt x 177.66376pt>
 File: capitulos/capitulo1/figuras/substituicoes4-eps-converted-to.pdf Graphic f
 ile (type pdf)
 
-<use capitulos/capitulo1/figuras/substituicoes4-eps-converted-to.pdf> [18 <./ca
+<use capitulos/capitulo1/figuras/substituicoes4-eps-converted-to.pdf> [15 <./ca
 pitulos/capitulo1/figuras/substituicoes1-eps-converted-to.pdf> <./capitulos/cap
 itulo1/figuras/substituicoes2-eps-converted-to.pdf> <./capitulos/capitulo1/figu
 ras/substituicoes3-eps-converted-to.pdf> <./capitulos/capitulo1/figuras/substit
-uicoes4-eps-converted-to.pdf>] [19] [20]) (./capitulos/capitulo1/secao7.tex
-Overfull \hbox (42.68408pt too wide) in paragraph at lines 9--10
-[]\T1/txr/m/n/12 É um mé-todo ite-ra-tivo para o cál-culo de um fa-tor qua-drá-
-tico  []
- []
-
-[21]
+uicoes4-eps-converted-to.pdf>] [16] [17]) (./capitulos/capitulo1/secao7.tex
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
@@ -796,21 +778,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
 
-[22] [23])) (./capitulos/capitulo2/capitulo2.tex [24]
+[19] [20])) (./capitulos/capitulo2/capitulo2.tex [21]
 Cap\'{\i }tulo 2.
 (./capitulos/capitulo2/secao1.tex
-<capitulos/capitulo2/figuras/intro1.png, id=160, 319.594pt x 151.767pt>
+<capitulos/capitulo2/figuras/intro1.png, id=149, 319.594pt x 151.767pt>
 File: capitulos/capitulo2/figuras/intro1.png Graphic file (type png)
 
 <use capitulos/capitulo2/figuras/intro1.png>
-<capitulos/capitulo2/figuras/intro2.png, id=162, 305.14pt x 185.493pt>
+<capitulos/capitulo2/figuras/intro2.png, id=151, 305.14pt x 185.493pt>
 File: capitulos/capitulo2/figuras/intro2.png Graphic file (type png)
 
-<use capitulos/capitulo2/figuras/intro2.png> [25
+<use capitulos/capitulo2/figuras/intro2.png> [22
 
  <./capitulos/capitulo2/figuras/intro1.png>]) (./capitulos/capitulo2/secao2.tex
 
-<capitulos/capitulo2/figuras/regra_trapezio1.png, id=167, 266.596pt x 146.146pt
+<capitulos/capitulo2/figuras/regra_trapezio1.png, id=157, 266.596pt x 146.146pt
 >
 File: capitulos/capitulo2/figuras/regra_trapezio1.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/regra_trapezio1.png>
@@ -827,9 +809,9 @@ Overfull \hbox (28.05351pt too wide) detected at line 14
 \OML/txmi/m/it/12 E
  []
 
-[26 <./capitulos/capitulo2/figuras/intro2.png> <./capitulos/capitulo2/figuras/r
-egra_trapezio1.png>] [27]
-<capitulos/capitulo2/figuras/regra_trapezio2.png, id=176, 207.174pt x 148.555pt
+[23 <./capitulos/capitulo2/figuras/intro2.png> <./capitulos/capitulo2/figuras/r
+egra_trapezio1.png>] [24]
+<capitulos/capitulo2/figuras/regra_trapezio2.png, id=167, 207.174pt x 148.555pt
 >
 File: capitulos/capitulo2/figuras/regra_trapezio2.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/regra_trapezio2.png>
@@ -838,12 +820,12 @@ Overfull \hbox (8.58113pt too wide) detected at line 106
  []
 
 
-<capitulos/capitulo2/figuras/regra_trapezio3.png, id=177, 217.613pt x 114.829pt
+<capitulos/capitulo2/figuras/regra_trapezio3.png, id=168, 217.613pt x 114.829pt
 >
 File: capitulos/capitulo2/figuras/regra_trapezio3.png Graphic file (type png)
- <use capitulos/capitulo2/figuras/regra_trapezio3.png> [28 <./capitulos/capitul
+ <use capitulos/capitulo2/figuras/regra_trapezio3.png> [25 <./capitulos/capitul
 o2/figuras/regra_trapezio2.png> <./capitulos/capitulo2/figuras/regra_trapezio3.
-png>]) (./capitulos/capitulo2/secao3.tex [29])
+png>]) (./capitulos/capitulo2/secao3.tex [26])
 (./capitulos/capitulo2/secao4.tex
 Overfull \hbox (17.04866pt too wide) in paragraph at lines 3--4
 []\T1/txr/m/n/12 Suponha que $\OML/txmi/m/it/12 I[]$ \T1/txr/m/n/12 seja o re-s
@@ -855,49 +837,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[30]) (./capitulos/capitulo2/secao5.tex
-<capitulos/capitulo2/figuras/formula_newton_cotes1.pdf, id=190, 223.25879pt x 1
+[27]) (./capitulos/capitulo2/secao5.tex
+<capitulos/capitulo2/figuras/formula_newton_cotes1.pdf, id=180, 223.25879pt x 1
 06.00775pt>
 File: capitulos/capitulo2/figuras/formula_newton_cotes1.pdf Graphic file (type 
 pdf)
  <use capitulos/capitulo2/figuras/formula_newton_cotes1.pdf>
-<capitulos/capitulo2/figuras/formula_newton_cotes2.png, id=191, 224.037pt x 114
+<capitulos/capitulo2/figuras/formula_newton_cotes2.png, id=181, 224.037pt x 114
 .026pt>
 File: capitulos/capitulo2/figuras/formula_newton_cotes2.png Graphic file (type 
 png)
- <use capitulos/capitulo2/figuras/formula_newton_cotes2.png> [31]
-[32 <./capitulos/capitulo2/figuras/formula_newton_cotes1.pdf> <./capitulos/capi
+ <use capitulos/capitulo2/figuras/formula_newton_cotes2.png> [28]
+[29 <./capitulos/capitulo2/figuras/formula_newton_cotes1.pdf> <./capitulos/capi
 tulo2/figuras/formula_newton_cotes2.png>]) (./capitulos/capitulo2/secao6.tex
-[33] [34]
-<capitulos/capitulo2/figuras/quadraturas_de_gauss1.png, id=219, 191.917pt x 79.
+[30] [31]
+<capitulos/capitulo2/figuras/quadraturas_de_gauss1.png, id=209, 191.917pt x 79.
 497pt>
 File: capitulos/capitulo2/figuras/quadraturas_de_gauss1.png Graphic file (type 
 png)
- <use capitulos/capitulo2/figuras/quadraturas_de_gauss1.png> [35]
-[36 <./capitulos/capitulo2/figuras/quadraturas_de_gauss1.png>]
-<capitulos/capitulo2/figuras/quadraturas_de_gauss2.png, id=227, 194.326pt x 61.
+ <use capitulos/capitulo2/figuras/quadraturas_de_gauss1.png> [32]
+[33 <./capitulos/capitulo2/figuras/quadraturas_de_gauss1.png>]
+<capitulos/capitulo2/figuras/quadraturas_de_gauss2.png, id=217, 194.326pt x 61.
 831pt>
 File: capitulos/capitulo2/figuras/quadraturas_de_gauss2.png Graphic file (type 
 png)
  <use capitulos/capitulo2/figuras/quadraturas_de_gauss2.png>
-<capitulos/capitulo2/figuras/quadraturas_de_gauss3.png, id=228, 194.326pt x 61.
+<capitulos/capitulo2/figuras/quadraturas_de_gauss3.png, id=218, 194.326pt x 61.
 831pt>
 File: capitulos/capitulo2/figuras/quadraturas_de_gauss3.png Graphic file (type 
 png)
  <use capitulos/capitulo2/figuras/quadraturas_de_gauss3.png>
-<capitulos/capitulo2/figuras/quadraturas_de_gauss4.png, id=229, 194.326pt x 61.
+<capitulos/capitulo2/figuras/quadraturas_de_gauss4.png, id=219, 194.326pt x 61.
 831pt>
 File: capitulos/capitulo2/figuras/quadraturas_de_gauss4.png Graphic file (type 
 png)
  <use capitulos/capitulo2/figuras/quadraturas_de_gauss4.png>
-<capitulos/capitulo2/figuras/quadraturas_de_gauss5.png, id=230, 194.326pt x 61.
+<capitulos/capitulo2/figuras/quadraturas_de_gauss5.png, id=220, 194.326pt x 61.
 831pt>
 File: capitulos/capitulo2/figuras/quadraturas_de_gauss5.png Graphic file (type 
 png)
- <use capitulos/capitulo2/figuras/quadraturas_de_gauss5.png> [37 <./capitulos/c
+ <use capitulos/capitulo2/figuras/quadraturas_de_gauss5.png> [34 <./capitulos/c
 apitulo2/figuras/quadraturas_de_gauss2.png> <./capitulos/capitulo2/figuras/quad
 raturas_de_gauss3.png> <./capitulos/capitulo2/figuras/quadraturas_de_gauss4.png
->] [38 <./capitulos/capitulo2/figuras/quadraturas_de_gauss5.png>]
+>] [35 <./capitulos/capitulo2/figuras/quadraturas_de_gauss5.png>]
 Overfull \hbox (6.89656pt too wide) in paragraph at lines 440--441
 []\T1/txr/m/it/12 como $\OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = \OML/txmi/m/it/
 12 a$ \T1/txr/m/it/12 , te-re-mos: $\OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = [];
@@ -906,50 +888,50 @@ Overfull \hbox (6.89656pt too wide) in paragraph at lines 440--441
 n/12 = \OMS/txsy/m/n/12 ^^@[]\OT1/txr/m/n/12 ;$ 
  []
 
-[39]) (./capitulos/capitulo2/secao7.tex
-<capitulos/capitulo2/figuras/roteiro_da_aula1.png, id=244, 204.765pt x 75.482pt
+[36]) (./capitulos/capitulo2/secao7.tex
+<capitulos/capitulo2/figuras/roteiro_da_aula1.png, id=235, 204.765pt x 75.482pt
 >
 File: capitulos/capitulo2/figuras/roteiro_da_aula1.png Graphic file (type png)
- <use capitulos/capitulo2/figuras/roteiro_da_aula1.png> [40]
-<capitulos/capitulo2/figuras/roteiro_da_aula2.png, id=249, 213.598pt x 200.75pt
+ <use capitulos/capitulo2/figuras/roteiro_da_aula1.png> [37]
+<capitulos/capitulo2/figuras/roteiro_da_aula2.png, id=239, 213.598pt x 200.75pt
 >
 File: capitulos/capitulo2/figuras/roteiro_da_aula2.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/roteiro_da_aula2.png>
-<capitulos/capitulo2/figuras/roteiro_da_aula3.png, id=250, 373.395pt x 80.3pt>
+<capitulos/capitulo2/figuras/roteiro_da_aula3.png, id=240, 373.395pt x 80.3pt>
 File: capitulos/capitulo2/figuras/roteiro_da_aula3.png Graphic file (type png)
 
 <use capitulos/capitulo2/figuras/roteiro_da_aula3.png>
-<capitulos/capitulo2/figuras/roteiro_da_aula4.png, id=251, 179.069pt x 138.919p
+<capitulos/capitulo2/figuras/roteiro_da_aula4.png, id=241, 179.069pt x 138.919p
 t>
 File: capitulos/capitulo2/figuras/roteiro_da_aula4.png Graphic file (type png)
- <use capitulos/capitulo2/figuras/roteiro_da_aula4.png> [41 <./capitulos/capitu
+ <use capitulos/capitulo2/figuras/roteiro_da_aula4.png> [38 <./capitulos/capitu
 lo2/figuras/roteiro_da_aula1.png> <./capitulos/capitulo2/figuras/roteiro_da_aul
 a2.png>]
-<capitulos/capitulo2/figuras/roteiro_da_aula5.png, id=257, 348.502pt x 86.724pt
+<capitulos/capitulo2/figuras/roteiro_da_aula5.png, id=247, 348.502pt x 86.724pt
 >
 File: capitulos/capitulo2/figuras/roteiro_da_aula5.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/roteiro_da_aula5.png>
-<capitulos/capitulo2/figuras/roteiro_da_aula6.png, id=258, 351.714pt x 113.223p
+<capitulos/capitulo2/figuras/roteiro_da_aula6.png, id=248, 351.714pt x 113.223p
 t>
 File: capitulos/capitulo2/figuras/roteiro_da_aula6.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/roteiro_da_aula6.png>)
-(./capitulos/capitulo2/secao8.tex [42 <./capitulos/capitulo2/figuras/roteiro_da
+(./capitulos/capitulo2/secao8.tex [39 <./capitulos/capitulo2/figuras/roteiro_da
 _aula3.png> <./capitulos/capitulo2/figuras/roteiro_da_aula4.png> <./capitulos/c
-apitulo2/figuras/roteiro_da_aula5.png>] [43 <./capitulos/capitulo2/figuras/rote
+apitulo2/figuras/roteiro_da_aula5.png>] [40 <./capitulos/capitulo2/figuras/rote
 iro_da_aula6.png>]
-<capitulos/capitulo2/figuras/int_func_lim_inf1.png, id=269, 150.161pt x 78.694p
+<capitulos/capitulo2/figuras/int_func_lim_inf1.png, id=260, 150.161pt x 78.694p
 t>
 File: capitulos/capitulo2/figuras/int_func_lim_inf1.png Graphic file (type png)
 
  <use capitulos/capitulo2/figuras/int_func_lim_inf1.png>
-<capitulos/capitulo2/figuras/int_func_lim_inf2.png, id=270, 273.02pt x 98.769pt
+<capitulos/capitulo2/figuras/int_func_lim_inf2.png, id=261, 273.02pt x 98.769pt
 >
 File: capitulos/capitulo2/figuras/int_func_lim_inf2.png Graphic file (type png)
 
- <use capitulos/capitulo2/figuras/int_func_lim_inf2.png> [44 <./capitulos/capit
+ <use capitulos/capitulo2/figuras/int_func_lim_inf2.png> [41 <./capitulos/capit
 ulo2/figuras/int_func_lim_inf1.png> <./capitulos/capitulo2/figuras/int_func_lim
 _inf2.png>]
-<capitulos/capitulo2/figuras/int_func_lim_inf3.png, id=276, 178.266pt x 83.512p
+<capitulos/capitulo2/figuras/int_func_lim_inf3.png, id=267, 178.266pt x 83.512p
 t>
 File: capitulos/capitulo2/figuras/int_func_lim_inf3.png Graphic file (type png)
 
@@ -958,7 +940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[45 <./capitulos/capitulo2/figuras/int_func_lim_inf3.png>]
+[42 <./capitulos/capitulo2/figuras/int_func_lim_inf3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
@@ -977,40 +959,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-[46]) (./capitulos/capitulo2/secao9.tex
-<capitulos/capitulo2/figuras/int_num_dom_bid1.png, id=285, 373.395pt x 110.814p
+[43]) (./capitulos/capitulo2/secao9.tex
+<capitulos/capitulo2/figuras/int_num_dom_bid1.png, id=275, 373.395pt x 110.814p
 t>
 File: capitulos/capitulo2/figuras/int_num_dom_bid1.png Graphic file (type png)
- <use capitulos/capitulo2/figuras/int_num_dom_bid1.png> [47 <./capitulos/capitu
+ <use capitulos/capitulo2/figuras/int_num_dom_bid1.png> [44 <./capitulos/capitu
 lo2/figuras/int_num_dom_bid1.png>]
-<capitulos/capitulo2/figuras/int_num_dom_bid2.png, id=290, 186.296pt x 157.388p
+<capitulos/capitulo2/figuras/int_num_dom_bid2.png, id=280, 186.296pt x 157.388p
 t>
 File: capitulos/capitulo2/figuras/int_num_dom_bid2.png Graphic file (type png)
  <use capitulos/capitulo2/figuras/int_num_dom_bid2.png>)
-(./capitulos/capitulo2/secao10.tex [48 <./capitulos/capitulo2/figuras/int_num_d
+(./capitulos/capitulo2/secao10.tex [45 <./capitulos/capitulo2/figuras/int_num_d
 om_bid2.png>]
 
 LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 9.
 
 
-)) (./capitulos/capitulo3/capitulo3.tex [49]
+)) (./capitulos/capitulo3/capitulo3.tex [46]
 Cap\'{\i }tulo 3.
 (./capitulos/capitulo3/secao1.tex
-<capitulos/capitulo3/figuras/exp_taylor1.png, id=298, 312.367pt x 22.484pt>
+<capitulos/capitulo3/figuras/exp_taylor1.png, id=289, 312.367pt x 22.484pt>
 File: capitulos/capitulo3/figuras/exp_taylor1.png Graphic file (type png)
 
-<use capitulos/capitulo3/figuras/exp_taylor1.png> [50
+<use capitulos/capitulo3/figuras/exp_taylor1.png> [47
 
- <./capitulos/capitulo3/figuras/exp_taylor1.png>] [51] [52]) (./capitulos/capit
-ulo3/secao2.tex [53]
-[54]) (./capitulos/capitulo3/secao3.tex
-<capitulos/capitulo3/figuras/met_dif_pol_int_new1.png, id=316, 354.123pt x 84.3
+ <./capitulos/capitulo3/figuras/exp_taylor1.png>] [48] [49]) (./capitulos/capit
+ulo3/secao2.tex [50]
+[51]) (./capitulos/capitulo3/secao3.tex
+<capitulos/capitulo3/figuras/met_dif_pol_int_new1.png, id=306, 354.123pt x 84.3
 15pt>
 File: capitulos/capitulo3/figuras/met_dif_pol_int_new1.png Graphic file (type p
 ng)
- <use capitulos/capitulo3/figuras/met_dif_pol_int_new1.png> [55 <./capitulos/ca
-pitulo3/figuras/met_dif_pol_int_new1.png>] [56])
-(./capitulos/capitulo3/secao4.tex [57]
+ <use capitulos/capitulo3/figuras/met_dif_pol_int_new1.png> [52 <./capitulos/ca
+pitulo3/figuras/met_dif_pol_int_new1.png>] [53])
+(./capitulos/capitulo3/secao4.tex [54]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1021,30 +1003,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
  []
 
 
-<capitulos/capitulo3/figuras/aprox_der_par_dif_fin1.png, id=327, 233.673pt x 12
+<capitulos/capitulo3/figuras/aprox_der_par_dif_fin1.png, id=318, 233.673pt x 12
 4.465pt>
 File: capitulos/capitulo3/figuras/aprox_der_par_dif_fin1.png Graphic file (type
  png)
  <use capitulos/capitulo3/figuras/aprox_der_par_dif_fin1.png>
-<capitulos/capitulo3/figuras/aprox_der_par_dif_fin2.png, id=328, 173.448pt x 10
+<capitulos/capitulo3/figuras/aprox_der_par_dif_fin2.png, id=319, 173.448pt x 10
 1.178pt>
 File: capitulos/capitulo3/figuras/aprox_der_par_dif_fin2.png Graphic file (type
  png)
- <use capitulos/capitulo3/figuras/aprox_der_par_dif_fin2.png> [58 <./capitulos/
+ <use capitulos/capitulo3/figuras/aprox_der_par_dif_fin2.png> [55 <./capitulos/
 capitulo3/figuras/aprox_der_par_dif_fin1.png>]))
-(./capitulos/capitulo4/capitulo4.tex [59 <./capitulos/capitulo3/figuras/aprox_d
+(./capitulos/capitulo4/capitulo4.tex [56 <./capitulos/capitulo3/figuras/aprox_d
 er_par_dif_fin2.png>]
 Cap\'{\i }tulo 4.
-(./capitulos/capitulo4/secao1.tex) (./capitulos/capitulo4/secao2.tex [60
+(./capitulos/capitulo4/secao1.tex) (./capitulos/capitulo4/secao2.tex [57
 
 ]
-[61]) (./capitulos/capitulo4/secao3.tex
+[58]) (./capitulos/capitulo4/secao3.tex
 Overfull \hbox (20.82971pt too wide) detected at line 19
 []
  []
 
 
-<capitulos/capitulo4/figuras/prob_nao_resol1.png, id=344, 132.495pt x 77.088pt>
+<capitulos/capitulo4/figuras/prob_nao_resol1.png, id=335, 132.495pt x 77.088pt>
 File: capitulos/capitulo4/figuras/prob_nao_resol1.png Graphic file (type png)
 <use capitulos/capitulo4/figuras/prob_nao_resol1.png>
 Overfull \hbox (4.82977pt too wide) detected at line 38
@@ -1052,7 +1034,7 @@ Overfull \hbox (4.82977pt too wide) detected at line 38
  []
 
 
-<capitulos/capitulo4/figuras/prob_nao_resol2.png, id=345, 135.707pt x 77.088pt>
+<capitulos/capitulo4/figuras/prob_nao_resol2.png, id=336, 135.707pt x 77.088pt>
 File: capitulos/capitulo4/figuras/prob_nao_resol2.png Graphic file (type png)
 <use capitulos/capitulo4/figuras/prob_nao_resol2.png>
 Overfull \hbox (20.82971pt too wide) detected at line 58
@@ -1060,13 +1042,13 @@ Overfull \hbox (20.82971pt too wide) detected at line 58
  []
 
 
-<capitulos/capitulo4/figuras/prob_nao_resol3.png, id=346, 134.101pt x 91.542pt>
+<capitulos/capitulo4/figuras/prob_nao_resol3.png, id=337, 134.101pt x 91.542pt>
 File: capitulos/capitulo4/figuras/prob_nao_resol3.png Graphic file (type png)
-<use capitulos/capitulo4/figuras/prob_nao_resol3.png> [62])
-(./capitulos/capitulo4/secao4.tex [63 <./capitulos/capitulo4/figuras/prob_nao_r
+<use capitulos/capitulo4/figuras/prob_nao_resol3.png> [59])
+(./capitulos/capitulo4/secao4.tex [60 <./capitulos/capitulo4/figuras/prob_nao_r
 esol1.png> <./capitulos/capitulo4/figuras/prob_nao_resol2.png> <./capitulos/cap
-itulo4/figuras/prob_nao_resol3.png>] [64]) (./capitulos/capitulo4/secao5.tex
-[65]) (./capitulos/capitulo4/secao6.tex [66]
+itulo4/figuras/prob_nao_resol3.png>] [61]) (./capitulos/capitulo4/secao5.tex
+[62]) (./capitulos/capitulo4/secao6.tex [63]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1086,33 +1068,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[67]) (./capitulos/capitulo4/secao7.tex [68]
-<capitulos/capitulo4/figuras/prob_mal_cond1.png, id=373, 229.658pt x 105.996pt>
+[64]) (./capitulos/capitulo4/secao7.tex [65]
+<capitulos/capitulo4/figuras/prob_mal_cond1.png, id=364, 229.658pt x 105.996pt>
 File: capitulos/capitulo4/figuras/prob_mal_cond1.png Graphic file (type png)
-<use capitulos/capitulo4/figuras/prob_mal_cond1.png> [69 <./capitulos/capitulo4
+<use capitulos/capitulo4/figuras/prob_mal_cond1.png> [66 <./capitulos/capitulo4
 /figuras/prob_mal_cond1.png>]) (./capitulos/capitulo4/secao8.tex
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-<capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png, id=378, 97.966p
+<capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png, id=369, 97.966p
 t x 68.255pt>
 File: capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png Graphic fil
 e (type png)
 
-<use capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png> [70]
-[71 <./capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png>]))
-(./capitulos/capitulo5/capitulo5.tex [72]
+<use capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png> [67]
+[68 <./capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png>]))
+(./capitulos/capitulo5/capitulo5.tex [69]
 Cap\'{\i }tulo 5.
-(./capitulos/capitulo5/secao1.tex [73
+(./capitulos/capitulo5/secao1.tex [70
 
 ]) (./capitulos/capitulo5/secao2.tex
-[74]
-<capitulos/capitulo5/figuras/met_inter1.png, id=397, 378.213pt x 70.664pt>
+[71]
+<capitulos/capitulo5/figuras/met_inter1.png, id=388, 378.213pt x 70.664pt>
 File: capitulos/capitulo5/figuras/met_inter1.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter1.png> [75]
+<use capitulos/capitulo5/figuras/met_inter1.png> [72]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -1122,32 +1104,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-<capitulos/capitulo5/figuras/met_inter2.png, id=401, 134.904pt x 133.298pt>
+<capitulos/capitulo5/figuras/met_inter2.png, id=392, 134.904pt x 133.298pt>
 File: capitulos/capitulo5/figuras/met_inter2.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter2.png> [76 <./capitulos/capitulo5/fig
+<use capitulos/capitulo5/figuras/met_inter2.png> [73 <./capitulos/capitulo5/fig
 uras/met_inter1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-[77 <./capitulos/capitulo5/figuras/met_inter2.png>]
-<capitulos/capitulo5/figuras/met_inter3.png, id=411, 321.2pt x 157.388pt>
+[74 <./capitulos/capitulo5/figuras/met_inter2.png>]
+<capitulos/capitulo5/figuras/met_inter3.png, id=401, 321.2pt x 157.388pt>
 File: capitulos/capitulo5/figuras/met_inter3.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter3.png> [78 <./capitulos/capitulo5/fig
-uras/met_inter3.png>] [79] [80] [81]) (./capitulos/capitulo5/secao3.tex
-[82] [83] [84]
+<use capitulos/capitulo5/figuras/met_inter3.png> [75 <./capitulos/capitulo5/fig
+uras/met_inter3.png>] [76] [77] [78]) (./capitulos/capitulo5/secao3.tex
+[79] [80] [81]
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[85]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-[86]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
@@ -1157,18 +1139,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-[87]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 
-<capitulos/capitulo5/figuras/met_house_mat_sim1.png, id=445, 147.752pt x 76.285
+<capitulos/capitulo5/figuras/met_house_mat_sim1.png, id=436, 147.752pt x 76.285
 pt>
 File: capitulos/capitulo5/figuras/met_house_mat_sim1.png Graphic file (type png
 )
  <use capitulos/capitulo5/figuras/met_house_mat_sim1.png>)
-(./capitulos/capitulo5/secao4.tex [88 <./capitulos/capitulo5/figuras/met_house_
+(./capitulos/capitulo5/secao4.tex [85 <./capitulos/capitulo5/figuras/met_house_
 mat_sim1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
@@ -1179,40 +1161,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[89]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[90]) (./capitulos/capitulo5/secao5.tex [91] [92]
-<capitulos/capitulo5/figuras/met_iter_qr1.png, id=463, 159.797pt x 85.921pt>
+[87]) (./capitulos/capitulo5/secao5.tex [88] [89]
+<capitulos/capitulo5/figuras/met_iter_qr1.png, id=454, 159.797pt x 85.921pt>
 File: capitulos/capitulo5/figuras/met_iter_qr1.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_iter_qr1.png> [93 <./capitulos/capitulo5/f
+<use capitulos/capitulo5/figuras/met_iter_qr1.png> [90 <./capitulos/capitulo5/f
 iguras/met_iter_qr1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[94])) (./capitulos/capitulo6/capitulo6.tex [95]
+[91])) (./capitulos/capitulo6/capitulo6.tex [92]
 Cap\'{\i }tulo 6.
 (./capitulos/capitulo6/secao1.tex
-<capitulos/capitulo6/figuras/intro1.png, id=475, 125.268pt x 93.148pt>
+<capitulos/capitulo6/figuras/intro1.png, id=465, 125.268pt x 93.148pt>
 File: capitulos/capitulo6/figuras/intro1.png Graphic file (type png)
 
-<use capitulos/capitulo6/figuras/intro1.png> [96
+<use capitulos/capitulo6/figuras/intro1.png> [93
 
  <./capitulos/capitulo6/figuras/intro1.png>]
-<capitulos/capitulo6/figuras/intro2.png, id=480, 125.268pt x 93.148pt>
+<capitulos/capitulo6/figuras/intro2.png, id=470, 125.268pt x 93.148pt>
 File: capitulos/capitulo6/figuras/intro2.png Graphic file (type png)
 
-<use capitulos/capitulo6/figuras/intro2.png> [97 <./capitulos/capitulo6/figuras
-/intro2.png>] [98] [99] [100]
+<use capitulos/capitulo6/figuras/intro2.png> [94 <./capitulos/capitulo6/figuras
+/intro2.png>] [95] [96] [97]
 Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
-[101]
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
@@ -1238,34 +1220,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-) (./capitulos/capitulo6/secao2.tex [102]) (./capitulos/capitulo6/secao3.tex
-[103]
-<capitulos/capitulo6/figuras/met_runge_kutta1.png, id=504, 115.632pt x 65.043pt
+) (./capitulos/capitulo6/secao2.tex [99]) (./capitulos/capitulo6/secao3.tex
+[100]
+<capitulos/capitulo6/figuras/met_runge_kutta1.png, id=495, 115.632pt x 65.043pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta1.png Graphic file (type png)
  <use capitulos/capitulo6/figuras/met_runge_kutta1.png>
-<capitulos/capitulo6/figuras/met_runge_kutta2.png, id=505, 115.632pt x 99.572pt
+<capitulos/capitulo6/figuras/met_runge_kutta2.png, id=496, 115.632pt x 99.572pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta2.png Graphic file (type png)
- <use capitulos/capitulo6/figuras/met_runge_kutta2.png> [104 <./capitulos/capit
+ <use capitulos/capitulo6/figuras/met_runge_kutta2.png> [101 <./capitulos/capit
 ulo6/figuras/met_runge_kutta1.png> <./capitulos/capitulo6/figuras/met_runge_kut
 ta2.png>]
-<capitulos/capitulo6/figuras/met_runge_kutta3.png, id=512, 130.889pt x 92.345pt
+<capitulos/capitulo6/figuras/met_runge_kutta3.png, id=503, 130.889pt x 92.345pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta3.png Graphic file (type png)
- <use capitulos/capitulo6/figuras/met_runge_kutta3.png> [105] [106 <./capitulos
+ <use capitulos/capitulo6/figuras/met_runge_kutta3.png> [102] [103 <./capitulos
 /capitulo6/figuras/met_runge_kutta3.png>]) (./capitulos/capitulo6/secao4.tex
-<capitulos/capitulo6/figuras/met_pred_corretores1.png, id=521, 153.373pt x 88.3
+<capitulos/capitulo6/figuras/met_pred_corretores1.png, id=511, 153.373pt x 88.3
 3pt>
 File: capitulos/capitulo6/figuras/met_pred_corretores1.png Graphic file (type p
 ng)
- <use capitulos/capitulo6/figuras/met_pred_corretores1.png> [107 <./capitulos/c
+ <use capitulos/capitulo6/figuras/met_pred_corretores1.png> [104 <./capitulos/c
 apitulo6/figuras/met_pred_corretores1.png>]
 Overfull \hbox (7.9336pt too wide) in alignment at lines 101--107
  [][][] []
  []
 
-[108] [109] [110] [111]) (./capitulos/capitulo6/secao5.tex
+[105] [106] [107] [108]) (./capitulos/capitulo6/secao5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1276,33 +1258,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-<capitulos/capitulo6/figuras/equa_dif_ord_rig1.png, id=538, 158.994pt x 59.422p
+<capitulos/capitulo6/figuras/equa_dif_ord_rig1.png, id=529, 158.994pt x 59.422p
 t>
 File: capitulos/capitulo6/figuras/equa_dif_ord_rig1.png Graphic file (type png)
 
- <use capitulos/capitulo6/figuras/equa_dif_ord_rig1.png> [112] [113 <./capitulo
+ <use capitulos/capitulo6/figuras/equa_dif_ord_rig1.png> [109] [110 <./capitulo
 s/capitulo6/figuras/equa_dif_ord_rig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-<capitulos/capitulo6/figuras/equa_dif_ord_rig2.png, id=547, 210.386pt x 42.559p
+<capitulos/capitulo6/figuras/equa_dif_ord_rig2.png, id=537, 210.386pt x 42.559p
 t>
 File: capitulos/capitulo6/figuras/equa_dif_ord_rig2.png Graphic file (type png)
 
- <use capitulos/capitulo6/figuras/equa_dif_ord_rig2.png> [114 <./capitulos/capi
-tulo6/figuras/equa_dif_ord_rig2.png>] [115])
-(./capitulos/capitulo6/secao6.tex [116]
-<capitulos/capitulo6/figuras/cond_contorno1.png, id=558, 228.052pt x 14.454pt>
+ <use capitulos/capitulo6/figuras/equa_dif_ord_rig2.png> [111 <./capitulos/capi
+tulo6/figuras/equa_dif_ord_rig2.png>] [112])
+(./capitulos/capitulo6/secao6.tex [113]
+<capitulos/capitulo6/figuras/cond_contorno1.png, id=549, 228.052pt x 14.454pt>
 File: capitulos/capitulo6/figuras/cond_contorno1.png Graphic file (type png)
 
 <use capitulos/capitulo6/figuras/cond_contorno1.png>))
-(./capitulos/capitulo7/capitulo7.tex [117 <./capitulos/capitulo6/figuras/cond_c
+(./capitulos/capitulo7/capitulo7.tex [114 <./capitulos/capitulo6/figuras/cond_c
 ontorno1.png>]
 Cap\'{\i }tulo 7.
 (./capitulos/capitulo7/secao1.tex
-<capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png, id=563, 376.607p
+<capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png, id=554, 376.607p
 t x 99.572pt>
 File: capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png Graphic file
  (type png)
@@ -1312,7 +1294,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[118
+[115
 
  <./capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png>])
 (./capitulos/capitulo7/secao2.tex
@@ -1336,22 +1318,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 
-<capitulos/capitulo7/figuras/algo_sol_sist_tri1.png, id=569, 117.238pt x 20.878
+<capitulos/capitulo7/figuras/algo_sol_sist_tri1.png, id=559, 117.238pt x 20.878
 pt>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri1.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri1.png> [119 <./capitulos/cap
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri1.png> [116 <./capitulos/cap
 itulo7/figuras/algo_sol_sist_tri1.png>]
-<capitulos/capitulo7/figuras/algo_sol_sist_tri2.png, id=574, 220.825pt x 32.12p
+<capitulos/capitulo7/figuras/algo_sol_sist_tri2.png, id=564, 220.825pt x 32.12p
 t>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri2.png Graphic file (type png
 )
  <use capitulos/capitulo7/figuras/algo_sol_sist_tri2.png>
-<capitulos/capitulo7/figuras/algo_sol_sist_tri3.png, id=575, 220.825pt x 40.15p
+<capitulos/capitulo7/figuras/algo_sol_sist_tri3.png, id=565, 220.825pt x 40.15p
 t>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri3.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri3.png> [120 <./capitulos/cap
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri3.png> [117 <./capitulos/cap
 itulo7/figuras/algo_sol_sist_tri2.png>]
 Overfull \hbox (20.14304pt too wide) detected at line 234
 \OMS/txsy/m/n/12 ^^@\OT1/txr/m/n/12 2 [] + [][]  \OML/txmi/m/it/12 v \OT1/txr/m
@@ -1369,12 +1351,12 @@ Overfull \hbox (8.83496pt too wide) detected at line 263
  []
 
 
-<capitulos/capitulo7/figuras/algo_sol_sist_tri4.png, id=580, 121.253pt x 74.679
+<capitulos/capitulo7/figuras/algo_sol_sist_tri4.png, id=570, 121.253pt x 74.679
 pt>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri4.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri4.png> [121 <./capitulos/cap
-itulo7/figuras/algo_sol_sist_tri3.png>])) [122 <./capitulos/capitulo7/figuras/a
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri4.png> [118 <./capitulos/cap
+itulo7/figuras/algo_sol_sist_tri3.png>])) [119 <./capitulos/capitulo7/figuras/a
 lgo_sol_sist_tri4.png>]
 No file apostila.ind.
 (./apostila.aux)
@@ -1383,9 +1365,9 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4254 strings out of 495041
- 66496 string characters out of 1181897
- 114193 words of memory out of 3000000
+ 4248 strings out of 495041
+ 66436 string characters out of 1181897
+ 114182 words of memory out of 3000000
  7102 multiletter control sequences out of 15000+50000
  103159 words of font info for 179 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
@@ -1405,9 +1387,9 @@ xfonts/txsyb.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsyc.pfb
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on apostila.pdf (125 pages, 951239 bytes).
+Output written on apostila.pdf (122 pages, 956923 bytes).
 PDF statistics:
- 647 PDF objects out of 1000 (max. 8388607)
+ 638 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
