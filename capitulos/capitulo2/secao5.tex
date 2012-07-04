@@ -125,7 +125,7 @@ I=\int_{a}^{b}{\scriptstyle f(x)dx}=\int_{a}^{b}{\scriptstyle g(x)dx}+E\]
 
 De acordo com a regra de interpolacão de Newton 2.4.6 (pág 37 do livro
 Applied Numerical methods in C, Nakamura), temos que a formula que
-passar pelos K+1 pontos amostrais, $f_{0},f_{1},f_{2}...f_{k}$é dada
+passar pelos K+1 pontos amostrais, $f_{0}$, $f_{1}$, $f_{2}$, $\dots$, $f_{k}$ é dada
 pela fórmula:
 
 \[
@@ -140,7 +140,6 @@ x\left(s\right)=x_{0}+sh\]
 
 \[
 dx=h.ds\]
-
 
 Substituindo e aplicando n=4, temos:
 
@@ -163,12 +162,12 @@ g(x_{0}+sh)=g_{0}+s(g_{1}-g_{0})+\frac{s(s-1)}{2}(g{}_{2}-g{}_{1}+g_{0})+\frac{s
 \[
 +\frac{s(s-1)(s-2)(s-3)}{24}(g_{4}-4g_{3}+6g_{2}-4g_{1}+g_{0})\]
 
-
 Substituindo na integral:
 
+\begin{scriptsize}
 \[
-h\int_{0}^{4}{\scriptstyle g_{0}+s(g_{1}-g_{0})+\frac{s(s-1)}{2}(g{}_{2}-g{}_{1}+g_{0})+\frac{s^{3}-3s^{2}+2s}{6}(g_{3}-3g_{2}+3g_{1}-g_{0})+\frac{s(s-1)(s-2)(s-3)}{24}(g_{4}-4g_{3}+6g_{2}-4g_{1}+g_{0})}\]
-
+h\int_{0}^{4}{ g_{0}+s(g_{1}-g_{0})+\frac{s(s-1)}{2}(g{}_{2}-g{}_{1}+g_{0})+\frac{s^{3}-3s^{2}+2s}{6}(g_{3}-3g_{2}+3g_{1}-g_{0})+\frac{s(s-1)(s-2)(s-3)}{24}(g_{4}-4g_{3}+6g_{2}-4g_{1}+g_{0})}\]
+\end{scriptsize}
 
 Integrando e isolando por$g_{k}$, temos:
 

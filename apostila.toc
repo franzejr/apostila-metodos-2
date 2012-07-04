@@ -70,68 +70,68 @@
 \contentsline {subsubsection}{Exemplo 4.18}{59}
 \contentsline {section}{\numberline {4.3}Problemas n\IeC {\~a}o resolv\IeC {\'\i }veis}{59}
 \contentsline {section}{\numberline {4.4}Matrizes, Vetores e Invers\IeC {\~a}o de Matrizes}{60}
-\contentsline {subsection}{\numberline {4.4.1}Matriz Nula}{61}
-\contentsline {subsection}{\numberline {4.4.2}Matriz Identidade}{61}
+\contentsline {subsection}{\numberline {4.4.1}Matriz Nula}{60}
+\contentsline {subsection}{\numberline {4.4.2}Matriz Identidade}{60}
 \contentsline {subsection}{\numberline {4.4.3}Matriz Transposta de A}{61}
 \contentsline {subsection}{\numberline {4.4.4}Matriz Inversa}{61}
 \contentsline {subsection}{\numberline {4.4.5}Matriz Ortogonal}{61}
 \contentsline {subsection}{\numberline {4.4.6}Vetor Nulo}{61}
 \contentsline {subsection}{\numberline {4.4.7}Vetor Unit\IeC {\'a}rio}{61}
 \contentsline {subsection}{\numberline {4.4.8}Vetor Transposto}{61}
-\contentsline {subsection}{\numberline {4.4.9}Invers\IeC {\~a}o de uma Matriz}{62}
+\contentsline {subsection}{\numberline {4.4.9}Invers\IeC {\~a}o de uma Matriz}{61}
 \contentsline {subsubsection}{Exemplo 4.19}{62}
 \contentsline {section}{\numberline {4.5}Decomposi\IeC {\c c}\IeC {\~a}o LU}{62}
 \contentsline {section}{\numberline {4.6}C\IeC {\'a}lculo de Determinante}{63}
 \contentsline {subsection}{\numberline {4.6.1}Propriedades dos Determinantes}{64}
 \contentsline {subsection}{\numberline {4.6.2}C\IeC {\'a}lculo Num\IeC {\'e}rico do Determinante de $[A]_{n \times n}$}{65}
-\contentsline {section}{\numberline {4.7}Problemas Mal Condicionados}{66}
+\contentsline {section}{\numberline {4.7}Problemas Mal Condicionados}{65}
 \contentsline {section}{\numberline {4.8}Solu\IeC {\c c}\IeC {\~o}es de Sistemas de Equa\IeC {\c c}\IeC {\~o}es com M equa\IeC {\c c}\IeC {\~o}es e N inc\IeC {\'o}gnitas}{67}
-\contentsline {chapter}{\numberline {5}Autovetores e Autovalores}{70}
-\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{70}
-\contentsline {subsection}{\numberline {5.1.1}Propriedades dos Auto-Valores}{71}
-\contentsline {section}{\numberline {5.2}M\IeC {\'e}todo de Interpola\IeC {\c c}\IeC {\~a}o}{72}
-\contentsline {subsubsection}{Exemplo 5.20}{74}
-\contentsline {subsubsection}{Exemplo 5.21}{76}
-\contentsline {subsubsection}{Exemplo 5.22}{77}
-\contentsline {subsubsection}{Exemplo 5.23}{78}
-\contentsline {section}{\numberline {5.3}M\IeC {\'e}todo de Householder para Matrizes Sim\IeC {\'e}tricas}{79}
-\contentsline {subsubsection}{Exemplo 5.24}{82}
-\contentsline {subsection}{\numberline {5.3.1}Autovalores de uma Matriz Tridiagonal}{83}
-\contentsline {section}{\numberline {5.4}M\IeC {\'e}todo da Pot\IeC {\^e}ncia}{85}
-\contentsline {subsection}{\numberline {5.4.1}Regular}{85}
-\contentsline {subsection}{\numberline {5.4.2}Inverso}{87}
-\contentsline {subsection}{\numberline {5.4.3}Deslocado (\textit {Shifted}) ou \textit {Wielandt}}{88}
-\contentsline {section}{\numberline {5.5}M\IeC {\'e}todo da Itera\IeC {\c c}\IeC {\~a}o QR}{88}
-\contentsline {subsection}{\numberline {5.5.1}M\IeC {\'e}todo de Jacobi}{89}
-\contentsline {subsection}{\numberline {5.5.2}M\IeC {\'e}todo QR}{91}
-\contentsline {chapter}{\numberline {6}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores Iniciais de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{93}
-\contentsline {section}{\numberline {6.1}Introdu\IeC {\c c}\IeC {\~a}o}{93}
-\contentsline {subsection}{\numberline {6.1.1}Problema da Queda Livre}{93}
-\contentsline {subsection}{\numberline {6.1.2}Problema da Queda Livre com Resist\IeC {\^e}ncia do Ar}{94}
-\contentsline {subsubsection}{Exemplo 6.25}{96}
-\contentsline {subsection}{\numberline {6.1.3}M\IeC {\'e}todos Num\IeC {\'e}ricos para Problemas de Valor-Inicial}{98}
-\contentsline {section}{\numberline {6.2}M\IeC {\'e}todos de Euler}{99}
-\contentsline {subsection}{\numberline {6.2.1}\textit {Forward} Euler}{99}
-\contentsline {subsection}{\numberline {6.2.2}\textit {Backward} Euler}{100}
-\contentsline {subsection}{\numberline {6.2.3}M\IeC {\'e}todo de Euler Modificado}{100}
-\contentsline {section}{\numberline {6.3}M\IeC {\'e}todos de Runge-Kutta}{101}
-\contentsline {subsection}{\numberline {6.3.1}Introdu\IeC {\c c}\IeC {\~a}o}{101}
-\contentsline {subsection}{\numberline {6.3.2}Runge-Kutta de Segunda Ordem}{102}
-\contentsline {subsection}{\numberline {6.3.3}Runge-Kutta de Terceira Ordem}{102}
-\contentsline {subsection}{\numberline {6.3.4}Runge-Kutta de Quarta Ordem}{103}
-\contentsline {section}{\numberline {6.4}M\IeC {\'e}todos Preditores-Corretores}{104}
-\contentsline {subsection}{\numberline {6.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{104}
-\contentsline {subsection}{\numberline {6.4.2}M\IeC {\'e}todo Preditor-Corretor de Adams de Terceira Ordem}{105}
-\contentsline {subsection}{\numberline {6.4.3}M\IeC {\'e}todo Preditor-Corretor de Adams de Quarta Ordem}{107}
-\contentsline {subsection}{\numberline {6.4.4}Vantagens e Desvantagens}{108}
-\contentsline {subsubsection}{Exemplo 6.26}{108}
-\contentsline {section}{\numberline {6.5}Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias R\IeC {\'\i }gidas}{109}
-\contentsline {subsection}{\numberline {6.5.1}M\IeC {\'e}todos Impl\IeC {\'\i }citos}{110}
-\contentsline {subsection}{\numberline {6.5.2}M\IeC {\'e}todo Exponencial}{111}
-\contentsline {subsection}{\numberline {6.5.3}M\IeC {\'e}todo de Ajuste Exponencial}{112}
-\contentsline {section}{\numberline {6.6}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{113}
-\contentsline {subsubsection}{Exemplo 6.27}{114}
-\contentsline {chapter}{\numberline {7}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores de Contorno de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{115}
-\contentsline {section}{\numberline {7.1}Problemas de Valores de Contorno para Barras e Placas}{115}
-\contentsline {section}{\numberline {7.2}Algoritmo de Solu\IeC {\c c}\IeC {\~a}o para Sistemas Tridiagonais}{116}
-\contentsline {subsubsection}{Exemplo 7.28}{117}
+\contentsline {chapter}{\numberline {5}Autovetores e Autovalores}{69}
+\contentsline {section}{\numberline {5.1}Introdu\IeC {\c c}\IeC {\~a}o}{69}
+\contentsline {subsection}{\numberline {5.1.1}Propriedades dos Auto-Valores}{70}
+\contentsline {section}{\numberline {5.2}M\IeC {\'e}todo de Interpola\IeC {\c c}\IeC {\~a}o}{71}
+\contentsline {subsubsection}{Exemplo 5.20}{73}
+\contentsline {subsubsection}{Exemplo 5.21}{75}
+\contentsline {subsubsection}{Exemplo 5.22}{76}
+\contentsline {subsubsection}{Exemplo 5.23}{77}
+\contentsline {section}{\numberline {5.3}M\IeC {\'e}todo de Householder para Matrizes Sim\IeC {\'e}tricas}{78}
+\contentsline {subsubsection}{Exemplo 5.24}{81}
+\contentsline {subsection}{\numberline {5.3.1}Autovalores de uma Matriz Tridiagonal}{82}
+\contentsline {section}{\numberline {5.4}M\IeC {\'e}todo da Pot\IeC {\^e}ncia}{84}
+\contentsline {subsection}{\numberline {5.4.1}Regular}{84}
+\contentsline {subsection}{\numberline {5.4.2}Inverso}{86}
+\contentsline {subsection}{\numberline {5.4.3}Deslocado (\textit {Shifted}) ou \textit {Wielandt}}{87}
+\contentsline {section}{\numberline {5.5}M\IeC {\'e}todo da Itera\IeC {\c c}\IeC {\~a}o QR}{87}
+\contentsline {subsection}{\numberline {5.5.1}M\IeC {\'e}todo de Jacobi}{88}
+\contentsline {subsection}{\numberline {5.5.2}M\IeC {\'e}todo QR}{90}
+\contentsline {chapter}{\numberline {6}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores Iniciais de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{92}
+\contentsline {section}{\numberline {6.1}Introdu\IeC {\c c}\IeC {\~a}o}{92}
+\contentsline {subsection}{\numberline {6.1.1}Problema da Queda Livre}{92}
+\contentsline {subsection}{\numberline {6.1.2}Problema da Queda Livre com Resist\IeC {\^e}ncia do Ar}{93}
+\contentsline {subsubsection}{Exemplo 6.25}{95}
+\contentsline {subsection}{\numberline {6.1.3}M\IeC {\'e}todos Num\IeC {\'e}ricos para Problemas de Valor-Inicial}{97}
+\contentsline {section}{\numberline {6.2}M\IeC {\'e}todos de Euler}{98}
+\contentsline {subsection}{\numberline {6.2.1}\textit {Forward} Euler}{98}
+\contentsline {subsection}{\numberline {6.2.2}\textit {Backward} Euler}{99}
+\contentsline {subsection}{\numberline {6.2.3}M\IeC {\'e}todo de Euler Modificado}{99}
+\contentsline {section}{\numberline {6.3}M\IeC {\'e}todos de Runge-Kutta}{100}
+\contentsline {subsection}{\numberline {6.3.1}Introdu\IeC {\c c}\IeC {\~a}o}{100}
+\contentsline {subsection}{\numberline {6.3.2}Runge-Kutta de Segunda Ordem}{101}
+\contentsline {subsection}{\numberline {6.3.3}Runge-Kutta de Terceira Ordem}{101}
+\contentsline {subsection}{\numberline {6.3.4}Runge-Kutta de Quarta Ordem}{102}
+\contentsline {section}{\numberline {6.4}M\IeC {\'e}todos Preditores-Corretores}{103}
+\contentsline {subsection}{\numberline {6.4.1}Introdu\IeC {\c c}\IeC {\~a}o}{103}
+\contentsline {subsection}{\numberline {6.4.2}M\IeC {\'e}todo Preditor-Corretor de Adams de Terceira Ordem}{104}
+\contentsline {subsection}{\numberline {6.4.3}M\IeC {\'e}todo Preditor-Corretor de Adams de Quarta Ordem}{106}
+\contentsline {subsection}{\numberline {6.4.4}Vantagens e Desvantagens}{107}
+\contentsline {subsubsection}{Exemplo 6.26}{107}
+\contentsline {section}{\numberline {6.5}Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias R\IeC {\'\i }gidas}{108}
+\contentsline {subsection}{\numberline {6.5.1}M\IeC {\'e}todos Impl\IeC {\'\i }citos}{109}
+\contentsline {subsection}{\numberline {6.5.2}M\IeC {\'e}todo Exponencial}{110}
+\contentsline {subsection}{\numberline {6.5.3}M\IeC {\'e}todo de Ajuste Exponencial}{111}
+\contentsline {section}{\numberline {6.6}Condi\IeC {\c c}\IeC {\~o}es de Contorno}{112}
+\contentsline {subsubsection}{Exemplo 6.27}{113}
+\contentsline {chapter}{\numberline {7}Solu\IeC {\c c}\IeC {\~a}o de Problemas de Valores de Contorno de Equa\IeC {\c c}\IeC {\~o}es Diferenciais Ordin\IeC {\'a}rias}{114}
+\contentsline {section}{\numberline {7.1}Problemas de Valores de Contorno para Barras e Placas}{114}
+\contentsline {section}{\numberline {7.2}Algoritmo de Solu\IeC {\c c}\IeC {\~a}o para Sistemas Tridiagonais}{115}
+\contentsline {subsubsection}{Exemplo 7.28}{116}

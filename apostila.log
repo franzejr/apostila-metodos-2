@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.19)  3 JUL 2012 17:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.19)  3 JUL 2012 21:06
 entering extended mode
  %&-line parsing enabled.
 **apostila.tex
@@ -266,6 +266,10 @@ Package babel Info: Making " an active character on input line 145.
 (/usr/share/texmf-texlive/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+)
 (/usr/share/texmf-texlive/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
@@ -274,7 +278,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
 (/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -312,7 +316,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen107
 \Gm@odd@mp=\dimen108
 \Gm@even@mp=\dimen109
-\Gm@dimlist=\toks17
+\Gm@dimlist=\toks18
 )
 (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -330,15 +334,15 @@ Document Style `algorithm' - floating environment
 (/usr/share/texmf-texlive/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count93
-\float@exts=\toks18
+\float@exts=\toks19
 \float@box=\box26
-\@float@everytoks=\toks19
+\@float@everytoks=\toks20
 \@floatcapt=\box27
 )
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks20
+\@float@every@algorithm=\toks21
 \c@algorithm=\count94
 )
 (./pacotes/algorithmic.sty
@@ -374,7 +378,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
-\NC@list=\toks21
+\NC@list=\toks22
 \extratabsurround=\skip47
 \backup@length=\skip48
 )
@@ -384,7 +388,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@target=\dimen117
 \TX@delta=\dimen118
 \TX@cols=\count102
-\TX@ftn=\toks22
+\TX@ftn=\toks23
 )
 (/usr/share/texmf-texlive/tex/latex/txfonts/txfonts.sty
 Package: txfonts 2008/01/22 v3.2.1
@@ -519,41 +523,41 @@ LaTeX Warning: Label `cap6:sec5:eq4' multiply defined.
 )
 \openout1 = `apostila.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 92.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 92.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 95.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 95.
 
  (/usr/share/texmf-texlive/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 92.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 95.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 92.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 95.
 
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 92.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 92.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 95.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 95.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 92.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 92.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 95.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/t1txr.fd
 File: t1txr.fd 2000/12/15 v3.1
@@ -565,11 +569,11 @@ File: t1txr.fd 2000/12/15 v3.1
 \scratchbox=\box28
 \nofMPsegments=\count104
 \nofMParguments=\count105
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count106
 \MPscratchDim=\dimen120
 \MPnumerator=\count107
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 )
 *geometry detected driver: pdftex*
 -------------------- Geometry parameters
@@ -611,31 +615,31 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 94.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 97.
 (/usr/share/texmf-texlive/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 94.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 94.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 94.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 94.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 94.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 97.
 
 (/usr/share/texmf-texlive/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
@@ -879,8 +883,8 @@ png)
  <use capitulos/capitulo2/figuras/quadraturas_de_gauss5.png> [34 <./capitulos/c
 apitulo2/figuras/quadraturas_de_gauss2.png> <./capitulos/capitulo2/figuras/quad
 raturas_de_gauss3.png> <./capitulos/capitulo2/figuras/quadraturas_de_gauss4.png
->] [35 <./capitulos/capitulo2/figuras/quadraturas_de_gauss5.png>]
-Overfull \hbox (6.89656pt too wide) in paragraph at lines 440--441
+>]
+Overfull \hbox (6.89656pt too wide) in paragraph at lines 439--440
 []\T1/txr/m/it/12 como $\OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = \OML/txmi/m/it/
 12 a$ \T1/txr/m/it/12 , te-re-mos: $\OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = [];
  \OML/txmi/m/it/12 x[] \OT1/txr/m/n/12 = \OMS/txsy/m/n/12 ^^@[]\OT1/txr/m/n/12 
@@ -888,7 +892,8 @@ Overfull \hbox (6.89656pt too wide) in paragraph at lines 440--441
 n/12 = \OMS/txsy/m/n/12 ^^@[]\OT1/txr/m/n/12 ;$ 
  []
 
-[36]) (./capitulos/capitulo2/secao7.tex
+[35 <./capitulos/capitulo2/figuras/quadraturas_de_gauss5.png>] [36])
+(./capitulos/capitulo2/secao7.tex
 <capitulos/capitulo2/figuras/roteiro_da_aula1.png, id=235, 204.765pt x 75.482pt
 >
 File: capitulos/capitulo2/figuras/roteiro_da_aula1.png Graphic file (type png)
@@ -1021,7 +1026,7 @@ Cap\'{\i }tulo 4.
 
 ]
 [58]) (./capitulos/capitulo4/secao3.tex
-Overfull \hbox (20.82971pt too wide) detected at line 19
+Overfull \hbox (28.77371pt too wide) detected at line 30
 []
  []
 
@@ -1029,7 +1034,7 @@ Overfull \hbox (20.82971pt too wide) detected at line 19
 <capitulos/capitulo4/figuras/prob_nao_resol1.png, id=335, 132.495pt x 77.088pt>
 File: capitulos/capitulo4/figuras/prob_nao_resol1.png Graphic file (type png)
 <use capitulos/capitulo4/figuras/prob_nao_resol1.png>
-Overfull \hbox (4.82977pt too wide) detected at line 38
+Overfull \hbox (12.77377pt too wide) detected at line 49
 []
  []
 
@@ -1037,7 +1042,7 @@ Overfull \hbox (4.82977pt too wide) detected at line 38
 <capitulos/capitulo4/figuras/prob_nao_resol2.png, id=336, 135.707pt x 77.088pt>
 File: capitulos/capitulo4/figuras/prob_nao_resol2.png Graphic file (type png)
 <use capitulos/capitulo4/figuras/prob_nao_resol2.png>
-Overfull \hbox (20.82971pt too wide) detected at line 58
+Overfull \hbox (28.6537pt too wide) detected at line 69
 []
  []
 
@@ -1048,7 +1053,7 @@ File: capitulos/capitulo4/figuras/prob_nao_resol3.png Graphic file (type png)
 (./capitulos/capitulo4/secao4.tex [60 <./capitulos/capitulo4/figuras/prob_nao_r
 esol1.png> <./capitulos/capitulo4/figuras/prob_nao_resol2.png> <./capitulos/cap
 itulo4/figuras/prob_nao_resol3.png>] [61]) (./capitulos/capitulo4/secao5.tex
-[62]) (./capitulos/capitulo4/secao6.tex [63]
+[62]) (./capitulos/capitulo4/secao6.tex
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1058,7 +1063,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -1068,11 +1073,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[64]) (./capitulos/capitulo4/secao7.tex [65]
-<capitulos/capitulo4/figuras/prob_mal_cond1.png, id=364, 229.658pt x 105.996pt>
+[64]) (./capitulos/capitulo4/secao7.tex
+<capitulos/capitulo4/figuras/prob_mal_cond1.png, id=361, 229.658pt x 105.996pt>
 File: capitulos/capitulo4/figuras/prob_mal_cond1.png Graphic file (type png)
-<use capitulos/capitulo4/figuras/prob_mal_cond1.png> [66 <./capitulos/capitulo4
-/figuras/prob_mal_cond1.png>]) (./capitulos/capitulo4/secao8.tex
+<use capitulos/capitulo4/figuras/prob_mal_cond1.png> [65])
+(./capitulos/capitulo4/secao8.tex [66 <./capitulos/capitulo4/figuras/prob_mal_c
+ond1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -1083,18 +1089,18 @@ t x 68.255pt>
 File: capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png Graphic fil
 e (type png)
 
-<use capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png> [67]
-[68 <./capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png>]))
-(./capitulos/capitulo5/capitulo5.tex [69]
+<use capitulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png> [67 <./capi
+tulos/capitulo4/figuras/sol_sist_equa_m_equa_n_incog1.png>]))
+(./capitulos/capitulo5/capitulo5.tex [68]
 Cap\'{\i }tulo 5.
-(./capitulos/capitulo5/secao1.tex [70
+(./capitulos/capitulo5/secao1.tex [69
 
 ]) (./capitulos/capitulo5/secao2.tex
-[71]
-<capitulos/capitulo5/figuras/met_inter1.png, id=388, 378.213pt x 70.664pt>
+[70]
+<capitulos/capitulo5/figuras/met_inter1.png, id=385, 378.213pt x 70.664pt>
 File: capitulos/capitulo5/figuras/met_inter1.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter1.png> [72]
+<use capitulos/capitulo5/figuras/met_inter1.png> [71]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -1104,32 +1110,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-<capitulos/capitulo5/figuras/met_inter2.png, id=392, 134.904pt x 133.298pt>
+<capitulos/capitulo5/figuras/met_inter2.png, id=389, 134.904pt x 133.298pt>
 File: capitulos/capitulo5/figuras/met_inter2.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter2.png> [73 <./capitulos/capitulo5/fig
+<use capitulos/capitulo5/figuras/met_inter2.png> [72 <./capitulos/capitulo5/fig
 uras/met_inter1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
-[74 <./capitulos/capitulo5/figuras/met_inter2.png>]
-<capitulos/capitulo5/figuras/met_inter3.png, id=401, 321.2pt x 157.388pt>
+[73 <./capitulos/capitulo5/figuras/met_inter2.png>]
+<capitulos/capitulo5/figuras/met_inter3.png, id=398, 321.2pt x 157.388pt>
 File: capitulos/capitulo5/figuras/met_inter3.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_inter3.png> [75 <./capitulos/capitulo5/fig
-uras/met_inter3.png>] [76] [77] [78]) (./capitulos/capitulo5/secao3.tex
-[79] [80] [81]
+<use capitulos/capitulo5/figuras/met_inter3.png> [74 <./capitulos/capitulo5/fig
+uras/met_inter3.png>] [75] [76] [77]) (./capitulos/capitulo5/secao3.tex
+[78] [79] [80]
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[82]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-[83]
+[82]
 Underfull \hbox (badness 10000) in paragraph at lines 420--421
 
  []
@@ -1139,18 +1145,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-[84]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 489--490
 
  []
 
 
-<capitulos/capitulo5/figuras/met_house_mat_sim1.png, id=436, 147.752pt x 76.285
+<capitulos/capitulo5/figuras/met_house_mat_sim1.png, id=433, 147.752pt x 76.285
 pt>
 File: capitulos/capitulo5/figuras/met_house_mat_sim1.png Graphic file (type png
 )
  <use capitulos/capitulo5/figuras/met_house_mat_sim1.png>)
-(./capitulos/capitulo5/secao4.tex [85 <./capitulos/capitulo5/figuras/met_house_
+(./capitulos/capitulo5/secao4.tex [84 <./capitulos/capitulo5/figuras/met_house_
 mat_sim1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
@@ -1161,40 +1167,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-[86]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-[87]) (./capitulos/capitulo5/secao5.tex [88] [89]
-<capitulos/capitulo5/figuras/met_iter_qr1.png, id=454, 159.797pt x 85.921pt>
+[86]) (./capitulos/capitulo5/secao5.tex [87] [88]
+<capitulos/capitulo5/figuras/met_iter_qr1.png, id=451, 159.797pt x 85.921pt>
 File: capitulos/capitulo5/figuras/met_iter_qr1.png Graphic file (type png)
 
-<use capitulos/capitulo5/figuras/met_iter_qr1.png> [90 <./capitulos/capitulo5/f
+<use capitulos/capitulo5/figuras/met_iter_qr1.png> [89 <./capitulos/capitulo5/f
 iguras/met_iter_qr1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[91])) (./capitulos/capitulo6/capitulo6.tex [92]
+[90])) (./capitulos/capitulo6/capitulo6.tex [91]
 Cap\'{\i }tulo 6.
 (./capitulos/capitulo6/secao1.tex
-<capitulos/capitulo6/figuras/intro1.png, id=465, 125.268pt x 93.148pt>
+<capitulos/capitulo6/figuras/intro1.png, id=462, 125.268pt x 93.148pt>
 File: capitulos/capitulo6/figuras/intro1.png Graphic file (type png)
 
-<use capitulos/capitulo6/figuras/intro1.png> [93
+<use capitulos/capitulo6/figuras/intro1.png> [92
 
  <./capitulos/capitulo6/figuras/intro1.png>]
-<capitulos/capitulo6/figuras/intro2.png, id=470, 125.268pt x 93.148pt>
+<capitulos/capitulo6/figuras/intro2.png, id=467, 125.268pt x 93.148pt>
 File: capitulos/capitulo6/figuras/intro2.png Graphic file (type png)
 
-<use capitulos/capitulo6/figuras/intro2.png> [94 <./capitulos/capitulo6/figuras
-/intro2.png>] [95] [96] [97]
+<use capitulos/capitulo6/figuras/intro2.png> [93 <./capitulos/capitulo6/figuras
+/intro2.png>] [94] [95] [96]
 Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
-[98]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 378--379
 
  []
@@ -1220,34 +1226,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-) (./capitulos/capitulo6/secao2.tex [99]) (./capitulos/capitulo6/secao3.tex
-[100]
-<capitulos/capitulo6/figuras/met_runge_kutta1.png, id=495, 115.632pt x 65.043pt
+) (./capitulos/capitulo6/secao2.tex [98]) (./capitulos/capitulo6/secao3.tex
+[99]
+<capitulos/capitulo6/figuras/met_runge_kutta1.png, id=491, 115.632pt x 65.043pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta1.png Graphic file (type png)
  <use capitulos/capitulo6/figuras/met_runge_kutta1.png>
-<capitulos/capitulo6/figuras/met_runge_kutta2.png, id=496, 115.632pt x 99.572pt
+<capitulos/capitulo6/figuras/met_runge_kutta2.png, id=492, 115.632pt x 99.572pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta2.png Graphic file (type png)
- <use capitulos/capitulo6/figuras/met_runge_kutta2.png> [101 <./capitulos/capit
+ <use capitulos/capitulo6/figuras/met_runge_kutta2.png> [100 <./capitulos/capit
 ulo6/figuras/met_runge_kutta1.png> <./capitulos/capitulo6/figuras/met_runge_kut
 ta2.png>]
-<capitulos/capitulo6/figuras/met_runge_kutta3.png, id=503, 130.889pt x 92.345pt
+<capitulos/capitulo6/figuras/met_runge_kutta3.png, id=500, 130.889pt x 92.345pt
 >
 File: capitulos/capitulo6/figuras/met_runge_kutta3.png Graphic file (type png)
- <use capitulos/capitulo6/figuras/met_runge_kutta3.png> [102] [103 <./capitulos
+ <use capitulos/capitulo6/figuras/met_runge_kutta3.png> [101] [102 <./capitulos
 /capitulo6/figuras/met_runge_kutta3.png>]) (./capitulos/capitulo6/secao4.tex
-<capitulos/capitulo6/figuras/met_pred_corretores1.png, id=511, 153.373pt x 88.3
+<capitulos/capitulo6/figuras/met_pred_corretores1.png, id=508, 153.373pt x 88.3
 3pt>
 File: capitulos/capitulo6/figuras/met_pred_corretores1.png Graphic file (type p
 ng)
- <use capitulos/capitulo6/figuras/met_pred_corretores1.png> [104 <./capitulos/c
+ <use capitulos/capitulo6/figuras/met_pred_corretores1.png> [103 <./capitulos/c
 apitulo6/figuras/met_pred_corretores1.png>]
 Overfull \hbox (7.9336pt too wide) in alignment at lines 101--107
  [][][] []
  []
 
-[105] [106] [107] [108]) (./capitulos/capitulo6/secao5.tex
+[104] [105] [106] [107]) (./capitulos/capitulo6/secao5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1258,33 +1264,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
  []
 
 
-<capitulos/capitulo6/figuras/equa_dif_ord_rig1.png, id=529, 158.994pt x 59.422p
+<capitulos/capitulo6/figuras/equa_dif_ord_rig1.png, id=526, 158.994pt x 59.422p
 t>
 File: capitulos/capitulo6/figuras/equa_dif_ord_rig1.png Graphic file (type png)
 
- <use capitulos/capitulo6/figuras/equa_dif_ord_rig1.png> [109] [110 <./capitulo
+ <use capitulos/capitulo6/figuras/equa_dif_ord_rig1.png> [108] [109 <./capitulo
 s/capitulo6/figuras/equa_dif_ord_rig1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 
  []
 
 
-<capitulos/capitulo6/figuras/equa_dif_ord_rig2.png, id=537, 210.386pt x 42.559p
+<capitulos/capitulo6/figuras/equa_dif_ord_rig2.png, id=534, 210.386pt x 42.559p
 t>
 File: capitulos/capitulo6/figuras/equa_dif_ord_rig2.png Graphic file (type png)
 
- <use capitulos/capitulo6/figuras/equa_dif_ord_rig2.png> [111 <./capitulos/capi
-tulo6/figuras/equa_dif_ord_rig2.png>] [112])
-(./capitulos/capitulo6/secao6.tex [113]
-<capitulos/capitulo6/figuras/cond_contorno1.png, id=549, 228.052pt x 14.454pt>
+ <use capitulos/capitulo6/figuras/equa_dif_ord_rig2.png> [110 <./capitulos/capi
+tulo6/figuras/equa_dif_ord_rig2.png>] [111])
+(./capitulos/capitulo6/secao6.tex [112]
+<capitulos/capitulo6/figuras/cond_contorno1.png, id=546, 228.052pt x 14.454pt>
 File: capitulos/capitulo6/figuras/cond_contorno1.png Graphic file (type png)
 
 <use capitulos/capitulo6/figuras/cond_contorno1.png>))
-(./capitulos/capitulo7/capitulo7.tex [114 <./capitulos/capitulo6/figuras/cond_c
+(./capitulos/capitulo7/capitulo7.tex [113 <./capitulos/capitulo6/figuras/cond_c
 ontorno1.png>]
 Cap\'{\i }tulo 7.
 (./capitulos/capitulo7/secao1.tex
-<capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png, id=554, 376.607p
+<capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png, id=551, 376.607p
 t x 99.572pt>
 File: capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png Graphic file
  (type png)
@@ -1294,7 +1300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-[115
+[114
 
  <./capitulos/capitulo7/figuras/prob_val_cont_barras_placas1.png>])
 (./capitulos/capitulo7/secao2.tex
@@ -1318,22 +1324,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
  []
 
 
-<capitulos/capitulo7/figuras/algo_sol_sist_tri1.png, id=559, 117.238pt x 20.878
+<capitulos/capitulo7/figuras/algo_sol_sist_tri1.png, id=556, 117.238pt x 20.878
 pt>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri1.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri1.png> [116 <./capitulos/cap
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri1.png> [115 <./capitulos/cap
 itulo7/figuras/algo_sol_sist_tri1.png>]
-<capitulos/capitulo7/figuras/algo_sol_sist_tri2.png, id=564, 220.825pt x 32.12p
+<capitulos/capitulo7/figuras/algo_sol_sist_tri2.png, id=561, 220.825pt x 32.12p
 t>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri2.png Graphic file (type png
 )
  <use capitulos/capitulo7/figuras/algo_sol_sist_tri2.png>
-<capitulos/capitulo7/figuras/algo_sol_sist_tri3.png, id=565, 220.825pt x 40.15p
+<capitulos/capitulo7/figuras/algo_sol_sist_tri3.png, id=562, 220.825pt x 40.15p
 t>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri3.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri3.png> [117 <./capitulos/cap
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri3.png> [116 <./capitulos/cap
 itulo7/figuras/algo_sol_sist_tri2.png>]
 Overfull \hbox (20.14304pt too wide) detected at line 234
 \OMS/txsy/m/n/12 ^^@\OT1/txr/m/n/12 2 [] + [][]  \OML/txmi/m/it/12 v \OT1/txr/m
@@ -1351,12 +1357,12 @@ Overfull \hbox (8.83496pt too wide) detected at line 263
  []
 
 
-<capitulos/capitulo7/figuras/algo_sol_sist_tri4.png, id=570, 121.253pt x 74.679
+<capitulos/capitulo7/figuras/algo_sol_sist_tri4.png, id=567, 121.253pt x 74.679
 pt>
 File: capitulos/capitulo7/figuras/algo_sol_sist_tri4.png Graphic file (type png
 )
- <use capitulos/capitulo7/figuras/algo_sol_sist_tri4.png> [118 <./capitulos/cap
-itulo7/figuras/algo_sol_sist_tri3.png>])) [119 <./capitulos/capitulo7/figuras/a
+ <use capitulos/capitulo7/figuras/algo_sol_sist_tri4.png> [117 <./capitulos/cap
+itulo7/figuras/algo_sol_sist_tri3.png>])) [118 <./capitulos/capitulo7/figuras/a
 lgo_sol_sist_tri4.png>]
 No file apostila.ind.
 (./apostila.aux)
@@ -1365,13 +1371,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4248 strings out of 495041
- 66436 string characters out of 1181897
- 114182 words of memory out of 3000000
- 7102 multiletter control sequences out of 15000+50000
+ 4268 strings out of 495041
+ 66711 string characters out of 1181897
+ 114545 words of memory out of 3000000
+ 7120 multiletter control sequences out of 15000+50000
  103159 words of font info for 179 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 25i,21n,24p,572b,440s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,21n,24p,572b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texli
 ve/fonts/type1/public/txfonts/rtxb.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/txfonts/rtxbi.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/rtx
@@ -1387,9 +1393,9 @@ xfonts/txsyb.pfb></usr/share/texmf-texlive/fonts/type1/public/txfonts/txsyc.pfb
 exlive/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texmf-texlive/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/times/utmri8a.pf
 b>
-Output written on apostila.pdf (122 pages, 956923 bytes).
+Output written on apostila.pdf (121 pages, 955816 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
+ 635 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

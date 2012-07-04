@@ -3,36 +3,36 @@
 A derivada parcial
 
 \[
- f_{,x} = \frac{\partial f\,(x,\,y)}{\partial x} \quad \mbox{em} \quad (x,y) = (x_{0},y_{0})
+ f_{x} = \frac{\partial f\,(x,\,y)}{\partial x} \quad \mbox{em} \quad (x,y) = (x_{0},y_{0})
 \]
 
 pode ser deduzida fixando-se \esp{y = y_{0}} e considerando-se \esp{f(x,y_{0})} como uma função de uma variável. Assim, as aproximações de \esp{f_{,x}} por diferenças finitas são:
 
 \[
- f_{,x} \approx \frac{f\,(x_0 + \Delta x,\,y_0) - f\,(x_0,\,y_0)}{\Delta x} \qquad Forward
+ f_{x} \approx \frac{f\,(x_0 + \Delta x,\,y_0) - f\,(x_0,\,y_0)}{\Delta x} \qquad Forward
 \]
 
 \[
- f_{,x} \approx \frac{f\,(x_0 + \Delta x,\,y_0) - f\,(x_0 - \Delta x,\,y_0)}{2\,\Delta x} \qquad Central
+ f_{x} \approx \frac{f\,(x_0 + \Delta x,\,y_0) - f\,(x_0 - \Delta x,\,y_0)}{2\,\Delta x} \qquad Central
 \]
 
 \[
- f_{,x} \approx \frac{f\,(x_0,\,y_0) - f\,(x_0 - \Delta x,\,y_0)}{\Delta x} \qquad Backward
+ f_{x} \approx \frac{f\,(x_0,\,y_0) - f\,(x_0 - \Delta x,\,y_0)}{\Delta x} \qquad Backward
 \]
 
-Diferenças centradas das derivadas parciais $f_{,xx}$, $f_{,yy}$ e $f_{,xy}$:
+Diferenças centradas das derivadas parciais $f_{xx}$, $f_{yy}$ e $f_{xy}$:
 
 \[
- f_{,xx} = \frac{\partial^2}{\partial x^2} \, f \approx \frac{f\,(x_0 + \Delta x,\, y_0) - 2\,f\,(x_0,\,y_0) + f\,(x_0 - \Delta x,\,y_0)}{\Delta x^2}
+ f_{xx} = \frac{\partial^2}{\partial x^2} \, f \approx \frac{f\,(x_0 + \Delta x,\, y_0) - 2\,f\,(x_0,\,y_0) + f\,(x_0 - \Delta x,\,y_0)}{\Delta x^2}
 \]
 
 \[
- f_{,yy} = \frac{\partial^2}{\partial y^2} \, f \approx \frac{f\,(x_0,\, y_0 + \Delta y) - 2\,f\,(x_0,\,y_0) + f\,(x_0,\, y_0 - \Delta y)}{\Delta y^2}
+ f_{yy} = \frac{\partial^2}{\partial y^2} \, f \approx \frac{f\,(x_0,\, y_0 + \Delta y) - 2\,f\,(x_0,\,y_0) + f\,(x_0,\, y_0 - \Delta y)}{\Delta y^2}
 \]
 
 \[
  \begin{array}{ll}
-  f_{,xy} = \displaystyle \frac{\partial^2}{\partial x \, \partial y} \, f & \approx \displaystyle \frac{f\,(x_0 + \Delta x,\, y_0 + \Delta y) - f\,(x_0 + \Delta x,\,y_0 - \Delta y)}{4\,\Delta x \, \Delta y} \vspace*{0.2cm} \\
+  f_{xy} = \displaystyle \frac{\partial^2}{\partial x \, \partial y} \, f & \approx \displaystyle \frac{f\,(x_0 + \Delta x,\, y_0 + \Delta y) - f\,(x_0 + \Delta x,\,y_0 - \Delta y)}{4\,\Delta x \, \Delta y} \vspace*{0.2cm} \\
    & + \displaystyle \frac{-f\,(x_0 - \Delta x,\, y_0 + \Delta y) + f\,(x_0 - \Delta x,\, y_0 - \Delta y)}{?}
  \end{array}
 \]
